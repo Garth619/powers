@@ -3,3 +3,103 @@ Theme Name: Jessica Powers
 Author: iLawyer Marketing (Garrett Cullen)
 */
 
+
+
+* {margin:0;padding:0;outline: none;}
+
+
+a {outline: none;}
+a img {border:none}
+
+textarea { resize: none;}
+
+*, *:before, *:after {-moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;}
+
+
+html {-webkit-text-size-adjust: 100%;} /* Disables scaling on landscape mobile */
+
+
+body {
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+text-shadow: 1px 1px 1px rgba(0,0,0,0.05);
+}
+
+
+body img.gform_ajax_spinner {
+    display: none!important;
+}
+
+
+header, section, nav, footer {
+	display: block;
+}
+
+
+
+
+
+
+
+/* Header */
+
+
+header {
+	position: absolute;
+	.header_inner_wrapper {
+		display: flex;
+		flex-direction: row;
+		max-width:2000px;
+		margin:0 auto;
+	}
+}
+
+.logo_wrapper {
+		width:425px;
+		padding:45px 0;
+		svg {
+			
+		}
+	}
+
+
+nav {
+
+	ul {
+		list-style: none;
+		margin:0;
+		li {
+			a {
+				
+			}
+		}
+	}
+	ul.menu {
+		color:#fff;
+		li {
+			
+		}
+	}
+}
+
+
+.free_consult_wrapper {
+	
+}
+
+
+
+/* Main Banner */
+
+
+.main_banner {
+	width:100%;
+	height:1108px;
+	background: url(images/placeholder.jpg) top center no-repeat;
+	background-size:cover;
+}
+
+
+
+
+
