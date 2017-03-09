@@ -301,7 +301,13 @@ nav {
 .inner_content {
 	padding-top:300px;
 	.video_wrapper {
-		
+		&:hover {
+			a {
+				span.video_caption {
+					color:$green;
+				}
+			}
+		}
 		width:300px;
 		margin:0 auto;
 		a {
@@ -341,8 +347,32 @@ nav {
 				text-transform: uppercase;
 				letter-spacing: 1.20px;
 				margin-top:5px;
+				transition: all .2s ease-in-out;
 			}
 		}
+	}
+}
+
+.main_banner {
+	span.sub_header {
+		font-family: $prata;
+		font-size:40px;
+		letter-spacing: 3.5px;
+		color:#fff;
+		display: block;
+		margin-top:32px;
+	}
+	span.large_header {
+		font-size:110px;
+		display: block;
+		margin-top:0px;
+		background: -webkit-linear-gradient(#c9ffd9, #79e799);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		letter-spacing: 0px;
+		font-family: $prata;
+		display: block;
+		
 	}
 }
 

@@ -35,6 +35,9 @@ get_header(); ?>
 		
 		</div><!-- video_wrapper -->
 		
+		<span class="sub_header">Justice Begins with Your Story.</span><!-- sub_header -->
+		<span class="large_header">I'm listening.</span><!-- large_header -->
+		
 	</div><!-- inner_content -->
 	
 	
