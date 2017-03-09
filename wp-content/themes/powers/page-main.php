@@ -8,6 +8,13 @@
 get_header(); ?>
 
 		
+<section class="main_banner">
+	
+	
+	
+	
+	
+</section><!-- main_banner -->
 
 		
 

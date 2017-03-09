@@ -160,7 +160,12 @@
 	
 	<div class="free_consult_wrapper">
 		
-		test
+		<img src="<?php bloginfo('template_directory');?>/images/callicon.png"/>
+		
+		<span class="call_number">Call For a free consultation</span>
+		
+		<a class="tel" href="tel:123.456.7890">123.456.7890</a>
+		
 	</div><!-- free_consult_wrapper -->
 	
 	
@@ -169,12 +174,5 @@
 	
 </header>
 
-<section class="main_banner">
-	
-	
-	
-	
-	
-</section><!-- main_banner -->
 
 

@@ -33,6 +33,12 @@
 		"oAP": "\/license.txt",
 		"oF": 0
 		},
+	"\/powers.sql.zip": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/powers.sql.zip",
+		"oF": 0
+		},
 	"\/readme.html": {
 		"ft": 8192,
 		"oA": 2,
@@ -4621,6 +4627,14 @@
 		"iS": 1150,
 		"oA": 0,
 		"oAP": "\/wp-content\/themes\/powers\/images\/contact-social.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/themes\/powers\/images\/dropdown.png": {
+		"ft": 32768,
+		"iS": 1001,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/powers\/images\/dropdown.png",
 		"oF": 0,
 		"opt": 0
 		},
