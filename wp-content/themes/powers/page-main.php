@@ -58,6 +58,8 @@ get_header(); ?>
 		</span><!-- tagline -->
 		
 		<a class="request" href="">Request Free Consultation</a>
+		
+		<div class="mouse"></div>
 
 		
 	</div><!-- inner_content -->
@@ -65,6 +67,102 @@ get_header(); ?>
 	
 	
 </section><!-- main_banner -->
+
+
+<section class="six_reasons_wrapper">
+	
+	<div class="reasons_title_wrapper">
+		
+		<img src="<?php bloginfo('template_directory');?>/images/6.png"/>
+		
+		<span class="reasons_title">reasons<br/>to choose Powers Injury Law</span>
+		
+	</div><!-- reasons_title_wrapper -->
+	
+	<div class="reasons_grid_wrapper">
+		
+		<div class="reasons_grid_inner_wrapper">
+			
+			<div class="reasons_slider">
+				
+				
+				
+				<div class="single_reason">
+					
+					<div class="single_reason_reg">
+						
+						<span class="number">1</span>
+						
+						<span class="green_line"></span><!-- green_line -->
+						
+						<span class="reason_content">focused on client communication and respect</span><!-- reason_content -->
+						
+					</div><!-- single_reason_reg -->
+					
+				</div><!-- single_reason -->
+				
+				<div class="single_reason">
+					
+					<div class="single_reason_reg">
+						
+						<span class="">1</span>
+						
+					</div><!-- single_reason_reg -->
+					
+				</div><!-- single_reason -->
+				
+				<div class="single_reason">
+					
+					<div class="single_reason_reg">
+						
+						<span class="">1</span>
+						
+					</div><!-- single_reason_reg -->
+					
+				</div><!-- single_reason -->
+				
+				<div class="single_reason">
+					
+					<div class="single_reason_reg">
+						
+						<span class="">1</span>
+						
+					</div><!-- single_reason_reg -->
+					
+				</div><!-- single_reason -->
+				
+				<div class="single_reason">
+					
+					<div class="single_reason_reg">
+						
+						<span class="">1</span>
+						
+					</div><!-- single_reason_reg -->
+					
+				</div><!-- single_reason -->
+				
+				<div class="single_reason">
+					
+					<div class="single_reason_reg">
+						
+						<span class="">1</span>
+						
+					</div><!-- single_reason_reg -->
+					
+				</div><!-- single_reason -->
+				
+			
+			
+			
+			
+			
+			</div><!-- reasons_slider -->
+			
+		</div><!-- reasons_grid_inner_wrapper -->
+		
+	</div><!-- reasons_grid_wrapper -->
+	
+</section><!-- six_reasons_wrapper -->
 
 		
 
