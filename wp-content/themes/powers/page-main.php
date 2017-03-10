@@ -95,7 +95,7 @@ get_header(); ?>
 						
 						<span class="green_line"></span><!-- green_line -->
 						
-						<span class="reason_content">focused on client communication and respect</span><!-- reason_content -->
+						<span class="reason_content">focused<br/>on client communication and respect</span><!-- reason_content -->
 						
 					</div><!-- single_reason_reg -->
 					

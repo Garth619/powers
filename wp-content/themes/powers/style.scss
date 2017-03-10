@@ -940,7 +940,7 @@ $animDuration: 7s;
 		height:2000px;
 		background: $greylight;
 		text-align: center;
-		padding:125px 3%;
+		padding:125px 4%;
 		float:left;
 		img.six {
 			display: block;
@@ -968,7 +968,7 @@ $animDuration: 7s;
 			.single_reason {
 				
 				.single_reason_reg {
-					padding:117px 0 0 22%;
+					padding:117px 5% 0 22%;
 					border-right:1px solid #dbe0e4;
 					
 					span.number {
@@ -994,6 +994,7 @@ $animDuration: 7s;
 						letter-spacing: 1.8px;
 						margin-left:22px;
 						display: block;
+						max-width:240px;
 					}
 				}
 			}
