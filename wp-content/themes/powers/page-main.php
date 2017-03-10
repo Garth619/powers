@@ -101,21 +101,15 @@ get_header(); ?>
 						
 					</div><!-- single_reason_reg -->
 					
-				</div><!-- single_reason -->
-				
-				<div class="single_reason">
-					
-					<div class="single_reason_reg">
+					<div class="single_reason_hover">
 						
-						<span class="number">1</span>
+						<span class="hover_title">Focused<br/>on Client Communication and respect</span><!-- hover_title -->
 						
 						<span class="green_line"></span><!-- green_line -->
 						
-						<span class="reason_content">focused<br/>on client communication and respect</span><!-- reason_content -->
+						<span class="hover_content">Our financial success is tied to our client’s recovery. It is our incentive to get the best monetary recovery for our clients.</span><!-- hover_content -->
 						
-						<img class="reason_arrow" src="<?php bloginfo('template_directory');?>/images/sp-arrow.png"/>
-						
-					</div><!-- single_reason_reg -->
+					</div><!-- single_reason_hover -->
 					
 				</div><!-- single_reason -->
 				
@@ -123,15 +117,25 @@ get_header(); ?>
 					
 					<div class="single_reason_reg">
 						
-						<span class="number">1</span>
+						<span class="number">2</span>
 						
 						<span class="green_line"></span><!-- green_line -->
 						
-						<span class="reason_content">focused<br/>on client communication and respect</span><!-- reason_content -->
+						<span class="reason_content">six figure verdicts and million dollars settlements</span><!-- reason_content -->
 						
 						<img class="reason_arrow" src="<?php bloginfo('template_directory');?>/images/sp-arrow.png"/>
 						
 					</div><!-- single_reason_reg -->
+					
+					<div class="single_reason_hover">
+						
+						<span class="hover_title">six figure verdicts and million dollars settlements</span><!-- hover_title -->
+						
+						<span class="green_line"></span><!-- green_line -->
+						
+						<span class="hover_content">Our financial success is tied to our client’s recovery. It is our incentive to get the best monetary recovery for our clients.</span><!-- hover_content -->
+						
+					</div><!-- single_reason_hover -->
 					
 				</div><!-- single_reason -->
 				
@@ -139,15 +143,25 @@ get_header(); ?>
 					
 					<div class="single_reason_reg">
 						
-						<span class="number">1</span>
+						<span class="number">3</span>
 						
 						<span class="green_line"></span><!-- green_line -->
 						
-						<span class="reason_content">focused<br/>on client communication and respect</span><!-- reason_content -->
+						<span class="reason_content">Takes a limited number of cases</span><!-- reason_content -->
 						
 						<img class="reason_arrow" src="<?php bloginfo('template_directory');?>/images/sp-arrow.png"/>
 						
 					</div><!-- single_reason_reg -->
+					
+					<div class="single_reason_hover">
+						
+						<span class="hover_title">Takes a limited number of cases</span><!-- hover_title -->
+						
+						<span class="green_line"></span><!-- green_line -->
+						
+						<span class="hover_content">Our financial success is tied to our client’s recovery. It is our incentive to get the best monetary recovery for our clients.</span><!-- hover_content -->
+						
+					</div><!-- single_reason_hover -->
 					
 				</div><!-- single_reason -->
 				
@@ -155,15 +169,25 @@ get_header(); ?>
 					
 					<div class="single_reason_reg">
 						
-						<span class="number">1</span>
+						<span class="number">4</span>
 						
 						<span class="green_line"></span><!-- green_line -->
 						
-						<span class="reason_content">focused<br/>on client communication and respect</span><!-- reason_content -->
+						<span class="reason_content">gives back to the community</span><!-- reason_content -->
 						
 						<img class="reason_arrow" src="<?php bloginfo('template_directory');?>/images/sp-arrow.png"/>
 						
 					</div><!-- single_reason_reg -->
+					
+					<div class="single_reason_hover">
+						
+						<span class="hover_title">gives back to the community</span><!-- hover_title -->
+						
+						<span class="green_line"></span><!-- green_line -->
+						
+						<span class="hover_content">Our financial success is tied to our client’s recovery. It is our incentive to get the best monetary recovery for our clients.</span><!-- hover_content -->
+						
+					</div><!-- single_reason_hover -->
 					
 				</div><!-- single_reason -->
 				
@@ -171,18 +195,62 @@ get_header(); ?>
 					
 					<div class="single_reason_reg">
 						
-						<span class="number">1</span>
+						<span class="number">5</span>
 						
 						<span class="green_line"></span><!-- green_line -->
 						
-						<span class="reason_content">focused<br/>on client communication and respect</span><!-- reason_content -->
+						<span class="reason_content">no recovery, no fee</span><!-- reason_content -->
 						
 						<img class="reason_arrow" src="<?php bloginfo('template_directory');?>/images/sp-arrow.png"/>
 						
 					</div><!-- single_reason_reg -->
 					
+					<div class="single_reason_hover">
+						
+						<span class="hover_title">no recovery, no fee</span><!-- hover_title -->
+						
+						<span class="green_line"></span><!-- green_line -->
+						
+						<span class="hover_content">Our financial success is tied to our client’s recovery. It is our incentive to get the best monetary recovery for our clients.</span><!-- hover_content -->
+						
+					</div><!-- single_reason_hover -->
+					
 				</div><!-- single_reason -->
 				
+				<div class="single_reason">
+					
+					<div class="single_reason_reg">
+						
+						<span class="number">6</span>
+						
+						<span class="green_line"></span><!-- green_line -->
+						
+						<span class="reason_content">Fighting for the little guy</span><!-- reason_content -->
+						
+						<img class="reason_arrow" src="<?php bloginfo('template_directory');?>/images/sp-arrow.png"/>
+						
+					</div><!-- single_reason_reg -->
+					
+					<div class="single_reason_hover">
+						
+						<span class="hover_title">Fighting for the little guy</span><!-- hover_title -->
+						
+						<span class="green_line"></span><!-- green_line -->
+						
+						<span class="hover_content">Our financial success is tied to our client’s recovery. It is our incentive to get the best monetary recovery for our clients.</span><!-- hover_content -->
+						
+					</div><!-- single_reason_hover -->
+					
+				</div><!-- single_reason -->
+				
+				
+				
+				
+				
+								
+				
+				
+								
 				
 				
 								
