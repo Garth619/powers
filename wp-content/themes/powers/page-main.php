@@ -35,8 +35,28 @@ get_header(); ?>
 		
 		</div><!-- video_wrapper -->
 		
-		<span class="sub_header">Justice Begins with Your Story.</span><!-- sub_header -->
-		<span class="large_header">I'm listening.</span><!-- large_header -->
+		
+		<div class="main_header_wrapper">
+			
+			<span class="sub_header">Justice Begins with Your Story.</span><!-- sub_header -->
+			<span class="large_header">I'm listening.</span><!-- large_header -->
+		
+			<div class="white_line"></div><!-- white_line -->
+			
+		</div><!-- main_header_wrapper -->
+		
+		<span class="tagline">
+				passionate
+				<span class="green_dot">&middot;</span>
+				relatable
+				<span class="green_dot">&middot;</span>
+				fierce
+				<span class="green_dot">&middot;</span>
+				experienced
+				<span class="green_dot">&middot;</span>
+				empathetic
+			</span><!-- tagline -->
+
 		
 	</div><!-- inner_content -->
 	
