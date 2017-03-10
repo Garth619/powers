@@ -933,16 +933,15 @@ $animDuration: 7s;
 
 
 .six_reasons_wrapper {
-	display: flex;
+// 	display: flex;
 	padding-top:6px;
 	.reasons_title_wrapper {
 		width:525px;
 		height:2000px;
 		background: $greylight;
 		text-align: center;
-		
-		
-		padding:125px 5%;
+		padding:125px 3%;
+		float:left;
 		img.six {
 			display: block;
 		}
@@ -957,7 +956,7 @@ $animDuration: 7s;
 		}
 	}
 	.reasons_grid_wrapper {
-		flex-grow:1;
+		
 		
 	}
 }
