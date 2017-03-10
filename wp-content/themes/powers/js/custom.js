@@ -51,9 +51,30 @@ jQuery('.video_wrapper').mouseleave(function(){
 
 
   jQuery('.reasons_slider').slick({
-    rows: 2,
-    slidesPerRow: 3
-  });
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    mobileFirst:true,
+    arrows:false,
+    responsive: [
+    {
+      breakpoint: 800,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 3
+        
+      }
+    },
+    {
+      breakpoint: 1300,
+      settings: "unslick"
+    }
+    
+    // You can unslick at a given breakpoint now by adding:
+    // settings: "unslick"
+    // instead of a settings object
+  ]
+    
+    });
 
 
 

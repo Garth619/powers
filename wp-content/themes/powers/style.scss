@@ -933,12 +933,13 @@ $animDuration: 7s;
 
 
 .six_reasons_wrapper {
-// 	display: flex;
-	padding-top:6px;
+	overflow: hidden;
+	border-top:6px solid #fff;
+	background: $greylight;
 	.reasons_title_wrapper {
-		width:525px;
-		height:2000px;
-		background: $greylight;
+		width:30%;
+	
+	
 		text-align: center;
 		padding:125px 4%;
 		float:left;
@@ -963,14 +964,19 @@ $animDuration: 7s;
 
 
 .reasons_grid_wrapper {
+	width:70%;
+	float:right;
 	.reasons_grid_inner_wrapper {
 		.reasons_slider {
 			.single_reason {
-				
+				width:33.333333%;
+				float:left;
+				background: #fff;
 				.single_reason_reg {
-					padding:117px 5% 0 22%;
+					padding:117px 5% 117px 22%;
 					border-right:1px solid #dbe0e4;
-					
+					border-bottom:1px solid #dbe0e4;
+					position: relative;
 					span.number {
 						font-family: $abril;
 						font-size:70px;
@@ -995,6 +1001,11 @@ $animDuration: 7s;
 						margin-left:22px;
 						display: block;
 						max-width:240px;
+					}
+					img.reason_arrow {
+						position: absolute;
+						bottom:27px;
+						right:27px;
 					}
 				}
 			}

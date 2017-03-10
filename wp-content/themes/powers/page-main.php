@@ -97,15 +97,7 @@ get_header(); ?>
 						
 						<span class="reason_content">focused<br/>on client communication and respect</span><!-- reason_content -->
 						
-					</div><!-- single_reason_reg -->
-					
-				</div><!-- single_reason -->
-				
-				<div class="single_reason">
-					
-					<div class="single_reason_reg">
-						
-						<span class="">1</span>
+						<img class="reason_arrow" src="<?php bloginfo('template_directory');?>/images/sp-arrow.png"/>
 						
 					</div><!-- single_reason_reg -->
 					
@@ -115,7 +107,13 @@ get_header(); ?>
 					
 					<div class="single_reason_reg">
 						
-						<span class="">1</span>
+						<span class="number">1</span>
+						
+						<span class="green_line"></span><!-- green_line -->
+						
+						<span class="reason_content">focused<br/>on client communication and respect</span><!-- reason_content -->
+						
+						<img class="reason_arrow" src="<?php bloginfo('template_directory');?>/images/sp-arrow.png"/>
 						
 					</div><!-- single_reason_reg -->
 					
@@ -125,7 +123,13 @@ get_header(); ?>
 					
 					<div class="single_reason_reg">
 						
-						<span class="">1</span>
+						<span class="number">1</span>
+						
+						<span class="green_line"></span><!-- green_line -->
+						
+						<span class="reason_content">focused<br/>on client communication and respect</span><!-- reason_content -->
+						
+						<img class="reason_arrow" src="<?php bloginfo('template_directory');?>/images/sp-arrow.png"/>
 						
 					</div><!-- single_reason_reg -->
 					
@@ -135,7 +139,13 @@ get_header(); ?>
 					
 					<div class="single_reason_reg">
 						
-						<span class="">1</span>
+						<span class="number">1</span>
+						
+						<span class="green_line"></span><!-- green_line -->
+						
+						<span class="reason_content">focused<br/>on client communication and respect</span><!-- reason_content -->
+						
+						<img class="reason_arrow" src="<?php bloginfo('template_directory');?>/images/sp-arrow.png"/>
 						
 					</div><!-- single_reason_reg -->
 					
@@ -145,12 +155,42 @@ get_header(); ?>
 					
 					<div class="single_reason_reg">
 						
-						<span class="">1</span>
+						<span class="number">1</span>
+						
+						<span class="green_line"></span><!-- green_line -->
+						
+						<span class="reason_content">focused<br/>on client communication and respect</span><!-- reason_content -->
+						
+						<img class="reason_arrow" src="<?php bloginfo('template_directory');?>/images/sp-arrow.png"/>
 						
 					</div><!-- single_reason_reg -->
 					
 				</div><!-- single_reason -->
 				
+				<div class="single_reason">
+					
+					<div class="single_reason_reg">
+						
+						<span class="number">1</span>
+						
+						<span class="green_line"></span><!-- green_line -->
+						
+						<span class="reason_content">focused<br/>on client communication and respect</span><!-- reason_content -->
+						
+						<img class="reason_arrow" src="<?php bloginfo('template_directory');?>/images/sp-arrow.png"/>
+						
+					</div><!-- single_reason_reg -->
+					
+				</div><!-- single_reason -->
+				
+				
+				
+								
+				
+				
+				
+				
+								
 			
 			
 			
