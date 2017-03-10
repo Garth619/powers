@@ -46,16 +46,18 @@ get_header(); ?>
 		</div><!-- main_header_wrapper -->
 		
 		<span class="tagline">
-				passionate
-				<span class="green_dot">&middot;</span>
-				relatable
-				<span class="green_dot">&middot;</span>
-				fierce
-				<span class="green_dot">&middot;</span>
-				experienced
-				<span class="green_dot">&middot;</span>
-				empathetic
-			</span><!-- tagline -->
+			passionate
+			<span class="green_dot">&middot;</span>
+			relatable
+			<span class="green_dot">&middot;</span>
+			fierce
+			<span class="green_dot">&middot;</span>
+			experienced
+			<span class="green_dot">&middot;</span>
+			empathetic
+		</span><!-- tagline -->
+		
+		<a class="request" href="">Request Free Consultation</a>
 
 		
 	</div><!-- inner_content -->
