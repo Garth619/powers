@@ -243,27 +243,7 @@ get_header(); ?>
 					
 				</div><!-- single_reason -->
 				
-				
-				
-				
-				
-								
-				
-				
-								
-				
-				
-								
-				
-				
-				
-				
-								
-			
-			
-			
-			
-			
+
 			</div><!-- reasons_slider -->
 			
 		</div><!-- reasons_grid_inner_wrapper -->
@@ -271,6 +251,30 @@ get_header(); ?>
 	</div><!-- reasons_grid_wrapper -->
 	
 </section><!-- six_reasons_wrapper -->
+
+
+<section class="about">
+	
+	<div class="inner_about">
+	
+	
+		<h1><span class="header_first">birmingham</span><br/><span class="header_second">personal injury attorney</span></h1>
+		
+		<p class="about_intro"><span class="firstcharacter">p</span> lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip  ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem </p><!-- about_intro -->
+		
+		<div class="image_wrapper">
+			
+			<div class="image_inner"></div><!-- image_inner -->
+			
+			<img class="about_image" src="<?php bloginfo('template_directory');?>/images/bodytext-image.jpg"/>
+			
+		</div><!-- image_wrapper -->
+	
+	
+	</div><!-- inner_about -->
+	
+	
+</section><!-- about -->
 
 		
 
