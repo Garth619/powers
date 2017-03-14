@@ -1062,12 +1062,13 @@ $animDuration: 7s;
 
 .about {
 	background: $black;
-	padding:190px 0;
+	padding:190px 0 255px;
 	
 	.inner_about {
-		max-width:1890px;
+		max-width:1710px;
 		margin: 0 auto;
 		overflow: hidden;
+		padding:0 30px;
 		h1 {
 			color:#fff;
 			text-align: center;
@@ -1077,7 +1078,7 @@ $animDuration: 7s;
 			line-height: 95px;
 			span.header_first {
 				text-transform: uppercase;
-				margin-left:-600px;
+				margin-left: -545px;
 				letter-spacing: 2px;
 			}
 			span.header_second {
@@ -1099,7 +1100,7 @@ $animDuration: 7s;
 				font-size: 110px;
 				line-height: 105px;
 				padding-top: 4px;
-				padding-right: 8px;
+				padding-right: 11px;
 				padding-left: 3px;
 				text-transform: uppercase;
 				top: 4px;
@@ -1115,10 +1116,11 @@ $animDuration: 7s;
 
 .about {
 	.image_wrapper {
-		width:45%;
+		width:49%;
 		float:left;
 		position: relative;
-		margin-top:112px;
+		margin-top:107px;
+		max-width:812px;
 		.image_inner {
 			background:#fff;
 			width:100%;
@@ -1130,8 +1132,8 @@ $animDuration: 7s;
 			height:auto;
 			position: relative;
 			z-index:5;
-			margin-top: 4%;
-			margin-left:4%;
+			margin-top: 5%;
+			margin-left:5%;
 			display: block;
 		}
 		a.meet_attorney {
@@ -1154,8 +1156,76 @@ $animDuration: 7s;
 			margin: -20% -10% 0 0;
 		}
 	}
+	.about_content {
+		width:42%;
+		float:right;
+		margin-top:105px;
+		h2 {
+			font-size:20px;
+			line-height: 30px;
+			color:$green;
+			font-family: $proximareg;
+			text-transform: uppercase;
+			font-style: normal;
+			font-weight: 300;
+			letter-spacing: 1.4px;
+			margin-bottom:15px;
+		}
+		p {
+			color:#fff;
+			font-size:17px;
+			font-family: $proximareg;
+			line-height:30px;
+			letter-spacing: 0.75px;
+			margin-bottom:25px;
+		}
+	}
 }
 
+/* Featured Cases */
 
+.featured_cases {
+	width:100%;
+	padding:142px 0 180px;
+	background: #fff;
+	text-align: center;
+	span.large_header {
+		color:$black;
+		font-family: $prata;
+		text-transform: lowercase;
+		font-size:90px;
+		display: block;
+	}
+	span.sub_header {
+		display: block;
+		font-size: 18px;
+		font-family: $proximasemibold;
+		line-height: 28px;
+		text-transform: uppercase;
+		letter-spacing: .4px;
+		max-width:957px;
+		border-left:1px solid $green;
+		border-right:1px solid $green;
+		padding:6px 55px 19px;
+		letter-spacing: 1.6px;
+		margin:0px auto 0;
+		
+	}
+	a.view_all_results {
+		background: $green;
+		display:inline-block;
+		font-size:18px;
+		font-family: $proximabold;
+		color:#fff;
+		text-transform: uppercase;
+		text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.6);
+		text-decoration: none;
+		letter-spacing: 4px;
+		padding:26px 47px;
+		border-radius: 4px;
+		
+		margin-top:35px;
+	}
+}
 
 
