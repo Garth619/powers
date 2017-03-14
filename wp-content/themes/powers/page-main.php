@@ -268,6 +268,8 @@ get_header(); ?>
 			
 			<img class="about_image" src="<?php bloginfo('template_directory');?>/images/bodytext-image.jpg"/>
 			
+			<a class="meet_attorney" href="">Meet Attorney<br/>Jessica Powers</a>
+			
 		</div><!-- image_wrapper -->
 	
 	
