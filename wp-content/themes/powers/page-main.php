@@ -301,7 +301,9 @@ get_header(); ?>
 	
 	<div class="main_cases_wrapper">
 		
-		<div class="single_case single_case_one">
+		<div class="single_case">
+			
+			<a href="">
 			
 			<div class="single_case_content_wrapper">
 			
@@ -319,17 +321,19 @@ get_header(); ?>
 			
 			<div class="case_background_image case_bg_one"></div><!-- case_background_image -->
 			
-			<a class="view_case_details" href="">View Case Details</a><!-- view_case_details -->
+			<span class="view_case_details">View Case Details</span><!-- view_case_details -->
+			
+			</a>
 			
 		</div><!-- single_case -->
 		
-		<div class="single_case single_case_two">
+		<div class="single_case">
 			
-		
+			<a href="">
 			
 			<div class="single_case_content_wrapper">
 			
-				<span class="number_title">$525K</span><!-- number_title -->
+				<span class="number_title">$525k</span><!-- number_title -->
 			
 				<div class="cases_greenline_wrapper">
 				
@@ -337,15 +341,21 @@ get_header(); ?>
 			
 				</div><!-- cases_greenline_wrapper -->
 				
-				<span class="case_title">distracted driving Jury verdict</span><!-- case_title -->
-			
+				<span class="case_title">Distracted Driving Jury Verdict</span><!-- case_title -->
+				
 			</div><!-- single_case_content_wrapper -->
+			
+			<div class="case_background_image case_bg_two"></div><!-- case_background_image -->
+			
+			<span class="view_case_details">View Case Details</span><!-- view_case_details -->
+			
+			</a>
 			
 		</div><!-- single_case -->
 		
-		<div class="single_case single_case_three">
+		<div class="single_case">
 			
-			
+			<a href="">
 			
 			<div class="single_case_content_wrapper">
 			
@@ -357,16 +367,52 @@ get_header(); ?>
 			
 				</div><!-- cases_greenline_wrapper -->
 				
-				<span class="case_title">judgment against funeral home for mishandling the remains of a beloved family&nbsp;member </span><!-- case_title -->
+				<span class="case_title">judgment against funeral home for <br/>mishandling the remains of a beloved family member </span><!-- case_title -->
+				
+			</div><!-- single_case_content_wrapper -->
 			
-			</div><!-- single_case_content_wrapper -->						
+			<div class="case_background_image case_bg_three"></div><!-- case_background_image -->
+			
+			<span class="view_case_details">View Case Details</span><!-- view_case_details -->
+			
+			</a>
+			
 		</div><!-- single_case -->
 		
-	</div><!-- main_cases_wrapper -->
+		</div><!-- main_cases_wrapper -->
 	
 </section><!-- featured_cases -->
 
+<section class="second_about">
+		<span class="second_about_greenline"></span><!-- second_about_greenline -->
+	
+	<div class="seocnd_about_title_wrapper">
 		
+		<span class="top_title">you’re a person,</span>
+		<span class="bottom_title">not a case</span>
+		
+	</div><!-- seocnd_about_title_wrapper -->
+	
+	<div class="second_about_content">
+			
+			<div class="second_about_col1">
+				
+				<p><span class="first_character">N</span>mo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+				<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+				
+			</div><!-- second_about_col1 -->
+			
+			<div class="second_about_col2">
+				
+				
+				
+			</div><!-- second_about_col2 -->
+			
+		</div><!-- second_about_content -->
+	
+	
+</section><!-- second_about -->
 
 
 <?php get_footer(); ?>
