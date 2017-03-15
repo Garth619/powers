@@ -1186,7 +1186,7 @@ $animDuration: 7s;
 
 .featured_cases {
 	width:100%;
-	padding:142px 0 180px;
+	padding:142px 0 0;
 	background: #fff;
 	text-align: center;
 	span.large_header {
@@ -1223,8 +1223,64 @@ $animDuration: 7s;
 		letter-spacing: 4px;
 		padding:26px 47px;
 		border-radius: 4px;
-		
-		margin-top:35px;
+		margin-top:25px;
+	}
+}
+
+
+.main_cases_wrapper {
+	padding-top:180px;
+	.single_case {
+		width:33.3333%;
+		height:505px;
+		float:left;
+		.single_case_content_wrapper {
+			position: relative;
+			top: 52%;
+			transform: translateY(-50%);
+			
+			span.number_title {
+				color:#fff;
+				display: block;
+				font-size:90px;
+				font-family: $prata;
+				text-shadow: 0px 1px 10px rgba(0, 0, 0, 0.9);
+				text-transform: uppercase;
+			}
+			.cases_greenline_wrapper {
+				width:1px;
+				height:65px;
+				position: relative;
+				display: block;
+				margin:3px auto 30px;
+				span.cases_greenline {
+					position:absolute;
+					width:100%;
+					height:100%;
+					background: $green;
+				}
+			}
+			span.case_title {
+				color:#fff;
+				text-transform: uppercase;
+				font-size:18px;
+				font-family: $proximasemibold;
+				letter-spacing: 3px;
+				
+			}
+		}
+	}
+	.single_case_one {
+		background:url(images/results-image1.jpg) center center no-repeat;
+		background-size:cover;
+	}
+	.single_case_two {
+		background:url(images/results-image2.jpg) center center no-repeat;
+		background-size:cover;
+	}
+	.single_case_three {
+		background:url(images/results-image3.jpg) center center no-repeat;
+		background-size:cover;
 	}
 }
 

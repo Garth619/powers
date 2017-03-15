@@ -299,6 +299,63 @@ get_header(); ?>
 	<span class="sub_header">The practice of law isn't just the fight in the courtroom. It's also the relationship between the attorney and the client. At Powers Injury Law,<br/>we value both.</span><!-- sub_header -->
 	<a class="view_all_results" href="">View All Results</a><!-- view_all_results -->
 	
+	<div class="main_cases_wrapper">
+		
+		<div class="single_case single_case_one">
+			
+			<div class="single_case_content_wrapper">
+			
+				<span class="number_title">$1.2M</span><!-- number_title -->
+			
+				<div class="cases_greenline_wrapper">
+				
+					<span class="cases_greenline"></span><!-- cases_greenline -->
+			
+				</div><!-- cases_greenline_wrapper -->
+				
+				<span class="case_title">wrongful death settlement</span><!-- case_title -->
+			
+			</div><!-- single_case_content_wrapper -->
+			
+		</div><!-- single_case -->
+		
+		<div class="single_case single_case_two">
+			
+		
+			
+			<div class="single_case_content_wrapper">
+			
+				<span class="number_title">$1.2M</span><!-- number_title -->
+			
+				<div class="cases_greenline_wrapper">
+				
+					<span class="cases_greenline"></span><!-- cases_greenline -->
+			
+				</div><!-- cases_greenline_wrapper -->
+			
+			</div><!-- single_case_content_wrapper -->
+			
+		</div><!-- single_case -->
+		
+		<div class="single_case single_case_three">
+			
+			
+			
+			<div class="single_case_content_wrapper">
+			
+				<span class="number_title">$1.2M</span><!-- number_title -->
+			
+				<div class="cases_greenline_wrapper">
+				
+					<span class="cases_greenline"></span><!-- cases_greenline -->
+			
+				</div><!-- cases_greenline_wrapper -->
+			
+			</div><!-- single_case_content_wrapper -->						
+		</div><!-- single_case -->
+		
+	</div><!-- main_cases_wrapper -->
+	
 </section><!-- featured_cases -->
 
 		
