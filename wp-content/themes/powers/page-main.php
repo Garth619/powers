@@ -314,8 +314,12 @@ get_header(); ?>
 				</div><!-- cases_greenline_wrapper -->
 				
 				<span class="case_title">wrongful death settlement</span><!-- case_title -->
+				
+				
 			
 			</div><!-- single_case_content_wrapper -->
+			
+			<a class="view_case_details" href="">View Case Details</a><!-- view_case_details -->
 			
 		</div><!-- single_case -->
 		
@@ -325,13 +329,15 @@ get_header(); ?>
 			
 			<div class="single_case_content_wrapper">
 			
-				<span class="number_title">$1.2M</span><!-- number_title -->
+				<span class="number_title">$525K</span><!-- number_title -->
 			
 				<div class="cases_greenline_wrapper">
 				
 					<span class="cases_greenline"></span><!-- cases_greenline -->
 			
 				</div><!-- cases_greenline_wrapper -->
+				
+				<span class="case_title">distracted driving Jury verdict</span><!-- case_title -->
 			
 			</div><!-- single_case_content_wrapper -->
 			
@@ -343,13 +349,15 @@ get_header(); ?>
 			
 			<div class="single_case_content_wrapper">
 			
-				<span class="number_title">$1.2M</span><!-- number_title -->
+				<span class="number_title">$800k</span><!-- number_title -->
 			
 				<div class="cases_greenline_wrapper">
 				
 					<span class="cases_greenline"></span><!-- cases_greenline -->
 			
 				</div><!-- cases_greenline_wrapper -->
+				
+				<span class="case_title">judgment against funeral home for mishandling the remains of a beloved family&nbsp;member </span><!-- case_title -->
 			
 			</div><!-- single_case_content_wrapper -->						
 		</div><!-- single_case -->

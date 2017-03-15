@@ -1189,6 +1189,7 @@ $animDuration: 7s;
 	padding:142px 0 0;
 	background: #fff;
 	text-align: center;
+	height: 10000px;
 	span.large_header {
 		color:$black;
 		font-family: $prata;
@@ -1234,6 +1235,7 @@ $animDuration: 7s;
 		width:33.3333%;
 		height:505px;
 		float:left;
+		position: relative;
 		.single_case_content_wrapper {
 			position: relative;
 			top: 52%;
@@ -1266,7 +1268,9 @@ $animDuration: 7s;
 				font-size:18px;
 				font-family: $proximasemibold;
 				letter-spacing: 3px;
-				
+				line-height:24px;
+				display: block;
+				padding:0 45px;
 			}
 		}
 	}
@@ -1282,6 +1286,23 @@ $animDuration: 7s;
 		background:url(images/results-image3.jpg) center center no-repeat;
 		background-size:cover;
 	}
+}
+
+a.view_case_details {
+	display: block;
+	background: $green;
+	color:#fff;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-family: $proximabold;
+	text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.6);
+	padding:30px;
+	font-size:18px;
+	letter-spacing: 3px;
+	position: absolute;
+	left:0;
+	bottom:0px;
+	width:100%;
 }
 
 
