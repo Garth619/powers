@@ -1236,11 +1236,12 @@ $animDuration: 7s;
 		height:505px;
 		float:left;
 		position: relative;
+		overflow: hidden;
 		.single_case_content_wrapper {
 			position: relative;
 			top: 52%;
 			transform: translateY(-50%);
-			
+			z-index:5;
 			span.number_title {
 				color:#fff;
 				display: block;
@@ -1274,10 +1275,7 @@ $animDuration: 7s;
 			}
 		}
 	}
-	.single_case_one {
-		background:url(images/results-image1.jpg) center center no-repeat;
-		background-size:cover;
-	}
+	
 	.single_case_two {
 		background:url(images/results-image2.jpg) center center no-repeat;
 		background-size:cover;
@@ -1287,6 +1285,27 @@ $animDuration: 7s;
 		background-size:cover;
 	}
 }
+
+
+
+.case_background_image {
+	position: absolute;
+	width:100%;
+	height:100%;
+	top:0;
+	left:0;
+}
+
+.case_bg_one {
+	background:url(images/results-image1.jpg) center center no-repeat;
+	background-size:cover;
+	transition: all .4s ease-in-out;
+	&:hover {
+		transform: scale(1.2);
+	}
+}
+
+
 
 a.view_case_details {
 	display: block;

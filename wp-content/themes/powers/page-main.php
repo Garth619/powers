@@ -315,9 +315,9 @@ get_header(); ?>
 				
 				<span class="case_title">wrongful death settlement</span><!-- case_title -->
 				
-				
-			
 			</div><!-- single_case_content_wrapper -->
+			
+			<div class="case_background_image case_bg_one"></div><!-- case_background_image -->
 			
 			<a class="view_case_details" href="">View Case Details</a><!-- view_case_details -->
 			
