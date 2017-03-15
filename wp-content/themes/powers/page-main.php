@@ -405,7 +405,12 @@ get_header(); ?>
 			
 			<div class="second_about_col2">
 				
-				
+				<div class="col2_quote_wrapper">
+					
+					<span class="col2_quote">“My clients have a direct line to me and also my support staff. I personally call all my clients back and give them the time each one deserves.”</span>
+					<span class="col2_name">Attorney Jessica Powers</span>
+					
+				</div><!-- quote_wrapper -->
 				
 			</div><!-- second_about_col2 -->
 			
