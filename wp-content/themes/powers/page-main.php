@@ -456,5 +456,42 @@ get_header(); ?>
 	
 </section><!-- second_about -->
 
+<section class="testimonials">
+	
+	<span class="testi_greenline"></span><!-- testi_greenline -->
+	
+	<div class="testi_wrapper">
+		
+		<div class="testi_title">
+			
+			<span class="testi_title_top">Client</span><!-- testi_title_top -->
+			<span class="testi_title_bottom">Testimonials</span><!-- testi_title_bottom -->
+			
+		</div><!-- test_title -->
+		
+		<div class="testi_slider">
+			
+			<div class="single_testi">
+				
+				<p>“With feelings of hopelessness and confusion, I made one phone call that would turn all of that around. Jessica has given me answers and hope from the first phone call, treating me like a family member not a client. Any questions or problems I had I was not waiting days on answers, Jessica was getting problems fixed and answers within hours of me calling or e-mailing. I have no worries and know that everything is being taken care of on time and for my best interest because I have Jessica on my side! Jessica Powers is the attorney that you can trust and is truly working for you to help you in these hard and confusing times.”</p>
+				
+				<div class="testi_name_wrapper">
+					
+					<span class="testi_name">Andi K.</span><!-- testi_name -->
+					<span class="divider"></span><!-- divider -->
+					<span class="testi_client">Current Client</span><!-- testi_name -->
+					
+				</div><!-- testi_name_wrapper -->
+				
+			</div><!-- single_testi -->
+			
+		</div><!-- testi_slider -->
+		
+		<div class="testi_buttons"></div><!-- testi_buttons -->
+		
+	</div><!-- testi_wrapper -->
+	
+</section><!-- testimonials -->
+
 
 <?php get_footer(); ?>
