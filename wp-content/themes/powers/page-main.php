@@ -473,7 +473,7 @@ get_header(); ?>
 			
 			<div class="single_testi">
 				
-				<p>“With feelings of hopelessness and confusion, I made one phone call that would turn all of that around. Jessica has given me answers and hope from the first phone call, treating me like a family member not a client. Any questions or problems I had I was not waiting days on answers, Jessica was getting problems fixed and answers within hours of me calling or e-mailing. I have no worries and know that everything is being taken care of on time and for my best interest because I have Jessica on my side! Jessica Powers is the attorney that you can trust and is truly working for you to help you in these hard and confusing times.”</p>
+				<p>“With feelings of hopelessness and confusion, I made one phone call that would turn all of that around. Jessica has given me answers and hope from the first phone call, treating me like a family member not a client. Any questions or problems I had I was not waiting days on answers, Jessica was getting problems fixed and answers within hours of me calling or e-mailing. I have no worries and know that everything is being taken care of on time and for my best interest because I have Jessica on my side! Jessica Powers is the attorney that you can trust and is truly working for you to help you in these hard and confusing&nbsp;times.”</p>
 				
 				<div class="testi_name_wrapper">
 					
@@ -487,7 +487,25 @@ get_header(); ?>
 			
 		</div><!-- testi_slider -->
 		
-		<div class="testi_buttons"></div><!-- testi_buttons -->
+		<div class="testi_buttons">
+			
+			<div class="testi_button testi_back">
+				
+				<img src="<?php bloginfo('template_directory');?>/images/arrow-prev.png"/> 
+				prev
+			
+			</div><!-- testi_back -->
+			
+			
+			<div class="testi_button testi_next">
+				
+				next
+				
+				<img src="<?php bloginfo('template_directory');?>/images/arrow-next.png"/> 
+			
+			</div><!-- testi_next -->
+			
+		</div><!-- testi_buttons -->
 		
 	</div><!-- testi_wrapper -->
 	
