@@ -72,6 +72,24 @@ jQuery('.video_wrapper').mouseleave(function(){
   ]
     
     });
+    
+    
+    
+  // Awards
+  
+  
+  
+  jQuery('.logo_slider').slick({
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    mobileFirst:true,
+    arrows:true,
+    prevArrow: ".logo_button_left",
+    nextArrow: ".logo_button_right",
+   });
+  
+  
+  
 
 
 

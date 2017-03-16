@@ -1348,7 +1348,7 @@ span.view_case_details {
 	background: $greylight;
 	width:100%;
 	
-	padding:156px 0;
+	padding:156px 0 205px;
 	
 	position: relative;
 }
@@ -1397,7 +1397,7 @@ span.second_about_greenline {
 	}
 	.second_about_col1 {
 		width:38%;
-		height:1000px;
+		
 		float:left;
 		margin-top:45px;
 		span.first_character {
@@ -1417,16 +1417,16 @@ span.second_about_greenline {
 	}
 	.second_about_col2 {
 		width:60%;
-		height:1000px;
+		
 		float:right;
 		padding:45px;
 		padding-left:105px;
 		.col2_quote_wrapper {
 			background: #fff;
 			box-shadow: 0px -1px 20px 0px rgba(0, 0, 0, 0.25);
-			padding:105px 45px 60px 0;
+			padding:105px 75px 60px 0;
 			display: flex;
-			margin-top:20px;
+			margin-top:10px;
 			.quote_content_wrapper {
 				
 				span.col2_quote {
@@ -1456,7 +1456,7 @@ span.second_about_greenline {
 
 
 .logo_slider_wrapper {
-	width:290px;
+	width:210px;
 	margin-left:-100px;
 	margin-top:-50px;
 	margin-right:90px;
@@ -1469,6 +1469,7 @@ span.second_about_greenline {
 		padding:26px 0;
 		position: relative;
 		cursor: pointer;
+		z-index:100;
 		img {
 			display: block;
 			margin:0 auto;
@@ -1485,11 +1486,18 @@ span.second_about_greenline {
 	}
 	.logo_slider {
 		background: $black;
-		padding:57px 0;
+		padding:57px 10px;
 		.single_logo {
 			img {
 				display: block;
 				margin:0 auto;
+				max-width:100%;
+				height:auto;
+			}
+			&:nth-of-type(2) {
+				img {
+					
+				}
 			}
 		}
 	}

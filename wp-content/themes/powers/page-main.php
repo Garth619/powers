@@ -423,6 +423,12 @@ get_header(); ?>
 								
 							</div><!-- single_logo -->
 							
+							<div class="single_logo">
+								
+								<img src="<?php bloginfo('template_directory');?>/images/award-2.png"/>
+								
+							</div><!-- single_logo --> 
+							
 						</div><!-- logo_slider -->
 						
 						<div class="logo_buttons logo_button_right">
