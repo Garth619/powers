@@ -1396,7 +1396,7 @@ span.second_about_greenline {
 		margin-bottom: 30px;
 	}
 	.second_about_col1 {
-		width:40%;
+		width:38%;
 		height:1000px;
 		float:left;
 		margin-top:45px;
@@ -1419,8 +1419,78 @@ span.second_about_greenline {
 		width:60%;
 		height:1000px;
 		float:right;
-		span.col2_quote_wrapper {
+		padding:45px;
+		padding-left:105px;
+		.col2_quote_wrapper {
 			background: #fff;
+			box-shadow: 0px -1px 20px 0px rgba(0, 0, 0, 0.25);
+			padding:105px 45px 60px 0;
+			display: flex;
+			margin-top:20px;
+			.quote_content_wrapper {
+				
+				span.col2_quote {
+					font-family: $prata;
+					font-size:35px;
+					line-height: 47px;
+					letter-spacing: 0.5px;
+					u {
+						text-decoration: none;
+						border-bottom: 1px solid $green;
+  				}
+				}
+				span.col2_name {
+					display: block;
+					font-family: $proximasemibold;
+					text-transform: uppercase;
+					color:$green;
+					font-size:16px;
+					letter-spacing: 2.75px;
+					display: block;
+					margin-top:37px;
+				}
+			}
+		}
+	}
+}
+
+
+.logo_slider_wrapper {
+	width:290px;
+	margin-left:-100px;
+	margin-top:-50px;
+	margin-right:90px;
+	.logo_buttons {
+		background: #2a3238;
+		display: block;
+		transition: all .2s ease-in-out;
+		width:100px;
+		margin:0 auto;
+		padding:26px 0;
+		position: relative;
+		cursor: pointer;
+		img {
+			display: block;
+			margin:0 auto;
+		}
+		&:hover {
+			background: $green;
+		}
+	}
+	.logo_button_left {
+		top:30px;
+	}
+	.logo_button_right {
+		top:-35px;
+	}
+	.logo_slider {
+		background: $black;
+		padding:57px 0;
+		.single_logo {
+			img {
+				display: block;
+				margin:0 auto;
+			}
 		}
 	}
 }

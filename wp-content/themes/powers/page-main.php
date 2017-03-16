@@ -407,8 +407,39 @@ get_header(); ?>
 				
 				<div class="col2_quote_wrapper">
 					
-					<span class="col2_quote">“My clients have a direct line to me and also my support staff. I personally call all my clients back and give them the time each one deserves.”</span>
-					<span class="col2_name">Attorney Jessica Powers</span>
+					<div class="logo_slider_wrapper">
+						
+						<div class="logo_buttons logo_button_left">
+							
+							<img src="<?php bloginfo('template_directory');?>/images/arrow-l.png"/>
+							
+						</div><!-- logo_buttons -->
+						
+						<div class="logo_slider">
+							
+							<div class="single_logo">
+								
+								<img src="<?php bloginfo('template_directory');?>/images/award-1.png"/>
+								
+							</div><!-- single_logo -->
+							
+						</div><!-- logo_slider -->
+						
+						<div class="logo_buttons logo_button_right">
+							
+							<img src="<?php bloginfo('template_directory');?>/images/arrow-r.png"/>
+							
+						</div><!-- logo_buttons -->
+						
+					</div><!-- logo_slider_wrapper -->
+					
+					
+					<div class="quote_content_wrapper">
+					
+						<span class="col2_quote"><u>“My clients have a direct line to me</u> and also my support staff. I personally call all my clients back and <u>give them the time each one deserves.”</u></span>
+						<span class="col2_name">Attorney Jessica Powers</span>
+					
+					</div><!-- quote_content_wrapper -->
 					
 				</div><!-- quote_wrapper -->
 				
