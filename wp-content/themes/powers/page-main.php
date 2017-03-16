@@ -57,7 +57,7 @@ get_header(); ?>
 			empathetic
 		</span><!-- tagline -->
 		
-		<a class="request" href="">Request Free Consultation</a>
+		<a class="request" href="#free_consultation">Request Free Consultation</a>
 		
 		<div class="mouse"></div>
 
@@ -478,6 +478,20 @@ get_header(); ?>
 				<div class="testi_name_wrapper">
 					
 					<span class="testi_name">Andi K.</span><!-- testi_name -->
+					<span class="divider"></span><!-- divider -->
+					<span class="testi_client">Current Client</span><!-- testi_name -->
+					
+				</div><!-- testi_name_wrapper -->
+				
+			</div><!-- single_testi -->
+			
+			<div class="single_testi">
+				
+				<p>“Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.”</p>
+				
+				<div class="testi_name_wrapper">
+					
+					<span class="testi_name">Name</span><!-- testi_name -->
 					<span class="divider"></span><!-- divider -->
 					<span class="testi_client">Current Client</span><!-- testi_name -->
 					

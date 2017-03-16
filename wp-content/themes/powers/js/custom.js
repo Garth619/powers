@@ -82,11 +82,47 @@ jQuery('.video_wrapper').mouseleave(function(){
   jQuery('.logo_slider').slick({
     slidesToShow: 1,
     slidesToScroll: 1,
-    mobileFirst:true,
+   
     arrows:true,
     prevArrow: ".logo_button_left",
     nextArrow: ".logo_button_right",
    });
+   
+   
+   // Testimonials 
+   
+   jQuery('.testi_slider').slick({
+    slidesToShow: 1,
+    slidesToScroll: 1,
+		arrows:true,
+    prevArrow: ".testi_back",
+    nextArrow: ".testi_next",
+    fade:true
+   });
+   
+   
+   // Consultation Scroll
+   
+   
+jQuery(function() {
+  jQuery('a[href*="#"]:not([href="#"])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = jQuery(this.hash);
+      target = target.length ? target : jQuery('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        jQuery('html, body').animate({
+          scrollTop: target.offset().top
+        }, 600);
+        return false;
+      }
+    }
+  });
+});
+
+
+// Wrap the input fields into one div
+
+// jQuery('.form ul > li:lt(3)').wrapAll('<div class="form_col"></div>')
   
   
   
