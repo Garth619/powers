@@ -47,6 +47,8 @@
 <header>
 	
 	<div class="header_inner_wrapper">
+		
+	<div class="tablet_menu_view">
 	
 	<div class="logo_wrapper">
 		
@@ -153,10 +155,24 @@
 	</div><!-- logo_wrapper -->
 	
 	
-	<nav>
-			<?php wp_nav_menu( array( 'container_class' => 'menu-header', 'theme_location' => 'main_menu' ) ); ?>
-	</nav>
 	
+	
+		<nav>
+			<?php wp_nav_menu( array( 'container_class' => 'menu-header', 'theme_location' => 'main_menu' ) ); ?>
+		</nav>
+	
+	
+		
+	
+		<div class="mobile_menu">
+		
+			<span class="menu_line"></span><!-- menu_line -->
+			<span class="menu_title">Menu</span><!-- menu_title -->
+			<span class="menu_line"></span><!-- menu_line -->
+		
+		</div><!-- mobile_menu -->
+	
+	</div><!-- tablet_menu_view -->
 	
 	<div class="free_consult_wrapper">
 		
@@ -168,8 +184,7 @@
 		
 	</div><!-- free_consult_wrapper -->
 	
-	
-	</div><!-- header_inner_wrapper -->
+</div><!-- header_inner_wrapper -->
 	
 	
 </header>

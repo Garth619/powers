@@ -124,7 +124,7 @@
 		
 		</a><!-- ilawyer -->
 		
-	</div><!-- bottom_footer --.
+	</div><!-- bottom_footer -->
 	
 </section><!-- request -->
 
