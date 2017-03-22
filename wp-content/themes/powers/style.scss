@@ -1652,7 +1652,7 @@ span.second_about_greenline {
 .request_consultation {
 	background:$black;
 	width:100%;
-	height:2000px;
+	
 	text-align: center;
 	.request_greenline_wrapper {
 		width:1px;
@@ -1836,6 +1836,150 @@ span.second_about_greenline {
 	letter-spacing: 2px;
 	margin-top:15px;
 	margin-left:25px;
+}
+
+
+.lower_footer {
+	padding:170px 50px;
+	overflow: hidden;
+}
+
+
+.footer_quote {
+		width:55%;
+		height:729px;
+		background:url(images/footer-image-mob1.jpg) top center no-repeat;
+		background-size: cover;
+		box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.8);
+		padding-left:8.5%;
+		float:left;
+		.footer_quote_content {
+			position: relative;
+			text-align: left;
+			max-width:670px;
+			padding-top:90px;
+			span.top_quote {
+				margin-bottom:40px;
+			}
+			span.top_quote, span.bottom_quote {
+				display: block;
+				color:#fff;
+				font-family: $proximareg;
+				font-size:20px;
+				line-height: 34px;
+				text-align: left;
+				letter-spacing: 0.6px;
+				padding-left:17%;
+				
+			}
+			span.work_quote {
+				font-family: $prata;
+				font-size:36px;
+				background: -webkit-linear-gradient(#79e799,#3fb561);
+				-webkit-background-clip: text;
+				-webkit-text-fill-color: transparent;
+				padding-left:9%;
+				display: block;
+				margin-bottom: 38px;
+				line-height: 45px;
+				span.footer_greenline {
+					width:1px;
+					height:463px;
+					background:#67d787;
+					display: block;
+					position: absolute;
+					top:-70px;
+					left:0;
+				}
+			}
+			span.footer_attorney {
+				display: inline-block;
+				color:#fff;
+				font-family: 16px;
+				font-family: $proximabold;
+				text-transform: uppercase;
+				letter-spacing: 2.5px;
+				border-left:1px solid $green;
+				border-right:1px solid $green;
+				padding:5px 15px;
+				margin-left:3%;
+				margin-top:33px;
+			}
+		}
+	}
+
+
+.footer_contact {
+	float:right;
+	width:45%;
+	.footer_contact_wrapper {
+		color:#fff;
+		text-align: left;
+		width:100%;
+		overflow: hidden;
+		margin-bottom:90px;
+		.footer_contact_title_wrapper {
+				float:left;
+				width:20%;
+			span.footer_contact_title {
+				font-family: $proximabold;
+				font-size:15px;
+				border-left:1px solid $green;
+				border-right:1px solid $green;
+				text-transform: uppercase;
+				letter-spacing: 3.3px;
+				padding:0 20px;
+				margin-right:10%;
+			}
+		}
+		
+		.footer_contact_info {
+			float:left;
+			font-family: $prata;
+			font-size:25px;
+			line-height: 35px;
+			margin-top:-4px;
+			display: block;
+			letter-spacing: 2.5px;
+			
+		}
+		a.get_directions {
+			color:$green;
+			font-family: $proximabold;
+			font-size:17px;
+			width:auto;
+			display:block;
+			text-transform: uppercase;
+			text-decoration: none;
+			margin-top:25px;
+			letter-spacing: 4px;
+			width:194px;
+			transition: all .2s ease-in-out;
+			&:after {
+				content:"";
+				width:100%;
+				height:1px;
+				background: $green;
+				display: block;
+			}
+			&:hover {
+				color:#fff;
+			}
+		}
+		a.tel, a.social {
+			color:#fff;
+			text-decoration: none;
+			transition: all .2s ease-in-out;
+			&:hover {
+				color:$green;
+			}
+		}
+		a.social {
+			display: block;
+			margin-bottom:24px;
+			line-height: 1;
+		}
+	}
 }
 
 
