@@ -56,16 +56,9 @@ jQuery('.video_wrapper').mouseleave(function(){
     mobileFirst:true,
     arrows:false,
     responsive: [
+    
     {
-      breakpoint: 800,
-      settings: {
-        slidesToShow: 3,
-        slidesToScroll: 3
-        
-      }
-    },
-    {
-      breakpoint: 1300,
+      breakpoint: 1200,
       settings: "unslick"
     }
     

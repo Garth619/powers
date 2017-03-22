@@ -2029,6 +2029,82 @@ span.second_about_greenline {
 	}
 }
 
+@media screen and (max-width: 1745px) {
+	
+	
+	
+/* Six Reasons Wrapper */
+
+
+
+.six_reasons_wrapper {
+	
+	.reasons_title_wrapper {
+		width:25%;
+		img.six {
+			max-width:100%;
+			height:auto;
+		}
+		span.reasons_title {
+			font-size:47px;
+			line-height:53px;
+		}
+	}
+	.reasons_grid_wrapper {
+		
+		
+	}
+}
+
+
+.reasons_grid_wrapper {
+	width:75%;
+	.reasons_grid_inner_wrapper {
+		.reasons_slider {
+			.single_reason {
+				
+				&:hover {
+					.single_reason_hover {
+						
+					}
+				}
+				.single_reason_reg {
+					padding-left:12%;
+					span.number {
+						
+					}
+					span.green_line {
+						
+					}
+					span.reason_content {
+						
+					}
+					img.reason_arrow {
+						
+					}
+				}
+			}
+			.single_reason_hover {
+				padding-left:12%;
+				span.hover_title {
+					
+				}
+				span.green_line {
+					
+				}
+				span.hover_content {
+					
+				}
+			}
+		}
+	}
+}
+
+	
+	
+	
+} /* Media Query */
+
 
 @media screen and (max-width: 1550px) {
 	
@@ -2104,6 +2180,8 @@ span.second_about_greenline {
 header {
 	margin:0;
 	width:100%;
+	position: relative;
+	z-index:20;
 	.header_inner_wrapper {
 		border:none;
 	}
@@ -2111,7 +2189,7 @@ header {
 		position: fixed;
 		top:0;
 		left:0;
-		z-index:5;
+		z-index:10;
 		}
 	}
 
@@ -2197,22 +2275,38 @@ nav {
 
 .free_consult_wrapper {
 	position: absolute;
-	top:90px;
+	top:116px;
+	width:100%;
 	padding-right:0;
-	border-bottom: 1px solid #fff;
-	width:97%;
-	margin:0 auto;
-	.free_consult_inner_wrapper {
-		
+	padding-top:0;
 	
+	.free_consult_inner_wrapper {
+			border-bottom: 1px solid #fff;
+			width:97%;
+			margin:0 auto;
+			text-align: center;
+			padding-bottom:7px;
 	img {
+		display: inline-block;
+		float:none;
+		width:36px;
 		
 	}
 	span.call_number {
-		
+		display: inline-block;
+		float:none;
+		font-size:16px;
+		margin:0px 0 0 -6px;
+		position: relative;
+		top:-15px;
 	}
 	a.tel {
-		
+		display: inline-block;
+		margin:0;
+		font-size:30px;
+		position: relative;
+		top:-9px;
+		margin-left:10px;
 	}
 	
 	}
@@ -2224,7 +2318,6 @@ nav {
 	background: $green;
 	width:95px;
 	text-align: center;
-	
 	padding: 22px 21px 0px 21px;
 	span.menu_line {
 		width:100%;
