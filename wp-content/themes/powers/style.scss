@@ -2017,3 +2017,59 @@ span.second_about_greenline {
 }
 
 
+@media screen and (max-width: 1550px) {
+	
+	/* Header */
+
+
+
+.logo_wrapper {
+	width:335px;
+	padding-top:76px;
+}
+	
+	
+.free_consult_wrapper {
+	padding-top:50px;
+	 width: 270px;
+	img {
+		width:28px;
+	}
+	span.call_number {}
+	a.tel {
+		font-size: 30px;
+		top:-4px;
+	}
+}
+
+	
+} /* Media Query */
+
+
+@media screen and (max-width: 1400px) {
+	
+	
+	.logo_wrapper {
+		width:280px;
+	}
+	
+	.free_consult_wrapper {
+		width: 243px;
+		img { 
+			width:26px;
+		}
+		span.call_number {
+			font-size:14px;
+		}
+			a.tel {
+				font-size: 22px;
+				margin-left: 72px;
+			}
+		}
+
+	
+	
+	
+} /* Media Query */
+
+
