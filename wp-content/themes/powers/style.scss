@@ -592,6 +592,7 @@ nav {
 	width:355px;
 	padding-top:40px;
 	padding-right:20px;
+	.free_consult_inner_wrapper {
 	img {
 		float:left;
 	}
@@ -615,6 +616,7 @@ nav {
 		position: relative;
 		top:-7px;
 		clear: left;
+	}
 	}
 }
 
@@ -2043,6 +2045,7 @@ span.second_about_greenline {
 .free_consult_wrapper {
 	padding-top:50px;
 	 width: 350px;
+	 .free_consult_inner_wrapper {
 	img {
 		width:28px;
 	}
@@ -2050,6 +2053,7 @@ span.second_about_greenline {
 	a.tel {
 		font-size: 30px;
 		top:-4px;
+	}
 	}
 }
 
@@ -2070,6 +2074,7 @@ span.second_about_greenline {
 	.free_consult_wrapper {
 		width: 310px;
 		padding-right:5px;
+		.free_consult_inner_wrapper {
 		img { 
 			width:26px;
 		}
@@ -2079,6 +2084,7 @@ span.second_about_greenline {
 			a.tel {
 				font-size: 22px;
 				margin-left: 72px;
+			}
 			}
 		}
 
@@ -2192,6 +2198,13 @@ nav {
 .free_consult_wrapper {
 	position: absolute;
 	top:90px;
+	padding-right:0;
+	border-bottom: 1px solid #fff;
+	width:97%;
+	margin:0 auto;
+	.free_consult_inner_wrapper {
+		
+	
 	img {
 		
 	}
@@ -2200,6 +2213,8 @@ nav {
 	}
 	a.tel {
 		
+	}
+	
 	}
 }
 
@@ -2216,6 +2231,7 @@ nav {
 		height:2px;
 		background: #fff;
 		display: block;
+		line-height: 1;
 	}
 	span.menu_title {
 		color:#fff;
@@ -2224,7 +2240,7 @@ nav {
 		display: block;
 		font-size:15px;
 		letter-spacing: 2.7px;
-		padding:15px 0;
+		padding:15px 0 14px;
 		
 	}
 }

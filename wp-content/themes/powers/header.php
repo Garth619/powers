@@ -176,11 +176,15 @@
 	
 	<div class="free_consult_wrapper">
 		
-		<img src="<?php bloginfo('template_directory');?>/images/callicon.png"/>
+		<div class="free_consult_inner_wrapper">
 		
-		<span class="call_number">Call For a free consultation</span>
+			<img src="<?php bloginfo('template_directory');?>/images/callicon.png"/>
 		
-		<a class="tel" href="tel:123.456.7890">123.456.7890</a>
+			<span class="call_number">Call For a free consultation</span>
+		
+			<a class="tel" href="tel:123.456.7890">123.456.7890</a>
+		
+		</div><!-- free_consult_inner_wrapper -->
 		
 	</div><!-- free_consult_wrapper -->
 	
