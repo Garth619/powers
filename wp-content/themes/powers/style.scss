@@ -1840,11 +1840,11 @@ span.second_about_greenline {
 
 
 .lower_footer {
-	padding:170px 50px;
+	padding:170px 50px 0;
 	overflow: hidden;
 	max-width:1925px;
 	margin:0 auto;
-	
+// 	height:780px;
 }
 
 
@@ -1855,8 +1855,10 @@ span.second_about_greenline {
 		background-size: cover;
 		box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.8);
 		padding-left:8.5%;
+		margin-bottom:30px;
 		float:left;
-		
+		position: relative;
+		z-index:5000;
 		.footer_quote_content {
 			position: relative;
 			text-align: left;
@@ -1985,6 +1987,32 @@ span.second_about_greenline {
 			margin-bottom:24px;
 			line-height: 1;
 		}
+	}
+}
+
+.bottom_footer {
+	background: #fff;
+	overflow: hidden;
+	padding:67px 50px 40px;
+	margin-top:-60px;
+	.copy {
+		float:left;
+		color:$black;
+		font-family: $proximareg;
+		text-transform: uppercase;
+		font-size:13px;
+		letter-spacing: 0.7px;
+		a {
+			color:$black;
+			text-decoration: none;
+			
+			&:hover {
+				text-decoration: underline;
+			}
+		}
+	}
+	.ilawyer {
+		float:right;
 	}
 }
 

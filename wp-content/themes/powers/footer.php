@@ -114,6 +114,18 @@
 		
 	</div><!-- lower_footer -->
 	
+	<div class="bottom_footer">
+		
+		<span class="copy">COPYRIGHT &copy; <?php echo date("Y"); ?> powers law &nbsp;|&nbsp; <a class="" href="">DISCLAIMER</a> &nbsp;|&nbsp; <a class="" href="">blog</a></span>
+		
+		<a class="ilawyer" href="//ilawyermarketing.com" target="_blank">
+			
+			<img src="<?php bloginfo('template_directory');?>/images/ilawyerlogo.png"/>
+		
+		</a><!-- ilawyer -->
+		
+	</div><!-- bottom_footer --.
+	
 </section><!-- request -->
 
 
