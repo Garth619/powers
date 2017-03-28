@@ -79,6 +79,50 @@ get_header(); ?>
 		
 	</div><!-- reasons_title_wrapper -->
 	
+	<div class="reasons_pagers_wrapper">
+		
+		<div class="reasons_pager_slider">
+			
+			<div class="reasons_pager_single">
+				
+				<span>1</span>
+				
+			</div><!-- reasons_pager_single -->
+			
+			<div class="reasons_pager_single">
+				
+				<span>2</span>
+				
+			</div><!-- reasons_pager_single -->
+			
+			<div class="reasons_pager_single">
+				
+				<span>3</span>
+				
+			</div><!-- reasons_pager_single -->
+			
+			<div class="reasons_pager_single">
+				
+				<span>4</span>
+				
+			</div><!-- reasons_pager_single -->
+			
+			<div class="reasons_pager_single">
+				
+				<span>5</span>
+				
+			</div><!-- reasons_pager_single -->
+			
+			<div class="reasons_pager_single">
+				
+				<span>6</span>
+				
+			</div><!-- reasons_pager_single -->
+			
+		</div><!-- reasons_slider -->
+		
+	</div><!-- reasons_pagers_wrapper -->
+	
 	<div class="reasons_grid_wrapper">
 		
 		<div class="reasons_grid_inner_wrapper">
@@ -258,7 +302,11 @@ get_header(); ?>
 	<div class="inner_about">
 	
 	
-		<h1><span class="header_first">birmingham</span><br/><span class="header_second">personal injury attorney</span></h1>
+		<h1>
+			<span class="header_greenline"></span><!-- header_greenline -->
+			<span class="header_first">birmingham</span>
+			<br/><span class="header_second">personal injury attorney</span>
+		</h1>
 		
 		<p class="about_intro"><span class="firstcharacter">p</span> lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip  ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem </p><!-- about_intro -->
 		
@@ -266,7 +314,9 @@ get_header(); ?>
 			
 			<div class="image_inner"></div><!-- image_inner -->
 			
-			<img class="about_image" src="<?php bloginfo('template_directory');?>/images/bodytext-image.jpg"/>
+			<img class="about_image desktop" src="<?php bloginfo('template_directory');?>/images/bodytext-image.jpg"/>
+			<img class="about_image tablet" src="<?php bloginfo('template_directory');?>/images/bodytext-image-tab1.jpg"/>
+			<img class="about_image tablet2" src="<?php bloginfo('template_directory');?>/images/bodytext-image-tab2.jpg"/>
 			
 			<a class="meet_attorney" href="">Meet Attorney<br/>Jessica Powers</a>
 			

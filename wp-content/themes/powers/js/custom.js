@@ -55,15 +55,30 @@ jQuery('.video_wrapper').mouseleave(function(){
     slidesToScroll: 1,
     mobileFirst:true,
     arrows:false,
+    asNavFor: '.reasons_pager_slider',
     responsive: [
     
     {
       breakpoint: 1200,
-      settings: "unslick"
+      settings: "unslick",
     }
     
   ]
     
+    });
+    
+    
+    
+    
+    
+    
+   jQuery('.reasons_pager_slider').slick({
+    	slidesToShow: 6,
+			slidesToScroll: 6,
+			mobileFirst:true,
+			arrows:false,
+			asNavFor: '.reasons_slider',
+			focusOnSelect: true
     });
     
     
