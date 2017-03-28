@@ -75,7 +75,7 @@ get_header(); ?>
 		
 		<img src="<?php bloginfo('template_directory');?>/images/6.png"/>
 		
-		<span class="reasons_title">reasons<br/>to choose Powers Injury Law</span>
+		<span class="reasons_title">reasons<br/> to choose Powers Injury Law</span>
 		
 	</div><!-- reasons_title_wrapper -->
 	
@@ -103,7 +103,7 @@ get_header(); ?>
 					
 					<div class="single_reason_hover">
 						
-						<span class="hover_title">Focused<br/>on Client Communication and respect</span><!-- hover_title -->
+						<span class="hover_title">Focused<br/> on Client Communication and respect</span><!-- hover_title -->
 						
 						<span class="green_line"></span><!-- green_line -->
 						

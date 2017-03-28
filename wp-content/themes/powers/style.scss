@@ -2430,20 +2430,99 @@ nav {
 
 /* Mouse Animation */
 
-
-
-
-
-
-
-
-
-
 .mouse {
   
   margin:65px auto 0;
   }
 
+
+/* Six Reasons Wrapper */
+
+
+
+.six_reasons_wrapper {
+	
+	.reasons_title_wrapper {
+		width:100%;
+		float:none;
+		padding: 73px 4%;
+		img.six {
+			
+		}
+		span.reasons_title {
+			font-size:55px;
+			line-height: 60px;
+			max-width:620px;
+			margin:23px auto 0;
+			br {
+				display: none;
+			}
+		}
+	}
+	.reasons_grid_wrapper {
+		
+		
+	}
+}
+
+
+.reasons_grid_wrapper {
+	width:100%;
+	float:none;
+	.reasons_grid_inner_wrapper {
+		.reasons_slider {
+			.single_reason {
+				
+				&:hover {
+					.single_reason_hover {
+						
+					}
+				}
+				.single_reason_reg {
+					
+					span.number {
+					
+					}
+					span.green_line {
+						
+					}
+					span.reason_content {
+						
+					}
+					img.reason_arrow {
+						
+					}
+				}
+			}
+			.single_reason_hover {
+				opacity: 1;
+				visibility: visible;
+				background: #fff;
+				text-align: center;
+				padding: 82px 5%;
+				span.hover_title {
+					font-size:27px;
+					margin:0 auto 50px;
+					max-width: 500px;
+					line-height: 30px;
+					br {
+						display: none;
+					}
+				}
+				span.green_line {
+					display: none;
+				}
+				span.hover_content {
+					color:$black;
+					margin:0 auto;
+					max-width: 450px;
+					font-size: 18px;
+					line-height: 25px;
+				}
+			}
+		}
+	}
+}
 
 
 
