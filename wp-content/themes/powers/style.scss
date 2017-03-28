@@ -2434,7 +2434,7 @@ nav {
 			
 		}
 		a.meet_attorney {
-			
+			margin-top:-25%;
 			&:hover {
 				
 			}
@@ -2709,6 +2709,8 @@ nav {
 		max-width: 1200px;
 		margin-left:auto;
 		margin-right:auto;
+		left: -2%;
+		position: relative;
 		.image_inner {
 			top: -6%;
 			height: 99%;
@@ -2785,7 +2787,7 @@ nav {
 	.image_wrapper {
 		
 		.image_inner {
-			
+			top: -5.5%;
 		}
 		img.about_image.tablet {
 			display: none;
@@ -2794,10 +2796,10 @@ nav {
 			display:block;
 		}
 		img.about_image {
-			
+			margin-left:4.25%;
 		}
 		a.meet_attorney {
-			
+			margin:-10% 0 0 9%;
 			&:hover {
 				
 			}
