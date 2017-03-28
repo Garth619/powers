@@ -2344,3 +2344,113 @@ nav {
 } /* Media Query */
 
 
+@media screen and (max-width: 1200px) {
+	
+	
+	/* Main Banner */
+
+
+.main_banner {
+	height: 1112px;
+	background: url(images/herohome-tab.jpg) top center no-repeat;
+	background-size:cover;
+	text-align: center;
+}
+
+
+.inner_content {
+	
+	.video_wrapper {
+		&:hover {
+			a {
+				span.video_caption {
+					
+				}
+			}
+		}
+		
+		a {
+			
+			.play_wrapper {
+				
+				.inner_play_wrapper {
+					
+					img {
+						
+					}
+					img.play_reg {
+						
+					}
+					img.play_hover {
+						
+					}
+				}
+			}
+			span.video_caption {
+				
+			}
+		}
+	}
+	a.request {
+		margin-top:57px;
+		&:hover {
+			
+		}
+	}
+}
+
+.main_header_wrapper {
+	margin: 35px auto 0;
+	span.sub_header {
+		margin-top: 0px;
+	}
+	span.large_header {
+		
+	}
+	.white_line {
+		margin-top:23px;
+	}
+}
+
+.tagline {
+	width: 540px;
+	margin:31px auto 0;
+	line-height: 24px;
+	.green_dot {
+		margin: 0 18px;
+		&:nth-of-type(3) {
+			display:none;
+		}
+	}
+}
+
+
+
+
+
+/* Mouse Animation */
+
+
+
+
+
+
+
+
+
+
+.mouse {
+  
+  margin:65px auto 0;
+  }
+
+
+
+
+
+	
+	
+	
+} /* Media Query */
+
+
