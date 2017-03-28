@@ -83,6 +83,48 @@ jQuery('.video_wrapper').mouseleave(function(){
     
     
     
+   // Case studies
+   
+   
+   jQuery('.main_cases_wrapper').slick({
+    slidesToShow: 1,
+    slide: '.single_case',
+    slidesToScroll: 1,
+    mobileFirst:true,
+    arrows:true,
+    prevArrow:".case_results_left",
+    nextArrow:".case_results_right",
+    responsive: [
+    
+    {
+      breakpoint: 1200,
+      settings: "unslick",
+    }
+    
+  ]
+    
+    });
+    
+    
+    
+    jQuery('.case_button').click(function(){
+    	
+    	
+    	jQuery(this).css("background","#3fb561");
+    	
+    	
+    });
+    
+    
+    jQuery('.case_button').click(function(){
+    	
+    	
+    	jQuery('.case_button').not(this).css("background","#2a3238");
+    	
+    	
+    });
+    
+    
   // Awards
   
   

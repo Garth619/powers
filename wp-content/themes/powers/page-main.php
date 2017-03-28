@@ -429,6 +429,22 @@ get_header(); ?>
 			
 		</div><!-- single_case -->
 		
+		<div class="case_results_buttons">
+			
+			<div class="case_results_left case_button">
+				
+				<img src="<?php bloginfo('template_directory');?>/images/arrow-l.png"/>
+				
+			</div><!-- case_results_left -->
+			
+			<div class="case_results_right case_button">
+				
+				<img src="<?php bloginfo('template_directory');?>/images/arrow-r.png"/>
+				
+			</div><!-- case_results_right -->
+			
+		</div><!-- case_results_buttons -->
+		
 		</div><!-- main_cases_wrapper -->
 	
 </section><!-- featured_cases -->

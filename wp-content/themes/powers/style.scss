@@ -1394,6 +1394,10 @@ span.view_case_details {
 	opacity: 0;
 }
 
+.case_results_buttons {
+	display: none;
+}
+
 
 /* Second About */
 
@@ -2161,6 +2165,76 @@ span.second_about_greenline {
 } /* Media Query */
 
 
+@media screen and (max-width: 1645px) {
+	
+	
+	.main_cases_wrapper {
+	 padding-top: 90px;
+	.single_case {
+		
+		a {
+					}
+		&:hover {
+			.view_case_details {
+							}
+			.case_bg_one, .case_bg_two, .case_bg_three {
+
+			}
+			.single_case_content_wrapper {
+				
+			}
+		}
+		.single_case_content_wrapper {
+			
+			span.number_title {
+				
+			}
+			.cases_greenline_wrapper {
+				
+				span.cases_greenline {
+					
+				}
+			}
+			span.case_title {
+				br {
+					display:none;
+				}
+			}
+		}
+	}
+}
+
+.case_background_image {
+	
+}
+
+.case_bg_one {
+	
+}
+
+.case_bg_two {
+	
+}
+
+
+.case_bg_three {
+	
+}
+
+
+span.view_case_details {
+	
+}
+
+
+
+	
+	
+	
+	
+} /* Media Query */
+
+
 @media screen and (max-width: 1550px) {
 	
 	/* Header */
@@ -2187,6 +2261,12 @@ span.second_about_greenline {
 	}
 	}
 }
+
+
+
+
+
+
 
 	
 } /* Media Query */
@@ -2766,9 +2846,10 @@ nav {
 		max-width: 675px;
 		padding: 0 50px;
 		font-size:17px;
+		margin-top:30px;
 	}
 	a.view_all_results {
-		
+		margin-top:65px;
 		&:hover {
 			
 		}
@@ -2777,7 +2858,7 @@ nav {
 
 
 .main_cases_wrapper {
-	
+	 padding-top: 90px;
 	.single_case {
 		
 		a {
@@ -2830,6 +2911,99 @@ nav {
 
 span.view_case_details {
 	
+}
+
+
+
+
+
+
+
+.main_cases_wrapper {
+	 
+	.single_case {
+		
+		a {
+					}
+		&:hover {
+			.view_case_details {
+							}
+			.case_bg_one, .case_bg_two, .case_bg_three {
+
+			}
+			.single_case_content_wrapper {
+				top:40%;
+			}
+		}
+		.single_case_content_wrapper {
+			top:48%;
+			span.number_title {
+				
+			}
+			.cases_greenline_wrapper {
+				
+				span.cases_greenline {
+					
+				}
+			}
+			span.case_title {
+				br {
+					
+				}
+			}
+		}
+	}
+}
+
+.case_background_image {
+	
+}
+
+.case_bg_one {
+	
+}
+
+.case_bg_two {
+	
+}
+
+
+.case_bg_three {
+	
+}
+
+
+span.view_case_details {
+	
+}
+
+
+
+
+.case_results_buttons {
+	background: #2a3238;
+	display: flex;
+	width:100%;
+	cursor: pointer;
+	.case_button {
+		flex-grow: 1;
+		padding:27px 0;
+		transition: all .2s ease-in-out;
+		img {
+			display: block;
+			margin:0 auto;
+		}
+	}
+	.case_button.myactive {
+		background:$green;
+		
+	}
+	.case_results_left {
+		border-right:1px solid #47555f;
+	}
+	.case_results_right {
+		
+	}
 }
 
 	
