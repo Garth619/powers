@@ -30,7 +30,47 @@ d.slice(e-c+1,e+c+2).addClass("slick-active").attr("aria-hidden","false")),0===a
 jQuery(document).ready(function(){
 
 
-/* Play Button */
+
+// Mobile Menu
+
+
+
+
+
+
+
+function checkWidth() {
+    
+    if (jQuery(window).width() < 1200) {
+        
+       jQuery("nav li.menu-item-has-children").click(function(){
+	        
+	        jQuery(this).find('ul.sub-menu').toggleClass('active-menu');
+     
+    		});
+    		
+    		
+    		jQuery('.mobile_menu').click(function(){
+    			
+    			jQuery(this).toggleClass('active-menu');
+    			jQuery('nav').slideToggle(200);
+    			
+    			
+    		});
+    		
+    	   		
+    		
+    } else {
+
+    }
+};
+
+
+checkWidth();
+
+
+
+// Play Button 
 
 jQuery('.video_wrapper').mouseenter(function(){
 	

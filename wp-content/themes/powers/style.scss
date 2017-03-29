@@ -2516,6 +2516,9 @@ nav {
 	height:100%;
 	background:#fff;
 	z-index:20;
+	top: 95px;
+	left:0;
+	padding: 0px;
 	display: none;
 	ul {
 		
@@ -2526,17 +2529,45 @@ nav {
 		}
 	}
 	ul.menu {
-		
+		color:#000;
+		display:block;
+		> li.menu-item-has-children {
+			&:after {
+				
+				> ul.sub-menu.active-menu {
+					opacity: 1;
+					visibility: visible;
+					max-height: 3000px;
+				
+					}
+			}
+		}
+			
 		> li.menu-item-has-children {
 			> a {
-				
+				padding:23px 5px 23px;
 				&:after {
+					content:"";
+					background:url(images/tablet-arrow.jpg) top left no-repeat;
+					width:12px;
+					height:9px;
+					display: inline-block;
+					position: relative;
+					top:-1px;
+					left:4px;
 					
 				}
 			}
 			&:hover {
 				> ul.sub-menu {
+					opacity: 0;
+					visibility: hidden;
+				}
+				> ul.sub-menu.active-menu {
 					
+					opacity: 1;
+					visibility: visible;
+
 				}
 			}
 		}
@@ -2548,12 +2579,44 @@ nav {
 	 			}
  			}
 			> a {
+				color:#000;
+				padding:28px 5px; 
+				display: inline-block;
+				width:100%;
+				border-bottom:1px solid #dbdbdb;
+				line-height: 1;
 				
 				&:hover {
 					
 				}
 			}
+			> ul.sub-menu.active-menu {
+				opacity: 1;
+				visibility: visible;
+				max-height: 3000px;
+				transition: all .5s ease-in-out;
+				
+			}
 			> ul.sub-menu {
+				transition:all .5s ease-in-out;
+				left: 0;
+				max-height: 0;
+				opacity: 0;
+				visibility: hidden;
+				position: relative;
+				text-align: center;
+				top: 0;
+				background: #efefef;
+				border-bottom:1px solid #dbdbdb;
+				width: auto;
+				> li {
+					> a {
+						padding:28px 5px;
+					}
+				}
+				
+				
+				
 				
 				> li {
 					 &:last-of-type {
@@ -2564,7 +2627,7 @@ nav {
 					 > a {
 						 
 						 &:hover {
-							 
+							 background: transparent;
 						 }
 						 
 					 }
@@ -2622,12 +2685,14 @@ nav {
 	width:95px;
 	text-align: center;
 	padding: 22px 21px 0px 21px;
+	cursor: pointer;
 	span.menu_line {
 		width:100%;
 		height:2px;
 		background: #fff;
 		display: block;
 		line-height: 1;
+		transition: all .2s ease-in-out;
 	}
 	span.menu_title {
 		color:#fff;
@@ -2637,8 +2702,31 @@ nav {
 		font-size:15px;
 		letter-spacing: 2.7px;
 		padding:15px 0 14px;
+		opacity: 1;
+		visibility: visible;
+		transition: all .2s ease-in-out;
 		
 	}
+}
+
+
+.mobile_menu.active-menu {
+	span.menu_title {
+		opacity: 0;
+		visibility: hidden;
+		
+	}
+	span.menu_line:first-of-type {
+		transform: rotate(-45deg);
+    transform-origin: 52px 9px 1px; 
+	}
+	span.menu_line:last-of-type {
+		transform: rotate(45deg);
+    transform-origin: 56px 5px 0px;
+    transform-origin: 59px -8px 0px;
+	}
+	
+	
 }
 
 
