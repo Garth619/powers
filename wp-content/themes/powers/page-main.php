@@ -508,7 +508,7 @@ get_header(); ?>
 					
 					<div class="quote_content_wrapper">
 					
-						<span class="col2_quote"><u>“My clients have a direct line to me</u> and also my support staff. I personally call all my clients back and <u>give them the time each one deserves.”</u></span>
+						<span class="col2_quote"><u>“My clients have a direct line to me</u> and also my support staff. I personally call all my clients back and <u>give them the time each one&nbsp;deserves.”</u></span>
 						<span class="col2_name">Attorney Jessica Powers</span>
 					
 					</div><!-- quote_content_wrapper -->
@@ -566,6 +566,8 @@ get_header(); ?>
 			</div><!-- single_testi -->
 			
 		</div><!-- testi_slider -->
+		
+		<a class="view_all_testimonials" href="">View All Testimonials</a><!-- view_all_testimonials -->
 		
 		<div class="testi_buttons">
 			

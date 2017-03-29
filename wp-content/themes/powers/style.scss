@@ -1405,16 +1405,14 @@ span.view_case_details {
 .second_about {
 	background: $greylight;
 	width:100%;
-	
 	padding:156px 0 205px;
-	
 	position: relative;
 }
 
 span.second_about_greenline {
 		width:52%;
 		height:1px;
-		background:#79e799;
+		background:#3fb561;
 		position: absolute;
 		top:313px;
 		left:0;
@@ -1436,6 +1434,8 @@ span.second_about_greenline {
 	}
 	span.top_title {
 		margin-left:-120px;
+		position: relative;
+		z-index:6;
 	}
 	span.bottom_title {
 		margin-left:340px;
@@ -1443,13 +1443,14 @@ span.second_about_greenline {
 }
 
 .second_about_content {
-	max-width:1545px;
+	max-width:1645px;
 	margin:0 auto;
 	overflow: hidden;
 	font-size:17px;
 	font-family: $proximareg;
 	line-height: 30px;
 	letter-spacing: 1px;
+	padding:0 50px;
 	p {
 		margin-bottom: 30px;
 	}
@@ -1469,6 +1470,7 @@ span.second_about_greenline {
 			padding-left: 3px;
 			text-transform: uppercase;
 			top: 4px;
+			left:-4px;
 			position: relative;
 		
 		}
@@ -1517,7 +1519,7 @@ span.second_about_greenline {
 	width:210px;
 	margin-left:-100px;
 	margin-top:-50px;
-	margin-right:90px;
+	margin-right:8%;
 	.logo_buttons {
 		background: #2a3238;
 		display: block;
@@ -1527,7 +1529,7 @@ span.second_about_greenline {
 		padding:26px 0;
 		position: relative;
 		cursor: pointer;
-		z-index:100;
+		z-index:10;
 		img {
 			display: block;
 			margin:0 auto;
@@ -1895,7 +1897,7 @@ span.second_about_greenline {
 		margin-bottom:30px;
 		float:left;
 		position: relative;
-		z-index:5000;
+		z-index:10;
 		.footer_quote_content {
 			position: relative;
 			text-align: left;
@@ -2165,6 +2167,84 @@ span.second_about_greenline {
 } /* Media Query */
 
 
+@media screen and (max-width: 1700px) {
+	
+	
+	
+	
+.lower_footer {
+	
+}
+
+
+.footer_quote {
+		 padding-left: 5%;
+		.footer_quote_content {
+			padding-right: 4%;
+			span.top_quote {
+				
+			}
+			span.top_quote, span.bottom_quote {
+				padding-left: 8%;
+				
+			}
+			span.work_quote {
+				
+				span.footer_greenline {
+					
+				}
+			}
+			span.footer_attorney {
+				
+			}
+		}
+	}
+
+
+.footer_contact {
+	padding-left: 3%;
+	.footer_contact_wrapper {
+		
+		.footer_contact_title_wrapper {
+				
+			span.footer_contact_title {
+				
+			}
+		}
+		
+		.footer_contact_info {
+			
+			
+		}
+		a.get_directions {
+			
+			&:after {
+				
+			}
+			&:hover {
+				
+			}
+		}
+		a.tel, a.social {
+			
+			&:hover {
+				
+			}
+		}
+		a.social {
+			
+		}
+	}
+}
+
+	
+	
+	
+	
+	
+} /* Media Query */
+
+
 @media screen and (max-width: 1645px) {
 	
 	
@@ -2263,6 +2343,94 @@ span.view_case_details {
 }
 
 
+/* Second About */
+
+
+.second_about {
+	
+}
+
+span.second_about_greenline {
+		
+	}
+
+.seocnd_about_title_wrapper {
+	
+	span {
+		
+	}
+	span.top_title {
+		
+	}
+	span.bottom_title {
+		
+	}
+}
+
+.second_about_content {
+	
+	p {
+		
+	}
+	.second_about_col1 {
+		
+		span.first_character {
+			
+		
+		}
+	}
+	.second_about_col2 {
+		
+		.col2_quote_wrapper {
+			padding: 105px 75px 77px 0;
+			.quote_content_wrapper {
+				
+				span.col2_quote {
+					
+					u {
+						
+  				}
+				}
+				span.col2_name {
+					
+				}
+			}
+		}
+	}
+}
+
+
+.logo_slider_wrapper {
+	
+	.logo_buttons {
+		
+		img {
+			
+		}
+		&:hover {
+			
+		}
+	}
+	.logo_button_left {
+		
+	}
+	.logo_button_right {
+		
+	}
+	.logo_slider {
+		
+		.single_logo {
+			img {
+				
+			}
+			&:nth-of-type(2) {
+				img {
+					
+				}
+			}
+		}
+	}
+}
 
 
 
@@ -2532,6 +2700,173 @@ nav {
 	}
 }
 
+
+/* Testimonials */
+
+
+.testimonials {
+	span.testi_greenline {
+		top: 405px;
+	}
+	.testi_wrapper {
+		margin-left:auto;
+		margin-right:auto;
+		padding: 81px 8% 128px;
+		width:90%;
+		margin-top: 141px;
+		.testi_title {
+			font-size:80px;
+			line-height:80px;
+			span {
+				
+			}
+			span.testi_title_top {
+				
+			}
+			span.testi_title_bottom {
+				margin-left:0;
+				padding-left:0;
+			}
+		}
+	}
+}
+
+.testi_slider {
+	margin-top: 47px;
+	.single_testi {
+		display: none;
+		&:first-of-type {
+			display: block;
+		}
+		p {
+			
+		}
+		.testi_name_wrapper {
+			
+			span.divider {
+				
+			}
+		}
+	}
+}
+
+
+a.view_all_testimonials {
+	display: block;
+	float:right;
+	background:$black;
+	color:#fff;
+	font-size:16px;
+	font-family: $proximasemibold;
+	text-transform: uppercase;
+	padding:32px 23px;
+	text-decoration: none;
+	letter-spacing: 2.5px;
+	margin-right:-6%;
+	position: relative;
+	top:80px;
+	transition: all .2s ease-in-out;
+	&:hover {
+		background: $green;
+	}
+}
+
+
+.testi_buttons {
+	
+	display:none;
+	.testi_button {
+		
+		&:hover {
+			
+		}
+	}
+	.testi_back {
+		img {
+			
+		}
+	}
+	.testi_next {
+		img {
+			
+		}
+	}
+}
+
+
+.lower_footer {
+	 padding: 41px 50px 0;
+	 overflow: visible;
+}
+
+
+.footer_quote {
+		width:100%;
+		float:none;
+		height:auto;
+		padding-bottom:90px;
+		.footer_quote_content {
+			margin:0 auto;
+			padding-top: 99px;
+			max-width: 930px;
+			span.top_quote {
+				
+			}
+			span.top_quote, span.bottom_quote {
+				padding-left: 6%;
+				
+			}
+			span.work_quote {
+				padding-left: 6%;
+				span.footer_greenline {
+					height: 490px;
+				}
+			}
+			span.footer_attorney {
+				
+			}
+		}
+	}
+
+
+.footer_contact {
+	width:100%;
+	float:none;
+	.footer_contact_wrapper {
+		max-width: 730px;
+		margin-left: auto;
+		margin-right: auto;
+		.footer_contact_title_wrapper {
+			width: 50%;
+			span.footer_contact_title {
+				
+			}
+		}
+		
+		.footer_contact_info {
+			
+			
+		}
+		a.get_directions {
+			
+			&:after {
+				
+			}
+			&:hover {
+				
+			}
+		}
+		a.tel, a.social {
+			
+			&:hover {
+				
+			}
+		}
+		a.social {
+			
+		}
+	}
+}
 
 
 	
@@ -3006,6 +3341,301 @@ span.view_case_details {
 	}
 }
 
+
+
+
+
+	
+	
+	
+} /* Media Query */
+
+
+
+@media screen and (max-width: 1100px) {
+	
+	
+	/* Second About */
+
+
+.second_about {
+	 padding: 156px 0 141px;
+}
+
+span.second_about_greenline {
+		top:300px;
+	}
+
+.seocnd_about_title_wrapper {
+	font-size:80px;
+	line-height: 90px;
+	span {
+		
+	}
+	span.top_title {
+		
+	}
+	span.bottom_title {
+		width: 415px;
+		margin-left:40%;
+	}
+}
+
+.second_about_content {
+	padding: 0 44px;
+	p {
+		
+	}
+	.second_about_col1 {
+		width:100%;
+		float:none;
+		span.first_character {
+			
+		
+		}
+	}
+	.second_about_col2 {
+		width:100%;
+		float:none;
+		padding-right:0;
+		.col2_quote_wrapper {
+			 padding: 88px 39px 59px 0;
+			.quote_content_wrapper {
+				
+				span.col2_quote {
+					font-size: 32px;
+					line-height: 43px;
+					u {
+						
+  				}
+				}
+				span.col2_name {
+					
+				}
+			}
+		}
+	}
+}
+
+
+.logo_slider_wrapper {
+	margin-right: 6%;
+	margin-left: -111px;
+	margin-top: -28px;
+	.logo_buttons {
+		
+		img {
+			
+		}
+		&:hover {
+			
+		}
+	}
+	.logo_button_left {
+		
+	}
+	.logo_button_right {
+		
+	}
+	.logo_slider {
+		
+		.single_logo {
+			img {
+				
+			}
+			&:nth-of-type(2) {
+				img {
+					
+				}
+			}
+		}
+	}
+}
+
+
+
+/* Request */
+
+
+.request_consultation {
+	
+	.request_greenline_wrapper {
+		height: 277px;
+		span.request_green_line {
+			
+		}
+	}
+	span.large_header {
+		font-size:70px;
+		line-height: 80px;
+		margin-top: 26px;
+		max-width:700px;
+		margin-left:auto;
+		margin-right:auto;
+	}
+	span.required {
+		margin-top: 7px;
+	}
+	span.form_disclaimer {
+		max-width: 760px;
+		padding:0 40px;
+		margin-left:auto;
+		margin-right:auto;
+	}
+}
+
+
+.form {
+	padding:0 6%;
+	ul {
+		
+		.form_col {
+			
+		}
+		
+		li#field_1_1, li#field_1_2, li#field_1_3 {
+			width:100%;
+			input {
+				
+				
+			}
+		}
+		
+		li#field_1_4 {
+			width:100%;
+			position: relative;
+			textarea {
+				
+			}
+		}
+		li {
+			
+			&:after {
+				
+			}
+			label {
+				
+			}
+			
+			input[type="text"], textarea {
+				
+				
+			}
+			textarea {
+				
+			}
+		}
+	}
+	.gform_footer:hover:after {
+
+	}
+	.gform_footer {
+		margin-top:37px;
+		&:hover {
+			input[type="submit"] {
+				
+			}
+		}
+		&:after {
+			
+		}
+		input[type="submit"] {
+			
+		}
+	}
+}
+
+.gfield_description, .validation_message {
+	
+}
+
+
+.lower_footer {
+	
+}
+
+
+.footer_quote {
+		width:100%;
+		float:none;
+		.footer_quote_content {
+			
+			span.top_quote {
+				
+			}
+			span.top_quote, span.bottom_quote {
+				
+				
+			}
+			span.work_quote {
+				
+				span.footer_greenline {
+					
+				}
+			}
+			span.footer_attorney {
+				
+			}
+		}
+	}
+
+
+.footer_contact {
+	
+	.footer_contact_wrapper {
+		
+		.footer_contact_title_wrapper {
+				
+			span.footer_contact_title {
+				
+			}
+		}
+		
+		.footer_contact_info {
+			
+			
+		}
+		a.get_directions {
+			
+			&:after {
+				
+			}
+			&:hover {
+				
+			}
+		}
+		a.tel, a.social {
+			
+			&:hover {
+				
+			}
+		}
+		a.social {
+			
+		}
+	}
+}
+
+.bottom_footer {
+	
+	.copy {
+		
+		a {
+			
+			
+			&:hover {
+				
+			}
+		}
+	}
+	.ilawyer {
+	
+	}
+}
+
+
+
+	
 	
 	
 	

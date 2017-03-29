@@ -147,7 +147,15 @@ jQuery('.video_wrapper').mouseleave(function(){
 		arrows:true,
     prevArrow: ".testi_back",
     nextArrow: ".testi_next",
-    fade:true
+    fade:true,
+    responsive: [
+    
+    {
+      breakpoint: 1200,
+      settings: "unslick",
+    }
+    
+  ]
    });
    
    
