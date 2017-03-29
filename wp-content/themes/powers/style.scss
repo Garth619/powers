@@ -2718,7 +2718,7 @@ nav {
 	}
 	span.menu_line:first-of-type {
 		transform: rotate(-45deg);
-    transform-origin: 52px 9px 1px; 
+    transform-origin: 53px 9px 0px; 
 	}
 	span.menu_line:last-of-type {
 		transform: rotate(45deg);
@@ -3268,7 +3268,7 @@ a.view_all_testimonials {
 		width:100%;
 		float:none;
 		margin-top: 64px;
-		margin-bottom: 159px;
+		margin-bottom: 130px;
 		h2 {
 			
 		}
@@ -3819,6 +3819,26 @@ span.second_about_greenline {
 } /* Media Query */
 
 
+@media screen and (max-width: 900px) {
+	
+	
+.seocnd_about_title_wrapper {
+	padding-left:4%;
+	span {
+			}
+	span.top_title {
+		
+	}
+	span.bottom_title {
+		
+	}
+
+}
+	
+	
+	
+	
+} /* Media Query */
 
 
 @media screen and (max-width: 760px) {
