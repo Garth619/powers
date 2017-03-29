@@ -1958,7 +1958,7 @@ span.second_about_greenline {
 	float:right;
 	width:43%;
 	padding-left:8%;
-	margin-top:90px;
+	margin-top: 143px;
 	.footer_contact_wrapper {
 		color:#fff;
 		text-align: left;
@@ -2836,6 +2836,9 @@ a.view_all_testimonials {
 		max-width: 730px;
 		margin-left: auto;
 		margin-right: auto;
+		&:last-of-type {
+			margin-bottom:80px;
+		}
 		.footer_contact_title_wrapper {
 			width: 50%;
 			span.footer_contact_title {
@@ -2865,6 +2868,25 @@ a.view_all_testimonials {
 		a.social {
 			
 		}
+	}
+}
+
+
+.bottom_footer {
+	padding: 30px 50px 20px;
+	margin-top:0px;
+	.copy {
+		
+		a {
+			
+			
+			&:hover {
+				
+			}
+		}
+	}
+	.ilawyer {
+	
 	}
 }
 
@@ -3342,6 +3364,73 @@ span.view_case_details {
 }
 
 
+/* Footer */
+
+
+.lower_footer {
+	 
+}
+
+
+.footer_quote {
+		
+		.footer_quote_content {
+			
+			span.top_quote {
+				
+			}
+			span.top_quote, span.bottom_quote {
+				
+				
+			}
+			span.work_quote {
+				
+				span.footer_greenline {
+					
+				}
+			}
+			span.footer_attorney {
+				
+			}
+		}
+	}
+
+
+.footer_contact {
+	
+	.footer_contact_wrapper {
+		max-width: 565px;
+		.footer_contact_title_wrapper {
+			width: 43%;
+			span.footer_contact_title {
+				
+			}
+		}
+		
+		.footer_contact_info {
+			
+			
+		}
+		a.get_directions {
+			
+			&:after {
+				
+			}
+			&:hover {
+				
+			}
+		}
+		a.tel, a.social {
+			
+			&:hover {
+				
+			}
+		}
+		a.social {
+			
+		}
+	}
+}
 
 
 
