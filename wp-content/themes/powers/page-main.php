@@ -89,49 +89,7 @@ get_header(); ?>
 		
 	</div><!-- reasons_title_wrapper -->
 	
-	<div class="reasons_pagers_wrapper">
-		
-		<div class="reasons_pager_slider">
-			
-			<div class="reasons_pager_single">
-				
-				<span>1</span>
-				
-			</div><!-- reasons_pager_single -->
-			
-			<div class="reasons_pager_single">
-				
-				<span>2</span>
-				
-			</div><!-- reasons_pager_single -->
-			
-			<div class="reasons_pager_single">
-				
-				<span>3</span>
-				
-			</div><!-- reasons_pager_single -->
-			
-			<div class="reasons_pager_single">
-				
-				<span>4</span>
-				
-			</div><!-- reasons_pager_single -->
-			
-			<div class="reasons_pager_single">
-				
-				<span>5</span>
-				
-			</div><!-- reasons_pager_single -->
-			
-			<div class="reasons_pager_single">
-				
-				<span>6</span>
-				
-			</div><!-- reasons_pager_single -->
-			
-		</div><!-- reasons_slider -->
-		
-	</div><!-- reasons_pagers_wrapper -->
+	
 	
 	<div class="reasons_grid_wrapper">
 		

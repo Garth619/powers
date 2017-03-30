@@ -3088,7 +3088,7 @@ a.view_all_testimonials {
 	.reasons_title_wrapper {
 		width:100%;
 		float:none;
-		padding: 73px 4%;
+		padding: 73px 4% 84px;
 		img.six {
 			
 		}
@@ -3104,6 +3104,9 @@ a.view_all_testimonials {
 	}
 	.reasons_grid_wrapper {
 		
+		.slick-dotted.slick-slider {
+    	margin-bottom: 0px;
+		}
 		
 	}
 }
@@ -3111,11 +3114,13 @@ a.view_all_testimonials {
 
 
 
+/*
 .reasons_pagers_wrapper {
 	width:100%;
 	margin-top:16px;
 	display: block;
 	.reasons_pager_slider {
+		width:100%;
 		.reasons_pager_single.slick-current {
 			background: $green;
 		}
@@ -3142,6 +3147,84 @@ a.view_all_testimonials {
 		}
 	}
 }
+*/
+
+
+
+
+
+
+
+
+.slick-dots {
+	position: relative;
+	top: -425px;
+	height:91px;
+	li.slick-active {
+		button {
+			&:before {
+				background: $green;
+				color:#fff;
+				font-family: $abril;
+				font-size:50px;
+				line-height: 1;
+				text-align: center;
+				padding:23px 0;
+				transition: all .2s ease-in-out;
+				cursor: pointer;
+				border-right:1px solid #464646;
+			
+				opacity: 1;
+				height:91px;
+			}
+		}
+	}
+	li:hover {
+		button {
+			&:before {
+				
+			}
+		}
+	}
+	li:nth-of-type(2)::before {
+		content: "2";
+		color:#fff;
+		position: absolute;
+		z-index:100;
+		font-family: $abril;
+	}
+	li {
+		margin:0;
+		width:16.66667%;
+		height:auto;
+		background: $black;
+		height:91px;
+		position: relative;
+		button {
+			width:100%;
+			background: $black;
+			height:91px;
+			&:before {
+				background: $black;
+				
+				
+				font-size:50px;
+				line-height: 1;
+				text-align: center;
+				transition: all .2s ease-in-out;
+				cursor: pointer;
+				border-right:1px solid #464646;
+				opacity: 1;
+				width:100%;
+				height:91px;
+				padding:23px 0;
+				
+			}
+		}
+		
+		
+	}
+}
 
 
 
@@ -3149,8 +3232,11 @@ a.view_all_testimonials {
 .reasons_grid_wrapper {
 	width:100%;
 	float:none;
+	height: 336px;
+	margin-top: 104px;
 	.reasons_grid_inner_wrapper {
 		.reasons_slider {
+			background: #fff;
 			.single_reason {
 				
 				&:hover {
@@ -3160,6 +3246,7 @@ a.view_all_testimonials {
 				}
 				.single_reason_reg {
 					height:335px;
+					
 					span.number {
 					
 					}

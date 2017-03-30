@@ -95,7 +95,8 @@ jQuery('.video_wrapper').mouseleave(function(){
     slidesToScroll: 1,
     mobileFirst:true,
     arrows:false,
-    asNavFor: '.reasons_pager_slider',
+    dots:true,
+//     asNavFor: '.reasons_pager_slider',
     responsive: [
     
     {
@@ -112,14 +113,17 @@ jQuery('.video_wrapper').mouseleave(function(){
     
     
     
+/*
    jQuery('.reasons_pager_slider').slick({
     	slidesToShow: 6,
 			slidesToScroll: 6,
 			mobileFirst:true,
 			arrows:false,
 			asNavFor: '.reasons_slider',
-			focusOnSelect: true
-    });
+			focusOnSelect: true,
+			
+   });
+*/
     
     
     
