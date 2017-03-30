@@ -38,7 +38,7 @@ get_header(); ?>
 		
 		<div class="main_header_wrapper">
 			
-			<span class="sub_header">Justice Begins with Your Story.</span><!-- sub_header -->
+			<span class="sub_header">Justice Begins with Your&nbsp;Story.</span><!-- sub_header -->
 			<span class="large_header">I'm listening.</span><!-- large_header -->
 		
 			<div class="white_line"></div><!-- white_line -->
@@ -46,15 +46,25 @@ get_header(); ?>
 		</div><!-- main_header_wrapper -->
 		
 		<span class="tagline">
+			
 			passionate
+			
 			<span class="green_dot">&middot;</span>
+			
 			relatable
+			
 			<span class="green_dot">&middot;</span>
+			
 			fierce
+			
 			<span class="green_dot">&middot;</span>
+			
 			experienced
+			
 			<span class="green_dot">&middot;</span>
-			empathetic
+			
+			<span class="mobile_hack">empathetic</span><!-- mobile_hack -->
+		
 		</span><!-- tagline -->
 		
 		<a class="request" href="#free_consultation">Request Free Consultation</a>
@@ -73,7 +83,7 @@ get_header(); ?>
 	
 	<div class="reasons_title_wrapper">
 		
-		<img src="<?php bloginfo('template_directory');?>/images/6.png"/>
+		<img class="six_image" src="<?php bloginfo('template_directory');?>/images/6.png"/>
 		
 		<span class="reasons_title">reasons<br/> to choose Powers Injury Law</span>
 		
