@@ -10,7 +10,7 @@
 	<span class="large_header">request <span class="green">a free</span> consultation</span>
 	<span class="required">*Required Field</span>
 	
-	<span class="form_disclaimer">We DO NOT BILL OUR CLIENTS. WE ARE PAID ONLY OUT OF WHAT WE ARE ABLE TO COLLECT. FILL OUT THE FORM BELOW TO RECEIVE YOUR FREE CASE CONSULTATION.</span><!-- form_disclaimer -->\
+	<span class="form_disclaimer">We DO NOT BILL OUR CLIENTS. WE ARE PAID ONLY OUT OF WHAT WE ARE ABLE TO COLLECT. FILL OUT THE FORM BELOW TO RECEIVE YOUR FREE CASE CONSULTATION.</span><!-- form_disclaimer -->
 	
 	<div class="form"><?php gravity_form(1, false, false, false, '', true, 12); ?></div><!-- form -->
 	
@@ -34,7 +34,7 @@
 				
 				<span class="bottom_quote">This is a very personal process and as a result, it can be grueling. The relationship I have with my clients not only helps me better tell their story, but it makes the experience less stressful. ”</span><!-- bottom_quote -->
 				
-				<span class="footer_attorney">Attorney Jessica Powers</span><!-- footer_attorney -->
+				<span class="footer_attorney">Attorney Jessica&nbsp;Powers</span><!-- footer_attorney -->
 			
 			</div><!-- footer_quote_content -->
 			
