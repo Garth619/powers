@@ -3186,10 +3186,57 @@ a.view_all_testimonials {
 			}
 		}
 	}
+	li:nth-of-type(1)::before {
+		content: "1";
+		color:#fff;
+		position: relative;
+		top:6px;
+		left:0;
+		z-index:100;
+		font-family: $abril;
+	}
 	li:nth-of-type(2)::before {
 		content: "2";
 		color:#fff;
-		position: absolute;
+		position: relative;
+		top:6px;
+		left:0;
+		z-index:100;
+		font-family: $abril;
+	}
+	li:nth-of-type(3)::before {
+		content: "3";
+		color:#fff;
+		position: relative;
+		top:6px;
+		left:0;
+		z-index:100;
+		font-family: $abril;
+	}
+	li:nth-of-type(4)::before {
+		content: "4";
+		color:#fff;
+		position: relative;
+		top:6px;
+		left:0;
+		z-index:100;
+		font-family: $abril;
+	}
+	li:nth-of-type(5)::before {
+		content: "5";
+		color:#fff;
+		position: relative;
+		top:6px;
+		left:0;
+		z-index:100;
+		font-family: $abril;
+	}
+	li:nth-of-type(6)::before {
+		content: "6";
+		color:#fff;
+		position: relative;
+		top:6px;
+		left:0;
 		z-index:100;
 		font-family: $abril;
 	}
@@ -3200,20 +3247,34 @@ a.view_all_testimonials {
 		background: $black;
 		height:91px;
 		position: relative;
+		display: block;
+		float:left;
+		border-right:1px solid #464646;
+		&:before {
+			font-size:50px;
+			text-align: center;
+			height:91px;
+			
+		}
 		button {
 			width:100%;
 			background: $black;
 			height:91px;
+			position: absolute;
+			top:0;
+			left:0;
 			&:before {
 				background: $black;
-				
-				
+				content:"";
+				position: absolute;
+				top:0;
+				left:0;
 				font-size:50px;
 				line-height: 1;
 				text-align: center;
 				transition: all .2s ease-in-out;
 				cursor: pointer;
-				border-right:1px solid #464646;
+				
 				opacity: 1;
 				width:100%;
 				height:91px;
@@ -4220,6 +4281,84 @@ header {
 
 
 
+
+
+	
+	
+	
+} /* Media Query */
+
+
+
+@media screen and (max-width: 680px) {
+	
+	
+	
+	
+	.slick-dots {
+		top:-515px;
+	li.slick-active {
+		button {
+			&:before {
+				border-bottom:1px solid $green;
+				border-right:1px solid $green;
+			}
+		}
+	}
+	li:hover {
+		button {
+			&:before {
+				
+			}
+		}
+	}
+	li:nth-of-type(1)::before {
+		
+	}
+	li:nth-of-type(2)::before {
+		
+	}
+	li:nth-of-type(3)::before {
+		
+	}
+	li:nth-of-type(4)::before {
+		
+	}
+	li:nth-of-type(5)::before {
+		
+	}
+	li:nth-of-type(6)::before {
+		
+	}
+	li {
+		width:33.3333333%;
+		
+		
+		&:before {
+			
+			
+		}
+		
+		button {
+			
+			&:before {
+				border-bottom:1px solid #464646;
+				
+			}
+		}
+		
+		
+	}
+}
+
+
+
+.reasons_grid_wrapper {
+	margin-top: 194px;
+	
+}
+	
+	
 	
 	
 	
