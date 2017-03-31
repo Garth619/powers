@@ -285,6 +285,7 @@ get_header(); ?>
 			<img class="about_image desktop" src="<?php bloginfo('template_directory');?>/images/bodytext-image.jpg"/>
 			<img class="about_image tablet" src="<?php bloginfo('template_directory');?>/images/bodytext-image-tab1.jpg"/>
 			<img class="about_image tablet2" src="<?php bloginfo('template_directory');?>/images/bodytext-image-tab2.jpg"/>
+			<img class="about_image mobile" src="<?php bloginfo('template_directory');?>/images/bodytext-image-mob2.jpg"/>
 			
 			<a class="meet_attorney" href="">Meet Attorney<br/>Jessica Powers</a>
 			
@@ -476,10 +477,17 @@ get_header(); ?>
 					
 					<div class="quote_content_wrapper">
 					
-						<span class="col2_quote"><u>“My clients have a direct line to me</u> and also my support staff. I personally call all my clients back and <u>give them the time each one&nbsp;deserves.”</u></span>
-						<span class="col2_name">Attorney Jessica Powers</span>
+						
+						<div class="quote_mobile_content">
+						
+							<span class="col2_quote"><u>“My clients have a direct line to me</u> and also my support staff. I personally call all my clients back and <u>give them the time each one&nbsp;deserves.”</u></span>
+							<span class="col2_name">Attorney Jessica Powers</span>
+						
+						</div><!-- quote_mobile_content -->
 					
 					</div><!-- quote_content_wrapper -->
+					
+					
 					
 				</div><!-- quote_wrapper -->
 				
