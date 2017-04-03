@@ -1694,22 +1694,21 @@ span.second_about_greenline {
 .request_consultation {
 	background:$black;
 	width:100%;
-	
 	text-align: center;
 	.request_greenline_wrapper {
 		width:1px;
-		height:260px;
+		
 		display: block;
 		margin:0 auto;
 		position: relative;
-		margin-top:-90px;
+		
 		span.request_green_line {
 			background: $green;
 			position: absolute;
-			top:0;
+			top:-95px;
 			left:0px;
 			width:100%;
-			height:100%;
+			height:290px;
 		}
 	}
 	span.large_header {
@@ -1717,8 +1716,7 @@ span.second_about_greenline {
 		font-family: $prata;
 		color:#fff;
 		display: block;
-		margin-top:55px;
-		padding:0 30px;
+		padding: 225px 30px 0;
 	}
 	span.required {
 		color:$green;
@@ -2116,6 +2114,7 @@ span.second_about_greenline {
 .inner_main {
 	width:100%;
 	min-height: 700px;
+	overflow: hidden;
 	> h1.centered {
 			text-align: center;
 			text-transform: lowercase;
@@ -2148,8 +2147,8 @@ span.second_about_greenline {
 }
 
 .about_us_wrapper {
-	max-width:1300px;
-	margin:0 auto;
+	max-width:1435px;
+	margin: 0 auto 150px;
 	overflow: hidden;
 	padding:110px 50px 50px 50px;
 }
@@ -2159,8 +2158,9 @@ span.second_about_greenline {
 	background: #fff;
 	box-shadow: 0px -1px 20px 0px rgba(0, 0, 0, 0.25);
 	float:left;
-	width:50%;
+	width:49%;
 	padding:0 50px 75px;
+	max-width:620px;
 	img {
 		max-width: 100%;
 		height:auto;
@@ -2196,7 +2196,37 @@ span.second_about_greenline {
 	float:right;
 	width:50%;
 	display: block;
-	
+	font-family: $proximareg;
+	padding-left:25px;
+	font-size:17px;
+	line-height: 30px;
+	letter-spacing: 0.3px;
+	margin-top:5px;
+	h2 {
+		color:$green;
+		font-size:20px;
+		text-transform: uppercase;
+		font-weight: 300;
+		font-style: normal;
+		margin-bottom:15px;
+		letter-spacing: 2px;
+	}
+	p {
+		margin-bottom:32px;
+	}
+}
+
+.meet_powers {
+	color:$green;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: $proximasemibold;
+	font-size:15px;
+	letter-spacing: 3px;
+	border:1px solid $green;
+	padding:18px 35px;
+	display: inline-block;
+	border-radius: 3px;
 }
 
 
@@ -3931,18 +3961,20 @@ span.second_about_greenline {
 .request_consultation {
 	
 	.request_greenline_wrapper {
-		height: 277px;
+		
 		span.request_green_line {
-			
+			top: -79px;
+			height: 262px;
 		}
 	}
 	span.large_header {
 		font-size:70px;
 		line-height: 80px;
-		margin-top: 26px;
+		padding: 0 30px;
 		max-width:700px;
 		margin-left:auto;
 		margin-right:auto;
+		padding: 212px 30px 0;
 	}
 	span.required {
 		margin-top: 7px;
@@ -4641,17 +4673,16 @@ a.view_all_testimonials {
 .request_consultation {
 	
 	.request_greenline_wrapper {
-		margin: -83px auto 0;
-		height:160px;
+		
 		span.request_green_line {
-			
+			height: 162px;
 		}
 	}
 	span.large_header {
 		font-size:45px;
 		padding:0 20px;
 		line-height: 45px;
-		 margin-top: 60px;
+		padding-top:140px;
 	}
 	span.required {
 		margin-top: 14px;
