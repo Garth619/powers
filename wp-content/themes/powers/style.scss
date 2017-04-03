@@ -4598,9 +4598,11 @@ a.view_all_testimonials {
 }
 
 .bottom_footer {
-	
+	padding: 30px 20px 20px;
 	.copy {
-		
+		float:none;
+		display: block;
+		margin:0 auto;
 		a {
 			
 			
@@ -4610,12 +4612,20 @@ a.view_all_testimonials {
 		}
 	}
 	.ilawyer {
-		
+		float:none;
+		display: block;
+		margin:25px auto 0;
 	}
 }
 
 
-	
+
+
+
+
+
+
+
 	
 	
 } /* Media Query */
