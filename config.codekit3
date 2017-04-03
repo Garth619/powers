@@ -7243,6 +7243,12 @@
 		"oAP": "\/wp-content\/themes\/powers\/author.php",
 		"oF": 0
 		},
+	"\/wp-content\/themes\/powers\/banner.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/powers\/banner.php",
+		"oF": 0
+		},
 	"\/wp-content\/themes\/powers\/category.php": {
 		"ft": 8192,
 		"oA": 2,
@@ -8131,6 +8137,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/wp-content\/themes\/powers\/loop.php",
+		"oF": 0
+		},
+	"\/wp-content\/themes\/powers\/page-about.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/powers\/page-about.php",
 		"oF": 0
 		},
 	"\/wp-content\/themes\/powers\/page-main.php": {
