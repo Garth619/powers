@@ -18,7 +18,7 @@ get_header(); ?>
 
 <section class="inner_main">
 	
-	<h1 class="centered">About Our Law Firm</h1>
+	<h1 class="centered">About Our Law&nbsp;Firm</h1>
 	<div class="green_header_wrapper">
 		
 		<div class="green_header"></div><!-- green_header -->
@@ -33,7 +33,7 @@ get_header(); ?>
 			
 			<span class="bio_excerpt">Lorem ipsum <span class="green">dolor sit amet</span> , consect adipiscing elit. Quisque luctus, dolor a convallis efficitur odio ante sollicitudin ipsum.</span><!-- bio_excerpt -->
 			
-			<span class="bio_title">Powers Injury Law</span><!-- bio_title -->
+			<span class="bio_title">Powers Injury&nbsp;Law</span><!-- bio_title -->
 			
 		</div><!-- bio_wrapper -->
 		
