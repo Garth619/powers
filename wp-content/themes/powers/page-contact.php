@@ -36,7 +36,55 @@ get_header(); ?>
 		
 		<div class="contact_page_info_wrapper">
 			
+			<div class="icon_address_row">
+				
+				<div class="contact_icon">
+					
+					<img src="<?php bloginfo('template_directory');?>/images/contact-map.png"/>
+					
+				</div><!-- contact_icon -->
+				
+				<a class="contact_page_address" href="">
+					1234 Address Street<br/>
+					Suite A<br/>
+					Birmingham, Alabama<br/> 
+					01234<br/>
+					<span class="get_directions">Get Directions</span><!-- get_directions -->
+				</a><!-- contact_page_address -->
+				
+				
+			</div><!-- icon_address_row -->
 			
+			<div class="icon_address_row">
+				
+				<div class="contact_icon">
+					
+					<img src="<?php bloginfo('template_directory');?>/images/contact-phone-green.png"/>
+					
+				</div><!-- contact_icon -->
+				
+				<a class="contact_page_address" href="tel:1234567890">123.456.7890</a><!-- contact_page_address -->
+				
+				
+			</div><!-- icon_address_row -->
+			
+			<div class="icon_address_row">
+				
+				<div class="contact_icon">
+					
+					<img src="<?php bloginfo('template_directory');?>/images/contact-social.png"/>
+					
+				</div><!-- contact_icon -->
+				
+				<div class="social_wrapper">
+				
+					<a href="">google+</a><!-- contact_page_address -->
+					<a href="">facebook</a><!-- contact_page_address -->
+				
+				</div>
+				
+				
+			</div><!-- icon_address_row -->
 			
 		</div><!-- contact_info_wrapper -->
 		
