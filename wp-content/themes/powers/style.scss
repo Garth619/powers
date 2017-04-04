@@ -2271,11 +2271,7 @@ span.second_about_greenline {
 				}
 			}
 		}
-/*
-		li:nth-of-type(3n + 3) {
-			padding-right:0;
-		}
-*/
+
 		li:nth-last-child(-n+3) {
 			a {
 				border-bottom: 1px solid #d7d7d7;
@@ -4337,7 +4333,39 @@ span.second_about_greenline {
 }
 
 
+/* Practice Areas */
+
+
+.practice_areas_wrapper {
 	
+	ul {
+		
+		li {
+			
+			width:50%;
+			
+			padding:0 2.5%;
+			a {
+				
+				&:hover {
+					
+				}
+			}
+		}
+
+		li:nth-last-child(-n+3) {
+			a {
+				border-bottom: 1px solid #d7d7d7;
+			}
+		}
+		li:nth-last-child(1) {
+			a {
+				border-top: none;
+			}
+		}
+	}
+}
+
 	
 	
 	
@@ -5095,6 +5123,45 @@ body:not(.page-template-page-main) {
 	padding-right:20px;
 }
 
+
+
+/* Practice Areas */
+
+
+.practice_areas_wrapper {
+	
+	ul {
+		
+		li {
+			
+			width:100%;
+			
+			padding:0 20px;
+			a {
+				
+				&:hover {
+					
+				}
+			}
+		}
+
+		li:nth-last-child(-n+3) {
+			a {
+				border-bottom: 1px solid #d7d7d7;
+			}
+		}
+		li:nth-last-child(1) {
+			a {
+				border-top: none;
+			}
+		}
+		li:nth-last-child(2) {
+			a {
+				border-top: none;
+			}
+		}
+	}
+}
 
 
 	
