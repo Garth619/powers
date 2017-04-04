@@ -2147,6 +2147,9 @@ span.second_about_greenline {
 	}
 }
 
+
+/* About Us */
+
 .about_us_wrapper {
 	max-width:1435px;
 	margin: 0 auto 150px;
@@ -2232,6 +2235,52 @@ span.second_about_greenline {
 	&:hover {
 		background: $green;
 		color:#fff;
+	}
+}
+
+
+/* Practice Areas */
+
+
+.practice_areas_wrapper {
+	max-width:1190px;
+	margin:50px auto 175px;
+	overflow: hidden;
+	ul {
+		list-style: none;
+		margin:0;
+		li {
+			font-family: $proximabold;
+			text-transform: uppercase;
+			font-size:15px;
+			letter-spacing: 2px;
+			width:33.33333%;
+			float:left;
+			padding:0 2.5%;
+			a {
+				color:$black;
+				text-decoration: none;
+				border-top:1px solid #d7d7d7;
+				transition: all .2s ease-in-out;
+				padding:36px 10px;
+				display: block;
+				text-align: center;
+				&:hover {
+					background: $black;
+					color:$green;
+				}
+			}
+		}
+/*
+		li:nth-of-type(3n + 3) {
+			padding-right:0;
+		}
+*/
+		li:nth-last-child(-n+3) {
+			a {
+				border-bottom: 1px solid #d7d7d7;
+			}
+		}
 	}
 }
 
@@ -4981,7 +5030,7 @@ body:not(.page-template-page-main) {
 	> h1.centered {
 		padding:0 20px;
 		line-height: 68px;
-		font-size: 62px;
+		font-size: 59px;
 	}
 	.green_header_wrapper {
     height: 65px;
@@ -5036,8 +5085,13 @@ body:not(.page-template-page-main) {
 	}
 }
 
-
-
+.meet_powers {
+	display: block;
+	width:95%;
+	margin: 0 auto;
+	padding-left:20px;
+	padding-right:20px;
+}
 
 
 
