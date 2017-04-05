@@ -2311,7 +2311,7 @@ body.page-template-page-contact {
 
 .contact_page_wrapper {
 	max-width: 1233px;
-	margin:73px auto 225px;
+	margin:50px auto 225px;
 	position: relative;
 	display: flex;
 	padding-right:0px;
@@ -2433,9 +2433,47 @@ body.page-template-page-contact {
 /* Meet Our Attorney */
 
 .our_attorney_wrapper {
-	box-shadow: 0px -1px 20px 0px rgba(0, 0, 0, 0.25);
-	background:#fff;
-	max-width:985px;
+	
+	max-width:1050px;
+	margin: 50px auto;
+	
+	.our_attorney_inner_wrapper {
+		box-shadow: 0px -1px 20px 0px rgba(0, 0, 0, 0.25);
+		background:#fff;
+		display: flex;
+		padding:47px 5% 46px 0;
+		float:right;
+		width: 95%;
+		.our_attorney_image {
+			margin-left:-55px;
+		}
+		.our_attorney_content {
+			margin-left:7.5%;
+			margin-top:40px;
+			span.attorney_title {
+				font-family: $proximabold;
+				font-size:16px;
+				display: inline-block;
+				border-left:1px solid $green;
+				border-right:1px solid $green;
+				text-transform: uppercase;
+				letter-spacing: 3px;
+				padding:4px 15px;
+			}
+			span.attorney_quote {
+				display: block;
+				margin-top:100px;
+				font-family: $prata;
+				font-size:35px;
+				line-height: 47px;
+			}
+		}
+	}
+}
+
+
+.our_attorney_columns {
+	max-width:1000px;
 	margin: 50px auto;
 }
 
