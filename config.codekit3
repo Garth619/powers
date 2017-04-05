@@ -33,12 +33,6 @@
 		"oAP": "\/license.txt",
 		"oF": 0
 		},
-	"\/powers-migrate-20170322201744.sql.gz": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/powers-migrate-20170322201744.sql.gz",
-		"oF": 0
-		},
 	"\/powers.sql.gz": {
 		"ft": 8192,
 		"oA": 2,
@@ -8157,6 +8151,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/wp-content\/themes\/powers\/page-about.php",
+		"oF": 0
+		},
+	"\/wp-content\/themes\/powers\/page-bio.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/powers\/page-bio.php",
 		"oF": 0
 		},
 	"\/wp-content\/themes\/powers\/page-contact.php": {
