@@ -2206,12 +2206,13 @@ body.page-template-page-contact {
 
 .content_wrapper {
 	width:100%;
-	margin:0 auto;
+	margin:0 auto 0px;
 	max-width:1660px;
 	position: relative;
 	z-index:5;
 	padding-left:3.75%;
-	margin-bottom:200px;
+	
+
 	&:after {
 
 	}
@@ -2219,8 +2220,9 @@ body.page-template-page-contact {
 		float:left;
 		max-width:1223px;
 		background: #fff;
-		
+		min-height: 1420px;
 		padding-right:15%;
+		padding-bottom:200px;
 	}
 }
 
