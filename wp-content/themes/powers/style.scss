@@ -1703,7 +1703,7 @@ span.second_about_greenline {
 		position: relative;
 		
 		span.request_green_line {
-			
+			z-index: 10;
 			position: absolute;
 			top:-95px;
 			left:0px;
@@ -2130,6 +2130,12 @@ body.page-template-page-contact {
 			display: inline-block;
 			letter-spacing: 1.5px;
 			margin-top:15px;
+			transition: all .2s ease-in-out;
+			&:hover {
+				background: #fff;
+				color:$green;
+				text-shadow: none;
+			}
 		}
 	}
 }
@@ -2199,39 +2205,100 @@ body.page-template-page-contact {
 
 
 .content_wrapper {
-	width:77%;
+	width:100%;
 	margin:0 auto;
-	height:1000px;
-	background:#fff;
 	max-width:1660px;
 	position: relative;
 	z-index:5;
-	padding-left:100px;
+	padding-left:3.75%;
+	margin-bottom:200px;
 	&:after {
 
 	}
 	.content_inner_wrapper {
-		width:90%;
+		float:left;
+		max-width:1223px;
+		background: #fff;
 		
-
-
+		padding-right:15%;
 	}
 }
+
+.sidebar_wrapper {
+	width:460px;
+	float:right;
+	position: absolute;
+	top:310px;
+	right:12px;
+	.top_sidebar {
+		background:$black;
+		line-height: 1;
+		padding:37px 20px 32px 0;;
+		span.sidebar_greenline {
+			height:1px;
+			width:24%;
+			background: $green;
+			display: inline-block;
+			margin-right:10px;
+			position: relative;
+			top:-8px;
+		}
+		span.sidebar_title {
+			font-size:40px;
+			font-family: $prata;
+			color:#fff;
+			text-transform: lowercase;
+			letter-spacing: 0.6px;
+			display: inline-block;
+		}
+	}
+	.lower_sidebar {
+		box-shadow: 0px -1px 20px 0px rgba(0, 0, 0, 0.25);
+		background:#fff;
+		padding:0 12%;
+		ul {
+			list-style: none;
+			padding:45px 0;
+			li {
+				font-family: $proximasemibold;
+				text-transform: uppercase;
+				a {
+					color:$black;
+					text-decoration: none;
+					display: block;
+					border-bottom: 1px solid #d1d1d1;
+					padding:24px 0;
+					letter-spacing: 1.5px;
+					font-size: 15px;
+					transition: all .2s ease-in-out;
+					&:hover {
+						color:$green;
+					}
+				}
+			}
+		}
+	}
+}
+
+
+
+
 
 .sidebar_bg {
 	position:absolute;
 	top:0;
 	right:0;
 	width:50%;
-	height:1000px;
+	height:100%;
 	background: #ebf0f4;
 }
 
 .header_wrapper {
 	position: relative;
-	padding-top:112px;
+	padding-top: 117px;
 	padding-left:45px;
-	margin-bottom: 70px;
+	margin-bottom:70px;
+
 	span.inner_page_green_line {
 		position: absolute;
 		top:0;
@@ -2253,6 +2320,16 @@ body.page-template-page-contact {
 		font-style: normal;
 	}
 }
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -7,7 +7,7 @@
 		
 		<span class="large_header">I'm Listening</span><!-- large_header -->
 		
-		<a class="inner_request" href="">Request Free Consultation</a><!-- inner_request -->
+		<a class="inner_request" href="#free_consultation">Request Free Consultation</a><!-- inner_request -->
 		
 	</div><!-- inner_banner_content -->
 	
