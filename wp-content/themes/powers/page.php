@@ -14,9 +14,47 @@
 
 get_header(); ?>
 
+
+<?php include('banner.php');?>
+
+<div class="inner_main">
+	
+	<div class="content_wrapper">
 		
+		
+		<div class="content_inner_wrapper">
+			
+			<div class="header_wrapper">
+				
+				<span class="inner_page_green_line"></span><!-- inner_page_green_line -->
+			
+				<h1 class="standard_page_header">Birmingham Car Accident Attorneys</h1>
+			
+			</div><!-- header_wrapper -->
+			
+			<div class="content">
+			
+			
+			
+			</div><!-- content -->
+			
+		</div><!-- content_inner_wrapper -->
+		
+		
+		
+	</div><!-- content_wrapper -->
+	
+	<div class="sidebar_bg">
+		
+		
+		
+	</div><!-- sidebar_bg -->
 
-			<?php get_template_part( 'loop', 'page' ); ?>
+	
+	
+</div><!-- inner_main -->
 
-<?php get_sidebar(); ?>
+
+	
+
 <?php get_footer(); ?>
