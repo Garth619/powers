@@ -2221,8 +2221,13 @@ body.page-template-page-contact {
 		max-width:1223px;
 		background: #fff;
 		min-height: 1420px;
-		padding-right:15%;
+// 		padding-right:300px;
 		padding-bottom:200px;
+		width: 77%;
+		.content_max_width {
+			max-width:930px;
+			padding-right:30px;
+		}
 	}
 }
 
@@ -2230,7 +2235,7 @@ body.page-template-page-contact {
 	width:460px;
 	float:right;
 	position: absolute;
-	top:310px;
+	top:313px;
 	right:12px;
 	.top_sidebar {
 		background:$black;
@@ -2953,6 +2958,81 @@ span.view_case_details {
 } /* Media Query */
 
 
+@media screen and (max-width: 1575px) {
+	
+	
+	
+	
+	
+	
+
+.content_wrapper {
+	
+	
+
+	&:after {
+
+	}
+	.content_inner_wrapper {
+		
+	}
+}
+
+.sidebar_wrapper {
+	
+	.top_sidebar {
+		
+		span.sidebar_greenline {
+			
+		}
+		span.sidebar_title {
+			
+		}
+	}
+	.lower_sidebar {
+		
+		ul {
+			
+			li {
+				
+				a {
+					
+					&:hover {
+						
+					}
+				}
+			}
+		}
+	}
+}
+
+
+
+
+
+.sidebar_bg {
+	
+}
+
+.header_wrapper {
+	
+
+	span.inner_page_green_line {
+		
+	}
+	h1.standard_page_header {
+		
+	}
+}
+	
+	
+	
+	
+	
+	
+} /* Media Query */
+
+
 @media screen and (max-width: 1550px) {
 	
 	/* Header */
@@ -3074,6 +3154,89 @@ span.second_about_greenline {
 
 
 
+
+
+
+
+
+
+
+
+
+	
+} /* Media Query */
+
+
+@media screen and (max-width: 1455px) {
+	
+	
+	
+	
+	
+	.content_wrapper {
+	
+	
+
+	&:after {
+
+	}
+	.content_inner_wrapper {
+		
+	}
+}
+
+.sidebar_wrapper {
+	
+	.top_sidebar {
+		
+		span.sidebar_greenline {
+			
+		}
+		span.sidebar_title {
+			
+		}
+	}
+	.lower_sidebar {
+		
+		ul {
+			
+			li {
+				
+				a {
+					
+					&:hover {
+						
+					}
+				}
+			}
+		}
+	}
+}
+
+
+
+
+
+.sidebar_bg {
+	
+}
+
+.header_wrapper {
+	
+
+	span.inner_page_green_line {
+		
+	}
+	h1.standard_page_header {
+		
+	}
+}
+
+
+
+
+	
+	
 	
 } /* Media Query */
 
@@ -3109,6 +3272,7 @@ span.second_about_greenline {
 	
 	
 } /* Media Query */
+
 
 
 
@@ -3613,6 +3777,70 @@ a.view_all_testimonials {
 	}
 	.ilawyer {
 	
+	}
+}
+
+
+
+
+
+
+.content_wrapper {
+	
+	
+
+	&:after {
+
+	}
+	.content_inner_wrapper {
+		
+	}
+}
+
+.sidebar_wrapper {
+	
+	.top_sidebar {
+		
+		span.sidebar_greenline {
+			
+		}
+		span.sidebar_title {
+			
+		}
+	}
+	.lower_sidebar {
+		
+		ul {
+			
+			li {
+				
+				a {
+					
+					&:hover {
+						
+					}
+				}
+			}
+		}
+	}
+}
+
+
+
+
+
+.sidebar_bg {
+	
+}
+
+.header_wrapper {
+	
+
+	span.inner_page_green_line {
+		
+	}
+	h1.standard_page_header {
+		
 	}
 }
 
