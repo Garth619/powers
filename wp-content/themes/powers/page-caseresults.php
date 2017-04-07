@@ -31,9 +31,17 @@ get_header(); ?>
 				
 				<span class="case_greenline"></span><!-- case_greenline -->
 				
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque luctus, dolor a convallis efficitur, odio ante sollicitudin ipsum, eu venenatis eros orci at tellus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque luctus odio.</p>
+				<div class="case_content_wrapper">
+				
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque luctus, dolor a convallis efficitur, odio ante sollicitudin ipsum, eu venenatis eros orci at tellus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque luctus odio.</p>
+				
+				</div><!-- case_content_wrapper -->
 				
 			</div><!-- case_content -->
+			
+			<div class="case_cat">
+				Settlement
+			</div><!-- case_cat -->
 			
 		</div><!-- single_case -->
 		
