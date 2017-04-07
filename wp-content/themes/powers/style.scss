@@ -2695,6 +2695,59 @@ body.page-template-page-contact {
 	}
 }
 
+/* Case Results Page */
+
+
+
+
+.case_results_page_wrapper {
+	max-width:1220px;
+	margin:0 auto;
+	.single_case {
+		box-shadow: 0px -1px 20px 0px rgba(0, 0, 0, 0.25);
+		width:45.5%;
+		padding:75px 5% 0px 60px;
+		span.case_amount {
+			font-size:74px;
+			font-family: $abril;
+			display: block;
+			line-height: 1;
+		}
+		span.case_title {
+			color:$green;
+			font-family: $proximasemibold;
+			font-size:18px;
+			letter-spacing: 0.7px;
+			margin-top:20px;
+			margin-bottom:10px;
+			display: block;
+		}
+		.case_content {
+			position: relative;
+			font-size:17px;
+			font-family: $proximareg;
+			line-height: 33px;
+			letter-spacing: .5px;
+			margin-top:38px;
+			padding-left:30px;
+			margin-left:10%;
+			padding-bottom:117px;
+			span.case_greenline {
+				position: absolute;
+				top:10px;
+				left:0;
+				width:1px;
+				height:100%;
+				/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#79e799+0,41b763+100 */
+				background: #79e799; /* Old browsers */
+				background: -moz-linear-gradient(top,  #79e799 0%, #41b763 100%); /* FF3.6-15 */
+				background: -webkit-linear-gradient(top,  #79e799 0%,#41b763 100%); /* Chrome10-25,Safari5.1-6 */
+				background: linear-gradient(to bottom,  #79e799 0%,#41b763 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#79e799', endColorstr='#41b763',GradientType=0 ); /* IE6-9 */
+			}
+		}
+	}
+}
 
 
 
@@ -6312,6 +6365,9 @@ body:not(.page-template-page-main) {
 		line-height: 42px;
 	}
 }
+
+
+
 
 
 
