@@ -2697,18 +2697,33 @@ body.page-template-page-contact {
 
 /* Case Results Page */
 
-
-
+body.page-template-page-caseresults {
+	.green_header_wrapper {
+		display: none;
+	}
+}
 
 .case_results_page_wrapper {
-	max-width:1220px;
-	margin:0 auto;
+	max-width:1280px;
+	margin:68px auto 119px;
+	padding:0 30px;
+	.case_column {
+		width:45%;
+		&:nth-of-type(n + 1) {
+			float:left;
+		}
+		&:nth-of-type(2n + 2) {
+			float:right;
+		}
+	}
 	.single_case {
 		box-shadow: 0px -1px 20px 0px rgba(0, 0, 0, 0.25);
-		width:45.5%;
+		width:100%;
 		padding:75px 5% 0px 60px;
 		position: relative;
-		margin-bottom:55px;
+		margin-bottom:100px;
+		
+		
 		span.case_amount {
 			font-size:74px;
 			font-family: $abril;
@@ -2752,6 +2767,7 @@ body.page-template-page-contact {
 				top:-10px;
 			}
 		}
+		.case_cat_mobile_wrapper {
 		.case_cat {
 			background: $black;
 			display: inline-block;
@@ -2765,6 +2781,7 @@ body.page-template-page-contact {
 			right:-50px;
 			padding:25px 53px;
 			
+		}
 		}
 	}
 }
@@ -3336,6 +3353,54 @@ span.second_about_greenline {
 			}
 			}
 		}
+		
+		
+		
+/* Case Results Page */
+
+body.page-template-page-caseresults {
+	.green_header_wrapper {
+		
+	}
+}
+
+.case_results_page_wrapper {
+	
+	.case_column {
+		width:47%;
+		&:nth-of-type(n + 1) {
+			
+		}
+		&:nth-of-type(2n + 2) {
+			
+		}
+	}
+	.single_case {
+		margin-bottom: 74px;
+		padding: 52px 45px 0;
+		span.case_amount {
+			
+		}
+		span.case_title {
+			
+		}
+		.case_content {
+			margin-left:4%;
+			span.case_greenline {
+				
+			}
+			.case_content_wrapper {
+				
+			}
+		}
+		.case_cat_mobile_wrapper {
+		.case_cat {
+			 right: -13px;
+		}
+		}
+	}
+}
+
 
 	
 	
@@ -5283,7 +5348,54 @@ body.page-template-page-contact {
 	}
 }
 
-	
+
+
+
+/* Case Results Page */
+
+body.page-template-page-caseresults {
+	.green_header_wrapper {
+		
+	}
+}
+
+.case_results_page_wrapper {
+	max-width:800px;
+	margin-left:auto;
+	margin-right:auto;
+	.case_column {
+		width:100%;
+		&:nth-of-type(n + 1) {
+			float:none;
+		}
+		&:nth-of-type(2n + 2) {
+			float:none;
+		}
+	}
+	.single_case {
+		
+		span.case_amount {
+			
+		}
+		span.case_title {
+			
+		}
+		.case_content {
+			
+			span.case_greenline {
+				
+			}
+			.case_content_wrapper {
+				
+			}
+		}
+		.case_cat {
+			 
+		}
+	}
+}
+
+
 	
 	
 } /* Media Query */
@@ -6390,6 +6502,54 @@ body:not(.page-template-page-main) {
 
 
 
+/* Case Results Page */
+
+body.page-template-page-caseresults {
+	.green_header_wrapper {
+		
+	}
+}
+
+.case_results_page_wrapper {
+	
+	.case_column {
+		
+		&:nth-of-type(n + 1) {
+			
+		}
+		&:nth-of-type(2n + 2) {
+			
+		}
+	}
+	.single_case {
+		padding: 40px 25px 0;
+		span.case_amount {
+			font-size:65px;
+		}
+		span.case_title {
+			margin-top: 15px;
+		}
+		.case_content {
+			margin-top: 40px;
+			margin-left: 10px;
+			padding-left: 23px;
+			padding-bottom: 80px;
+			padding-left: 18px;
+			span.case_greenline {
+				
+			}
+			.case_content_wrapper {
+				
+			}
+		}
+		.case_cat_mobile_wrapper {
+		.case_cat {
+			 padding: 20px 44px;
+		}
+		}
+	}
+}
+
 
 
 
@@ -6917,6 +7077,64 @@ body:not(.page-template-page-main) {
 		}
 	}
 }
+
+
+
+/* Case Results Page */
+
+body.page-template-page-caseresults {
+	.green_header_wrapper {
+		
+	}
+}
+
+.case_results_page_wrapper {
+	padding:0 15px;
+	margin: 50px auto 145px;
+	.case_column {
+		
+		&:nth-of-type(n + 1) {
+			
+		}
+		&:nth-of-type(2n + 2) {
+			
+		}
+	}
+	.single_case {
+		
+		span.case_amount {
+		
+		}
+		span.case_title {
+			
+		}
+		.case_content {
+			margin-left:0;
+			span.case_greenline {
+				
+			}
+			.case_content_wrapper {
+				
+			}
+		}
+		.case_cat_mobile_wrapper {
+			position: absolute;
+			bottom:-25px;
+			left:0;
+			width:100%;
+			.case_cat {
+				position: relative;
+				bottom:0;
+				right:0;
+				display: block;
+				max-width:225px;
+				margin:0 auto;
+			}
+		}
+	}
+}
+
+
 
 	
 	
