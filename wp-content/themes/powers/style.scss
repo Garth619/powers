@@ -2211,8 +2211,6 @@ body.page-template-page-contact {
 	position: relative;
 	z-index:5;
 	padding-left:3.75%;
-	
-
 	&:after {
 
 	}
@@ -2221,12 +2219,10 @@ body.page-template-page-contact {
 		max-width:1223px;
 		background: #fff;
 		min-height: 1420px;
-// 		padding-right:300px;
 		padding-bottom:200px;
 		width: 77%;
 		.content_max_width {
-			max-width:930px;
-			padding-right:30px;
+			max-width:900px;
 		}
 	}
 }
@@ -2265,10 +2261,15 @@ body.page-template-page-contact {
 		padding:0 12%;
 		ul {
 			list-style: none;
-			padding:45px 0;
+			padding:45px 0 73px;
 			li {
 				font-family: $proximasemibold;
 				text-transform: uppercase;
+				&:last-of-type {
+					a {
+						border:none;
+					}
+				}
 				a {
 					color:$black;
 					text-decoration: none;
@@ -2636,7 +2637,6 @@ body.page-template-page-contact {
 /* Meet Our Attorney */
 
 .our_attorney_wrapper {
-	
 	max-width:1110px;
 	margin: 50px auto;
 	padding:0 30px;
@@ -3169,19 +3169,18 @@ span.second_about_greenline {
 
 @media screen and (max-width: 1455px) {
 	
-	
-	
-	
-	
-	.content_wrapper {
-	
-	
 
+
+.content_wrapper {
+	
 	&:after {
 
 	}
 	.content_inner_wrapper {
 		
+		.content_max_width {
+			 max-width: 700px;
+		}
 	}
 }
 
@@ -3199,7 +3198,7 @@ span.second_about_greenline {
 	.lower_sidebar {
 		
 		ul {
-			
+		
 			li {
 				
 				a {
@@ -3231,9 +3230,6 @@ span.second_about_greenline {
 		
 	}
 }
-
-
-
 
 	
 	
@@ -3793,7 +3789,9 @@ a.view_all_testimonials {
 
 	}
 	.content_inner_wrapper {
-		
+		.content_max_width {
+    	max-width: 600px;
+		}
 	}
 }
 
@@ -4615,6 +4613,88 @@ span.view_case_details {
 }
 
 
+
+	
+	
+	
+} /* Media Query */
+
+
+@media screen and (max-width: 1150px) {
+	
+	
+	
+.content_wrapper {
+	padding-left:0px;
+	padding-right:0px;
+	background:#ebf0f4;
+	
+	.content_inner_wrapper {
+		width:100%;
+		min-height: 0;
+		float:none;
+		.content_max_width {
+    	
+    	padding-left:30px;
+    	padding-right:30px;
+    	max-width: 100%;
+		}
+	}
+}
+
+.sidebar_wrapper {
+	position: relative;
+	top:0;
+	right: 0;
+	float:none;
+	width:100%;
+	max-width:650px;
+	margin:-90px auto 0px;
+	padding-bottom:150px;
+	.top_sidebar {
+		
+		span.sidebar_greenline {
+			
+		}
+		span.sidebar_title {
+			
+		}
+	}
+	.lower_sidebar {
+		
+		ul {
+			
+			li {
+				
+				a {
+					
+					&:hover {
+						
+					}
+				}
+			}
+		}
+	}
+}
+
+
+
+
+
+.sidebar_bg {
+
+}
+
+.header_wrapper {
+	
+
+	span.inner_page_green_line {
+		
+	}
+	h1.standard_page_header {
+		
+	}
+}
 
 	
 	
@@ -6059,6 +6139,177 @@ body:not(.page-template-page-main) {
 		&:last-of-type {
 			
 		}
+	}
+}
+
+
+
+
+
+.content_wrapper {
+	
+	
+	.content_inner_wrapper {
+		padding-left:30px;
+	padding-right:30px;
+		.content_max_width {
+    	padding:0;
+		}
+	}
+}
+
+.sidebar_wrapper {
+		padding-left:30px;
+	padding-right:30px;
+	.top_sidebar {
+		
+		span.sidebar_greenline {
+			
+		}
+		span.sidebar_title {
+			
+		}
+	}
+	.lower_sidebar {
+		
+		ul {
+			
+			li {
+				
+				a {
+					
+					&:hover {
+						
+					}
+				}
+			}
+		}
+	}
+}
+
+
+
+
+
+.sidebar_bg {
+
+}
+
+.header_wrapper {
+	
+
+	span.inner_page_green_line {
+		
+	}
+	h1.standard_page_header {
+		
+	}
+}
+
+
+
+/* Content */
+
+
+.content {
+	
+	p {
+		
+	}
+	h1 {
+		
+		&:after {
+			
+		}
+	}
+	h2 {
+		
+	}
+	h3 {
+		
+	}
+	ul {
+		
+		li {
+			
+		}
+	}
+	a {
+		
+		&:hover {
+			
+		}
+	}
+}
+
+
+
+
+
+.content_wrapper {
+	
+	&:after {
+
+	}
+	.content_inner_wrapper {
+		padding-left:20px;
+		padding-right:20px;
+		.content_max_width {
+			
+		}
+	}
+}
+
+.sidebar_wrapper {
+	padding-left:15px;
+	padding-right:15px;
+	margin: -150px auto 0;
+	.top_sidebar {
+		padding: 26px 20px 27px 0;
+		span.sidebar_greenline {
+			width:10%;
+		}
+		span.sidebar_title {
+			font-size:32px;
+		}
+	}
+	.lower_sidebar {
+		
+		ul {
+			
+			li {
+				
+				&:last-of-type {
+					a {
+						
+					}
+				}
+				a {
+					
+					&:hover {
+					
+					}
+				}
+			}
+		}
+	}
+}
+
+
+
+
+
+
+.header_wrapper {
+	margin-bottom:35px;
+	padding-left:5%;
+	padding-top:90px;
+	
+	span.inner_page_green_line {
+			}
+	h1.standard_page_header {
+		font-size:38px;
+		line-height: 42px;
 	}
 }
 
