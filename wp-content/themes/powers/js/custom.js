@@ -243,17 +243,18 @@ jQuery('.top_sidebar').click(function(){
 
 jQuery('.single_video_wrapper').mouseenter(function(){
 	
-	jQuery('.video_page_play').fadeOut();
-	jQuery('.video_page_play_hover').fadeIn(200);
 	
+	jQuery(this).find('.video_page_play').fadeOut();
+	jQuery(this).find('.video_page_play_hover').fadeIn(200);
 	
 });
 
 
 jQuery('.single_video_wrapper').mouseleave(function(){
 	
-	jQuery('.video_page_play').fadeIn(200);
-	jQuery('.video_page_play_hover').fadeOut();
+	
+	jQuery(this).find('.video_page_play').fadeIn(200);
+	jQuery(this).find('.video_page_play_hover').fadeOut();
 	
 	
 });
