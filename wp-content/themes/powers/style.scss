@@ -2233,16 +2233,18 @@ body.page-template-page-contact {
 	position: relative;
 	z-index:5;
 	padding-left:3.75%;
+	padding-right: 12px;
+	display: flex;
 	&:after {
 
 	}
 	.content_inner_wrapper {
-		float:left;
+// 		float:left;
 		max-width:1223px;
 		background: #fff;
 		min-height: 1420px;
 		padding-bottom:200px;
-		width: 77%;
+		width: 78%;
 		.content_max_width {
 			max-width:900px;
 		}
@@ -2251,14 +2253,22 @@ body.page-template-page-contact {
 
 .sidebar_wrapper {
 	width:460px;
-	float:right;
+	margin-left:-7%;
+	max-width:450px;
+	margin-top:340px;
+	margin-bottom:160px;
+// 	float:right;
+/*
 	position: absolute;
 	top:313px;
 	right:12px;
+*/
+	
 	.top_sidebar {
 		background:$black;
 		line-height: 1;
-		padding:37px 20px 32px 0;;
+		padding:37px 20px 32px 0;
+		overflow: hidden;
 		span.sidebar_greenline {
 			height:1px;
 			width:24%;
@@ -2275,6 +2285,25 @@ body.page-template-page-contact {
 			text-transform: lowercase;
 			letter-spacing: 0.6px;
 			display: inline-block;
+		}
+		span.categories_greenline {
+			float:left;
+			top: 20px;
+		}
+		span.sidebar_categories {
+			float:right;
+			&:after {
+				content:"";
+				width: 0; 
+				height: 0; 
+				border-left: 5px solid transparent;
+				border-right: 5px solid transparent;
+				border-top: 5px solid $green;
+				display: inline-block;
+				position: relative;
+				top:-7px;
+				margin:0 0px 0 25px;
+			}
 		}
 	}
 	.lower_sidebar {
@@ -4975,7 +5004,7 @@ span.view_case_details {
 	padding-left:0px;
 	padding-right:0px;
 	background:#ebf0f4;
-	
+	display: block;
 	.content_inner_wrapper {
 		width:100%;
 		min-height: 0;
@@ -4990,10 +5019,8 @@ span.view_case_details {
 }
 
 .sidebar_wrapper {
-	position: relative;
-	top:0;
-	right: 0;
-	float:none;
+	
+	
 	width:100%;
 	max-width:650px;
 	margin:-90px auto 0px;

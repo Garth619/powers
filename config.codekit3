@@ -8221,6 +8221,12 @@
 		"oAP": "\/wp-content\/themes\/powers\/search.php",
 		"oF": 0
 		},
+	"\/wp-content\/themes\/powers\/sidebar-blog.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/powers\/sidebar-blog.php",
+		"oF": 0
+		},
 	"\/wp-content\/themes\/powers\/sidebar-footer.php": {
 		"ft": 8192,
 		"oA": 2,

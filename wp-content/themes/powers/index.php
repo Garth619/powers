@@ -51,11 +51,11 @@ get_header(); ?>
 			
 		</div><!-- content_inner_wrapper -->
 		
-		<?php include('sidebar.php');?>
+		<?php include('sidebar-blog.php');?>
 		
 		
 			
-			<div style="clear:both;"></div>
+<!-- 			<div style="clear:both;"></div> -->
 		
 	</div><!-- content_wrapper -->
 	
