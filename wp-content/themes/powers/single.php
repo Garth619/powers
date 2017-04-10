@@ -25,7 +25,7 @@ get_header(); ?>
 				
 					<span class="inner_page_green_line"></span><!-- inner_page_green_line -->
 			
-					<h1 class="standard_page_header">Headers are inconsistent on spacing... Birmingham Personal Injury Blog</h1>
+					<h1 class="standard_page_header"><?php echo get_the_title(50); ?></h1>
 			
 				</div><!-- header_wrapper -->
 			
