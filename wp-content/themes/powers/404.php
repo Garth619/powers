@@ -9,22 +9,64 @@
 
 get_header(); ?>
 
-	<div id="container">
-		<div id="content" role="main">
+					
+<?php include('banner.php');?>
 
-			<div id="post-0" class="post error404 not-found">
-				<h1 class="entry-title"><?php _e( 'Not Found', 'twentyten' ); ?></h1>
-				<div class="entry-content">
-					<p><?php _e( 'Apologies, but the page you requested could not be found. Perhaps searching will help.', 'twentyten' ); ?></p>
+<div class="inner_main">
+	
+	<div class="content_wrapper">
+		
+		
+		<div class="content_inner_wrapper">
+			
+			<div class="content_max_width">
+			
+				<div class="header_wrapper">
+				
+					<span class="inner_page_green_line"></span><!-- inner_page_green_line -->
+			
+					<h1 class="standard_page_header">Not Found</h1>
+			
+				</div><!-- header_wrapper -->
+			
+			
+			
+				<div class="content">
+				
+				
+						<p><?php _e( 'Apologies, but the page you requested could not be found. Perhaps searching will help.', 'twentyten' ); ?></p>
 					<?php get_search_form(); ?>
-				</div><!-- .entry-content -->
-			</div><!-- #post-0 -->
-
-		</div><!-- #content -->
-	</div><!-- #container -->
-	<script type="text/javascript">
+					<script type="text/javascript">
 		// focus on search field after it has loaded
 		document.getElementById('s') && document.getElementById('s').focus();
 	</script>
 
+					
+			
+				</div><!-- content -->
+			
+			</div><!-- content_max_width -->
+			
+			
+		</div><!-- content_inner_wrapper -->
+		
+		<?php include('sidebar.php');?>
+		
+		
+	</div><!-- content_wrapper -->
+	
+	<div class="sidebar_bg">
+		
+		
+		
+	</div><!-- sidebar_bg -->
+
+	
+	
+</div><!-- inner_main -->
+
+
+	
+
 <?php get_footer(); ?>
+

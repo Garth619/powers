@@ -14,10 +14,29 @@
 
 get_header(); ?>
 
-		<div id="container">
-			<div id="content" role="main">
+		
 
-<?php
+
+
+
+
+
+<?php include('banner.php');?>
+
+<div class="inner_main">
+	
+	<div class="content_wrapper">
+		
+		
+		<div class="content_inner_wrapper">
+			
+			<div class="content_max_width">
+			
+				<div class="header_wrapper">
+				
+					<span class="inner_page_green_line"></span><!-- inner_page_green_line -->
+			
+				<?php
 	/*
 	 * Queue the first post, that way we know
 	 * what date we're dealing with (if that is the case).
@@ -28,8 +47,9 @@ get_header(); ?>
 	if ( have_posts() )
 		the_post();
 ?>
-
-			<h1 class="page-title">
+					
+					
+					<h1 class="standard_page_header">
 <?php if ( is_day() ) : ?>
 				<?php printf( __( 'Daily Archives: <span>%s</span>', 'twentyten' ), get_the_date() ); ?>
 <?php elseif ( is_month() ) : ?>
@@ -40,8 +60,15 @@ get_header(); ?>
 				<?php _e( 'Blog Archives', 'twentyten' ); ?>
 <?php endif; ?>
 			</h1>
-
-<?php
+			
+				</div><!-- header_wrapper -->
+			
+			
+			
+				<div class="content">
+				
+				
+				<?php
 	/*
 	 * Since we called the_post() above, we need to
 	 * rewind the loop back to the beginning that way
@@ -57,8 +84,39 @@ get_header(); ?>
 	get_template_part( 'loop', 'archive' );
 ?>
 
-			</div><!-- #content -->
-		</div><!-- #container -->
+					
+			
+				</div><!-- content -->
+			
+			</div><!-- content_max_width -->
+			
+			
+		</div><!-- content_inner_wrapper -->
+		
+		<?php include('sidebar-blog.php');?>
+		
+		
+	</div><!-- content_wrapper -->
+	
+	<div class="sidebar_bg">
+		
+		
+		
+	</div><!-- sidebar_bg -->
 
-<?php get_sidebar(); ?>
+	
+	
+</div><!-- inner_main -->
+
+
+	
+
 <?php get_footer(); ?>
+
+
+
+
+
+
+
+

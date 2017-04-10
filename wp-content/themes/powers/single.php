@@ -9,20 +9,57 @@
 
 get_header(); ?>
 
-		<div id="container">
-			<div id="content" role="main">
 
-			<?php
-			/*
-			 * Run the loop to output the post.
-			 * If you want to overload this in a child theme then include a file
-			 * called loop-single.php and that will be used instead.
-			 */
-			get_template_part( 'loop', 'single' );
-			?>
+<?php include('banner.php');?>
 
-			</div><!-- #content -->
-		</div><!-- #container -->
+<div class="inner_main">
+	
+	<div class="content_wrapper">
+		
+		
+		<div class="content_inner_wrapper">
+			
+			<div class="content_max_width">
+			
+				<div class="header_wrapper">
+				
+					<span class="inner_page_green_line"></span><!-- inner_page_green_line -->
+			
+					<h1 class="standard_page_header">Headers are inconsistent on spacing... Birmingham Personal Injury Blog</h1>
+			
+				</div><!-- header_wrapper -->
+			
+			
+			
+				<div class="content">
+				
+				
+					<?php get_template_part( 'loop', 'single' ); ?>
+					
+			
+				</div><!-- content -->
+			
+			</div><!-- content_max_width -->
+			
+			
+		</div><!-- content_inner_wrapper -->
+		
+		<?php include('sidebar-blog.php');?>
+		
+		
+	</div><!-- content_wrapper -->
+	
+	<div class="sidebar_bg">
+		
+		
+		
+	</div><!-- sidebar_bg -->
 
-<?php get_sidebar(); ?>
+	
+	
+</div><!-- inner_main -->
+
+
+	
+
 <?php get_footer(); ?>

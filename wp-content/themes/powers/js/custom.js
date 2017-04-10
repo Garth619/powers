@@ -227,7 +227,14 @@ jQuery(function() {
 // jQuery('.form ul > li:lt(3)').wrapAll('<div class="form_col"></div>')
   
   
-  
+// Sidebar Toggle
+
+jQuery('.top_sidebar').click(function(){
+	
+	jQuery(this).next('.lower_sidebar').slideToggle(200);
+	
+	
+});
 
 
 

@@ -12,26 +12,14 @@
 		
 		<div class="lower_sidebar">
 			
-			<ul>
-				<li><a href="">Practice Area</a></li>
-				<li><a href="">Practice Area</a></li>
-				<li><a href="">Practice Area</a></li>
-				<li><a href="">Practice Area</a></li>
-				<li><a href="">Practice Area</a></li>
-				<li><a href="">Practice Area</a></li>
-				<li><a href="">Practice Area</a></li>
-				<li><a href="">Practice Area</a></li>
-				<li><a href="">Practice Area</a></li>
-				<li><a href="">Practice Area</a></li>
-				<li><a href="">Practice Area</a></li>
-			</ul>
-			
+			<?php dynamic_sidebar('cat-sidebar'); ?>
+
 		</div><!-- lower_sidebar -->
 		
 	</div><!-- sidebar_container -->
 	
 	
-	<div class="sidebar_container">
+	<div class="sidebar_container sidebar_archive">
 		
 		<div class="top_sidebar">
 			
@@ -42,20 +30,8 @@
 		
 		<div class="lower_sidebar">
 			
-			<ul>
-				<li><a href="">Practice Area</a></li>
-				<li><a href="">Practice Area</a></li>
-				<li><a href="">Practice Area</a></li>
-				<li><a href="">Practice Area</a></li>
-				<li><a href="">Practice Area</a></li>
-				<li><a href="">Practice Area</a></li>
-				<li><a href="">Practice Area</a></li>
-				<li><a href="">Practice Area</a></li>
-				<li><a href="">Practice Area</a></li>
-				<li><a href="">Practice Area</a></li>
-				<li><a href="">Practice Area</a></li>
-			</ul>
-			
+			<?php dynamic_sidebar('archive-sidebar'); ?>
+				
 		</div><!-- lower_sidebar -->
 		
 	</div><!-- sidebar_container -->

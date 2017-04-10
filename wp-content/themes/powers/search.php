@@ -9,12 +9,39 @@
 
 get_header(); ?>
 
-		<div id="container">
-			<div id="content" role="main">
+		
 
-<?php if ( have_posts() ) : ?>
-				<h1 class="page-title"><?php printf( __( 'Search Results for: %s', 'twentyten' ), '<span>' . get_search_query() . '</span>' ); ?></h1>
-				<?php
+
+	
+<?php include('banner.php');?>
+
+<div class="inner_main">
+	
+	<div class="content_wrapper">
+		
+		
+		<div class="content_inner_wrapper">
+			
+			<div class="content_max_width">
+			
+				<div class="header_wrapper">
+				
+					<span class="inner_page_green_line"></span><!-- inner_page_green_line -->
+			
+					
+					
+					
+					<?php if ( have_posts() ) : ?>
+				<h1 class="standard_page_header"><?php printf( __( 'Search Results for: %s', 'twentyten' ), '<span>' . get_search_query() . '</span>' ); ?></h1>
+			
+				</div><!-- header_wrapper -->
+			
+			
+			
+				<div class="content">
+				
+				
+			<?php
 				/*
 				 * Run the loop for the search to output the results.
 				 * If you want to overload this in a child theme then include a file
@@ -22,17 +49,42 @@ get_header(); ?>
 				 */
 				get_template_part( 'loop', 'search' );
 				?>
-<?php else : ?>
-				<div id="post-0" class="post no-results not-found">
-					<h2 class="entry-title"><?php _e( 'Nothing Found', 'twentyten' ); ?></h2>
-					<div class="entry-content">
-						<p><?php _e( 'Sorry, but nothing matched your search criteria. Please try again with some different keywords.', 'twentyten' ); ?></p>
-						<?php get_search_form(); ?>
-					</div><!-- .entry-content -->
-				</div><!-- #post-0 -->
-<?php endif; ?>
-			</div><!-- #content -->
-		</div><!-- #container -->
 
-<?php get_sidebar(); ?>
+				<?php else : ?>
+				
+				
+		
+					<h1 class="standard_page_header"><?php _e( 'Nothing Found', 'twentyten' ); ?></h1>
+					
+					
+					<?php endif; ?>
+
+					
+			
+				</div><!-- content -->
+			
+			</div><!-- content_max_width -->
+			
+			
+		</div><!-- content_inner_wrapper -->
+		
+		<?php include('sidebar.php');?>
+		
+		
+	</div><!-- content_wrapper -->
+	
+	<div class="sidebar_bg">
+		
+		
+		
+	</div><!-- sidebar_bg -->
+
+	
+	
+</div><!-- inner_main -->
+
+
+	
+
 <?php get_footer(); ?>
+

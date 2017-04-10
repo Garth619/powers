@@ -54,9 +54,6 @@ get_header(); ?>
 		<?php include('sidebar-blog.php');?>
 		
 		
-			
-<!-- 			<div style="clear:both;"></div> -->
-		
 	</div><!-- content_wrapper -->
 	
 	<div class="sidebar_bg">

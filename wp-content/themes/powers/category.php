@@ -9,27 +9,84 @@
 
 get_header(); ?>
 
-		<div id="container">
-			<div id="content" role="main">
+		
 
-				<h1 class="page-title"><?php
+				
+				
+			
+			
+			
+			
+			<?php include('banner.php');?>
+
+<div class="inner_main">
+	
+	<div class="content_wrapper">
+		
+		
+		<div class="content_inner_wrapper">
+			
+			<div class="content_max_width">
+			
+				<div class="header_wrapper">
+				
+					<span class="inner_page_green_line"></span><!-- inner_page_green_line -->
+			
+					
+					<h1 class="standard_page_header"><?php
 					printf( __( 'Category Archives: %s', 'twentyten' ), '<span>' . single_cat_title( '', false ) . '</span>' );
 				?></h1>
-				<?php
+			
+				</div><!-- header_wrapper -->
+			
+			
+			
+				<div class="content">
+				
+				
+					<?php
 					$category_description = category_description();
 					if ( ! empty( $category_description ) )
 						echo '<div class="archive-meta">' . $category_description . '</div>';
 
-				/*
-				 * Run the loop for the category page to output the posts.
-				 * If you want to overload this in a child theme then include a file
-				 * called loop-category.php and that will be used instead.
-				 */
+				
 				get_template_part( 'loop', 'category' );
+				
+				
+				
 				?>
+			
+					
+			
+				</div><!-- content -->
+			
+			</div><!-- content_max_width -->
+			
+			
+		</div><!-- content_inner_wrapper -->
+		
+		<?php include('sidebar-blog.php');?>
+		
+		
+	</div><!-- content_wrapper -->
+	
+	<div class="sidebar_bg">
+		
+		
+		
+	</div><!-- sidebar_bg -->
 
-			</div><!-- #content -->
-		</div><!-- #container -->
+	
+	
+</div><!-- inner_main -->
 
-<?php get_sidebar(); ?>
+
+	
+
 <?php get_footer(); ?>
+
+
+
+		
+
+
