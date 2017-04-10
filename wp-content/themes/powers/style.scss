@@ -2176,7 +2176,9 @@ body.page-template-page-contact {
 		font-family: $prata;
 		font-size: 35px;
 		text-transform: none;
-		margin-bottom:15px;
+		margin-bottom:11px;
+		line-height: 45px;
+		letter-spacing: 0.5px;
 		a {
 			color:$green;
 			font-family: $prata !important;
@@ -2343,7 +2345,7 @@ body.page-template-page-contact {
 	h1.standard_page_header {
 		font-family: $prata;
 		font-size:60px;
-		line-height:60px;
+		line-height:72px;
 		font-weight: 300;
 		font-style: normal;
 	}
