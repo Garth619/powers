@@ -2239,7 +2239,7 @@ body.page-template-page-contact {
 
 	}
 	.content_inner_wrapper {
-// 		float:left;
+
 		max-width:1223px;
 		background: #fff;
 		min-height: 1420px;
@@ -2257,12 +2257,10 @@ body.page-template-page-contact {
 	max-width:450px;
 	margin-top:340px;
 	margin-bottom:160px;
-// 	float:right;
-/*
-	position: absolute;
-	top:313px;
-	right:12px;
-*/
+
+.sidebar_container:first-of-type {
+	margin-bottom:35px;
+}
 	
 	.top_sidebar {
 		background:$black;
