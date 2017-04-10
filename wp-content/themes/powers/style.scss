@@ -2170,6 +2170,21 @@ body.page-template-page-contact {
 		line-height: 30px;
 		color:$green;
 		margin-bottom:12px;
+		
+	}
+	h2.mypost_header {
+		font-family: $prata;
+		font-size: 35px;
+		text-transform: none;
+		margin-bottom:15px;
+		a {
+			color:$green;
+			font-family: $prata !important;
+			transition: all .2s ease-in-out;
+			&:hover {
+				color:$black;
+			}
+		}
 	}
 	h3 {
 		font-family: $proximabold;
@@ -2190,15 +2205,20 @@ body.page-template-page-contact {
 		}
 	}
 	a {
-		font-family: $proximabold;
 		color:$black;
+		font-family: $proximabold;
 		text-decoration: none;
 		transition: all .2s ease-in-out;
 		&:hover {
 			color:$green;
 		}
 	}
+	
 }
+
+
+
+
 
 
 
@@ -2335,7 +2355,47 @@ body.page-template-page-contact {
 
 
 
+/* Blog */
 
+
+.mypost {
+	padding-top:25px;
+	border-bottom: 1px solid #c8c9ca;
+	padding-bottom:70px;
+	.blog_content {
+		display: block;
+	}
+	a.read_more {
+		margin-top:28px;
+		color:$green;
+		transition: all .2s ease-in-out;
+		display: inline-block;
+		&:after {
+			content:"";
+			display: block;
+			width:100%;
+			height:1px;
+			background:$green;
+		}
+		&:hover {
+			color:$black;
+		}
+	}
+}
+
+.entry_meta {
+	margin-bottom:9px;
+	font-size:18px;
+	font-family: $proximabold;
+	letter-spacing: 1px;
+	.posted_on_divider {
+		width:2px;
+		margin:0 18px;
+		height:12px;
+		background: $green;
+		display: inline-block;
+	}
+}
 
 
 
@@ -6599,6 +6659,11 @@ body:not(.page-template-page-main) {
 	}
 	h2 {
 		
+	}
+	h2.post_header {
+		a {
+			
+		}
 	}
 	h3 {
 		
