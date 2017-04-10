@@ -21,6 +21,7 @@ get_header(); ?>
 	
 	<div class="testimonials_page_wrapper">
 		
+		<div class="testi_col_wrapper">
 		
 		<div class="single_testimonial">
 			
@@ -58,6 +59,12 @@ get_header(); ?>
 		</div><!-- single_testimonial -->
 		
 		
+		
+		</div><!-- testi_col_wrapper -->
+		
+		<div class="testi_col_wrapper">
+		
+		
 		<div class="single_testimonial">
 			
 			<div class="testimonial_header_wrapper">
@@ -92,6 +99,8 @@ get_header(); ?>
 			<span class="name">Andi K.<span class="divider"></span> Current Client</span><!-- name -->
 			
 		</div><!-- single_testimonial -->
+		
+		</div><!-- testi_col_wrapper -->
 		
 		<div style="clear:both"></div>
 		
