@@ -319,6 +319,7 @@ get_header(); ?>
 	
 	</div><!-- inner_about -->
 	
+	<div style="clear:both;"></div>
 	
 </section><!-- about -->
 
