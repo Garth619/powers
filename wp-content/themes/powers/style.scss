@@ -2996,9 +2996,12 @@ body.page-template-page-caseresults, body.page-template-page-testimonials, body.
 
 
 .video_center_wrapper {
-	max-width:1323px;
+	max-width:1383px;
 	margin:85px auto 80px;
 	overflow: hidden;
+	padding-left:30px;
+	padding-right:30px;
+	
 	.single_video_wrapper:hover {
 		.video_background {
 			background: $black;
@@ -3006,9 +3009,11 @@ body.page-template-page-caseresults, body.page-template-page-testimonials, body.
 	}
 	.single_video_wrapper {
 		width:33.3333%;
-		padding-right:5%;
+		padding-right:8%;
 		float:left;
 		margin-bottom:117px;
+	
+// 		height: 305px;
 		.video_background {
 			background:#ebf0f4;
 			transition: all .2s ease-in-out;
@@ -5164,6 +5169,54 @@ span.view_case_details {
 
 
 
+/* Video Center */
+
+
+.video_center_wrapper {
+	
+	
+	.single_video_wrapper:hover {
+		.video_background {
+			
+		}
+	}
+	.single_video_wrapper {
+		width:50%;
+		margin-bottom: 9%;
+		.video_background {
+			
+			.wistia_video {
+				 
+				.video_center_play_button {
+					
+					.video_center_play_button_inner {
+						
+						img {
+							
+						}
+						img.video_page_play {
+							
+						}
+						img.video_page_play_hover {
+							
+						}
+					}
+				}
+			}
+		}
+		.video_center_title_wrapper {
+			padding: 16% 0 10px 9%;
+			span.video_center_greenline {
+				
+			}
+			span.video_center_title {
+				
+			
+			}
+		}
+	}
+}
+
 
 
 
@@ -7035,6 +7088,54 @@ body.page-template-page-caseresults {
 
 
 
+/* Video Center */
+
+
+.video_center_wrapper {
+	
+	
+	.single_video_wrapper:hover {
+		.video_background {
+			
+		}
+	}
+	.single_video_wrapper {
+		width:100%;
+		margin-bottom: 14%;
+		.video_background {
+			
+			.wistia_video {
+				 
+				.video_center_play_button {
+					
+					.video_center_play_button_inner {
+						
+						img {
+							
+						}
+						img.video_page_play {
+							
+						}
+						img.video_page_play_hover {
+							
+						}
+					}
+				}
+			}
+		}
+		.video_center_title_wrapper {
+			padding: 13% 0 10px 9%;
+			span.video_center_greenline {
+				
+			}
+			span.video_center_title {
+				
+			
+			}
+		}
+	}
+}
+
 
 	
 	
@@ -7665,7 +7766,52 @@ body.page-template-page-caseresults {
 }
 
 
+/* Video Center */
 
+
+.video_center_wrapper {
+	
+	
+	.single_video_wrapper:hover {
+		.video_background {
+			
+		}
+	}
+	.single_video_wrapper {
+		
+		.video_background {
+			
+			.wistia_video {
+				 
+				.video_center_play_button {
+					
+					.video_center_play_button_inner {
+						
+						img {
+							
+						}
+						img.video_page_play {
+							
+						}
+						img.video_page_play_hover {
+							
+						}
+					}
+				}
+			}
+		}
+		.video_center_title_wrapper {
+			padding: 22% 0 10px 9%;
+			span.video_center_greenline {
+				
+			}
+			span.video_center_title {
+				
+			
+			}
+		}
+	}
+}
 	
 	
 	
