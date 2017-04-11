@@ -15,7 +15,12 @@ get_header(); ?>
 		
 		<div class="video_wrapper">
 			
-			<a href="">
+			
+			
+			<script src="https://fast.wistia.com/embed/medias/v2q97a6dh4.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><span class="wistia_embed wistia_async_v2q97a6dh4 popover=true popoverContent=link" style="display:inline"><a href="#">
+				
+				
+				
 				
 				<div class="play_wrapper">
 					
@@ -31,7 +36,11 @@ get_header(); ?>
 				<img src="<?php bloginfo('template_directory');?>/images/video-main.png"/>
 				<span class="video_caption">Video: Learn About Us in 90 Seconds</span>
 				
-			</a>
+				
+				
+			</a></span>
+			
+			
 		
 		</div><!-- video_wrapper -->
 		
@@ -74,7 +83,9 @@ get_header(); ?>
 		
 	</div><!-- inner_content -->
 	
+	<video src="<?php bloginfo('template_directory');?>/images/videobg.mp4" loop autoplay></video>
 	
+	<div class="video_overlay"></div><!-- video_overlay -->
 	
 </section><!-- main_banner -->
 
