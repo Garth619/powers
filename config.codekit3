@@ -27,12 +27,6 @@
 		"oAP": "\/index.php",
 		"oF": 0
 		},
-	"\/powers-migrate-20170410045359.sql.gz": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/powers-migrate-20170410045359.sql.gz",
-		"oF": 0
-		},
 	"\/wp-activate.php": {
 		"ft": 8192,
 		"oA": 2,
