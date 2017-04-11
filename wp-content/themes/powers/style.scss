@@ -773,7 +773,7 @@ nav {
 	font-family: $proximabold;
 	font-size:17px;
 	text-transform: uppercase;
-	letter-spacing: 5px;
+	letter-spacing: 5.4px;
 	display:block;
 	margin-top:22px;
 	.green_dot {
@@ -1756,6 +1756,7 @@ a.view_all_testimonials {
 		color:#fff;
 		display: block;
 		padding: 225px 30px 0;
+		letter-spacing: 5px;
 	}
 	span.required {
 		color:$green;
