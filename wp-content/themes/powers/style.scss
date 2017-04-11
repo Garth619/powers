@@ -2503,8 +2503,8 @@ body.page-template-page-contact {
 			font-family: $prata;
 			font-style: normal;
 			font-weight: 300;
-			letter-spacing: 0px;
-			margin-top: 74px;
+			letter-spacing: 1px;
+			margin-top: 89px;
 	}
 	.green_header_wrapper {
 		width:1px;
@@ -2561,6 +2561,7 @@ body.page-template-page-contact {
 		letter-spacing: 1px;
 		top:-10px;
 		position: relative;
+		padding: 0 18px;
 	}
 	span.bio_title {
 		font-family: $proximabold;
@@ -2569,8 +2570,9 @@ body.page-template-page-contact {
 		letter-spacing: 2.5px;
 		border-left:$green 1px solid;
 		border-right:$green 1px solid;
-		padding:5px 30px;
+		padding:5px 34px;
 		margin-top:25px;
+		margin-left: 20px;
 		display: inline-block;
 		
 	}
@@ -2802,7 +2804,7 @@ body.page-template-page-contact {
 		}
 		.our_attorney_content {
 			margin-left:7.5%;
-			margin-top:40px;
+			margin-top: 46px;
 			span.attorney_title {
 				font-family: $proximabold;
 				font-size:16px;
@@ -6577,6 +6579,7 @@ body:not(.page-template-page-main) {
 		padding:0 20px;
 		line-height: 45px;
 		font-size: 42px;
+		
 	}
 	.green_header_wrapper {
     height: 65px;

@@ -31,7 +31,7 @@ get_header(); ?>
 			
 			<img src="<?php bloginfo('template_directory');?>/images/about.jpg"/>
 			
-			<span class="bio_excerpt">Lorem ipsum <span class="green">dolor sit amet</span> , consect adipiscing elit. Quisque luctus, dolor a convallis efficitur odio ante solli cit udin&nbsp;ipsum.</span><!-- bio_excerpt -->
+			<span class="bio_excerpt">Lorem ipsum <span class="green">dolor sit amet</span>, consect adipiscing elit. Quisque luctus, dolor a convallis efficitur odio ante solli cit udin&nbsp;ipsum.</span><!-- bio_excerpt -->
 			
 			<span class="bio_title">Powers Injury&nbsp;Law</span><!-- bio_title -->
 			
