@@ -55,7 +55,7 @@ get_header(); ?>
 		
 			<div class="single_case">
 			
-			<span class="case_amount">$1.2M</span><!--case_amount -->
+			<span class="case_amount">$5.25k</span><!--case_amount -->
 			<span class="case_title">Wrongful Death</span><!-- case_title -->
 			
 			<div class="case_content">
@@ -89,8 +89,10 @@ get_header(); ?>
 		
 		<div class="single_case">
 			
-			<span class="case_amount">$1.2M</span><!--case_amount -->
-			<span class="case_title">Wrongful Death</span><!-- case_title -->
+			<div class="single_inner_wrapper">
+			
+			<span class="case_amount">$800k</span><!--case_amount -->
+			<span class="case_title">Judgment against funeral home for mishandling the remains of a beloved family member </span><!-- case_title -->
 			
 			<div class="case_content">
 				
@@ -103,6 +105,9 @@ get_header(); ?>
 				</div><!-- case_content_wrapper -->
 				
 			</div><!-- case_content -->
+			
+			
+			</div><!-- single_inner_wrapper -->
 			
 			
 			<div class="case_cat_mobile_wrapper">

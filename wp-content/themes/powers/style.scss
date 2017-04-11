@@ -2874,8 +2874,10 @@ body.page-template-page-caseresults, body.page-template-page-testimonials, body.
 		padding:75px 5% 0px 60px;
 		position: relative;
 		margin-bottom:100px;
-		
-		
+		height:540px;
+		.single_inner_wrapper {
+			overflow: hidden;
+		}
 		span.case_amount {
 			font-size:74px;
 			font-family: $abril;
@@ -2887,9 +2889,11 @@ body.page-template-page-caseresults, body.page-template-page-testimonials, body.
 			font-family: $proximasemibold;
 			font-size:18px;
 			letter-spacing: 0.7px;
-			margin-top:20px;
+			margin-top:13px;
 			margin-bottom:10px;
 			display: block;
+			line-height: 28px;
+			
 		}
 		.case_content {
 			position: relative;
@@ -2901,6 +2905,7 @@ body.page-template-page-caseresults, body.page-template-page-testimonials, body.
 			padding-left:30px;
 			margin-left:10%;
 			padding-bottom:105px;
+			overflow: hidden;
 			span.case_greenline {
 				position: absolute;
 				top:0px;
