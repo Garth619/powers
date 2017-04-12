@@ -34,7 +34,7 @@ get_header(); ?>
 			
 					
 					<h1 class="standard_page_header"><?php
-					printf( __( 'Category Archives: %s', 'twentyten' ), '<span>' . single_cat_title( '', false ) . '</span>' );
+					printf( __( '%s', 'twentyten' ), '<span>' . single_cat_title( '', false ) . '</span>' );
 				?></h1>
 			
 				</div><!-- header_wrapper -->

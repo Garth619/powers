@@ -92,7 +92,7 @@ get_header(); ?>
 			<div class="single_inner_wrapper">
 			
 			<span class="case_amount">$800k</span><!--case_amount -->
-			<span class="case_title">Judgment against funeral home for mishandling the remains of a beloved family member </span><!-- case_title -->
+			<span class="case_title">Wrongful Death</span><!-- case_title -->
 			
 			<div class="case_content">
 				

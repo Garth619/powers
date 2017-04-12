@@ -35,8 +35,12 @@ get_header(); ?>
 				<span class="attorney_quote"><span class="green">I advocate</span> on behalf of individuals, <span class="green">for all people...to provide them a voice</span> in a very loud and confusing system.</span><!-- attorney_quote -->
 			
 			</div><!-- our_attorney_content -->
+			
+			<div style="clear:both"></div>
 		
 			</div><!-- our_attorney_inner_wrapper -->
+			
+			
 		
 	</div><!-- our_attorney_wrapper -->
 	
