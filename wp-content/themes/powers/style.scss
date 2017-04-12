@@ -788,6 +788,75 @@ nav {
 }
 
 
+
+/* Main Banner Animations */
+
+
+
+
+
+/* try cubiz */
+
+
+@keyframes video_fade {
+  from {
+    opacity: 0;
+ 		top:-50px;
+ 		
+  }
+
+  to {
+    opacity: 1;
+    top:0px;
+    
+  }
+}
+
+
+
+.video_fade {
+	position: relative;
+	animation-name: video_fade;
+  animation-duration: 1.25s;
+  animation-fill-mode: both;
+  animation-timing-function: cubic-bezier(0,.32,.1,.97);
+  animation-delay: 1s;
+
+ }
+ 
+ 
+ 
+ @keyframes title_fadein {
+  from {
+    opacity: 0;
+ 		top:-50px;
+ 		
+  }
+
+  to {
+    opacity: 1;
+    top:0px;
+    
+  }
+}
+ 
+ 
+ 
+ 
+ 
+ .title_fadein {
+	 position: relative;
+	 animation-name: title_fadein;
+	 animation-duration: 4300ms;
+	 animation-fill-mode: both;
+  animation-timing-function: cubic-bezier(0,.32,.1,.97);
+  animation-delay: 1s;
+ }
+
+
+
+
+
 /* Mouse Animation */
 
 
@@ -3795,6 +3864,7 @@ header {
 	
 	svg {
 		max-width:415px;
+		width:100%;
 	}
 }
 

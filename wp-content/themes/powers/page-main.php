@@ -13,7 +13,7 @@ get_header(); ?>
 	
 	<div class="inner_content">
 		
-		<div class="video_wrapper">
+		<div class="video_wrapper video_fade">
 			
 			
 			
@@ -47,7 +47,7 @@ get_header(); ?>
 		
 		<div class="main_header_wrapper">
 			
-			<span class="sub_header">Justice Begins with Your&nbsp;Story.</span><!-- sub_header -->
+			<span class="sub_header title_fadein">Justice Begins with Your&nbsp;Story.</span><!-- sub_header -->
 			<span class="large_header">I'm listening.</span><!-- large_header -->
 		
 			<div class="white_line"></div><!-- white_line -->
