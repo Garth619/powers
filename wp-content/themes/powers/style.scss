@@ -1663,7 +1663,7 @@ a.view_all_testimonials {
 			margin-bottom:40px;
 		}
 		.testi_name_wrapper {
-			font-family: $proximasemibold;
+			font-family: $proximabold;
 			text-transform: uppercase;
 			font-size: 16px;
 			letter-spacing: 2px;
@@ -6105,7 +6105,7 @@ header {
 
 
 .main_banner {
-	
+	height: 1100px;
 }
 
 
@@ -6153,7 +6153,7 @@ header {
 
 .main_header_wrapper {
 	width:96%;
-	margin: 30px auto 0;
+	margin: 40px auto 0;
 	
 	span.sub_header {
 		font-size:37px;
@@ -6165,7 +6165,7 @@ header {
 	}
 	span.large_header {
 		font-size:50px;
-		margin-top:33px;
+		margin-top:40px;
 	}
 	.white_line {
 		margin-top: 18px;
@@ -6210,6 +6210,11 @@ header {
 			
 			span.firstcharacter {
 				
+			}
+		}
+		.about_content {
+			p {
+				line-height: 24px;
 			}
 		}
 	}
@@ -6357,16 +6362,19 @@ header {
 }
 
 .case_bg_one {
-	
+	background:url(images/results-image1-mob.jpg) top center no-repeat;
+	background-size: cover;
 }
 
 .case_bg_two {
-	
+	background:url(images/results-image2-mob.jpg) top center no-repeat;
+	background-size: cover;
 }
 
 
 .case_bg_three {
-	
+	background:url(images/results-image3-mob.jpg) top center no-repeat;
+	background-size: cover;
 }
 
 
@@ -6387,7 +6395,20 @@ span.view_case_details {
 
 .second_about {
 	padding-top:53px;
+	
 }
+
+
+.second_about_content {
+	.second_about_col1 {
+		span.first_character {
+			padding-right:4px;
+		}
+	}
+}  
+
+
+
 
 span.second_about_greenline {
 	display:none;	
@@ -6516,9 +6537,10 @@ a.view_all_testimonials {
 	}
 	span.large_header {
 		font-size:45px;
-		padding:0 20px;
+		padding:0 5px;
 		line-height: 45px;
 		padding-top:140px;
+		letter-spacing: 0px;
 	}
 	span.required {
 		margin-top: 14px;
@@ -6536,12 +6558,14 @@ a.view_all_testimonials {
 
 
 .lower_footer {
-	padding: 82px 50px 0;
+	padding: 82px 3% 0;
 }
 
 
 .footer_quote {
 		padding-left: 17px;
+		background:url(images/footer-image-mob1.jpg) top center no-repeat;
+		background-size:cover;
 		.footer_quote_content {
 			 padding-top: 52px;
 			 
@@ -6551,7 +6575,7 @@ a.view_all_testimonials {
 			span.top_quote, span.bottom_quote {
 				font-size:18px;
 				line-height: 26px;
-				margin-bottom: 24px;
+				margin-bottom: 21px;
 				
 			}
 			span.work_quote {
@@ -6565,13 +6589,14 @@ a.view_all_testimonials {
 			}
 			span.footer_attorney {
 				margin-top: 8px;
+				line-height: 18px;
 			}
 		}
 	}
 
 
 .footer_contact {
-	
+	margin-top: 102px;
 	.footer_contact_wrapper {
 		
 		.footer_contact_title_wrapper {
@@ -6924,46 +6949,8 @@ body:not(.page-template-page-main) {
 
 
 
-.content_wrapper {
-	
-	
-	.content_inner_wrapper {
-		padding-left:30px;
-	padding-right:30px;
-		.content_max_width {
-    	padding:0;
-		}
-	}
-}
 
-.sidebar_wrapper {
-		padding-left:30px;
-	padding-right:30px;
-	.top_sidebar {
-		
-		span.sidebar_greenline {
-			
-		}
-		span.sidebar_title {
-			
-		}
-	}
-	.lower_sidebar {
-		
-		ul {
-			
-			li {
-				
-				a {
-					
-					&:hover {
-						
-					}
-				}
-			}
-		}
-	}
-}
+
 
 
 
@@ -7039,7 +7026,7 @@ body:not(.page-template-page-main) {
 		padding-left:20px;
 		padding-right:20px;
 		.content_max_width {
-			
+			padding:0;
 		}
 	}
 }
@@ -7563,7 +7550,7 @@ body.page-template-page-caseresults {
 						
 					}
 					span.col2_name {
-						max-width: 190px;
+						max-width: 290px;
 						margin-top:50px;
 						margin-left:auto;
 						margin-right:auto;
@@ -7613,7 +7600,7 @@ body.page-template-page-caseresults {
 	
 		
 .footer_contact {
-	margin-top: 87px;
+/* 	margin-top: 87px; */
 	.footer_contact_wrapper:last-of-type {
 		margin-bottom: 43px;
 	}
@@ -7665,6 +7652,11 @@ body.page-template-page-caseresults {
 		}
 	}
 }
+
+
+
+
+
 
 .bottom_footer {
 	
@@ -7967,6 +7959,55 @@ body.page-template-page-caseresults {
 		}
 	}
 }
+
+
+
+
+
+
+/* Second About */
+	
+	
+.second_about {
+	
+}
+	
+.second_about_content {
+	
+	
+	p {
+		
+	}
+	.second_about_col1 {
+		
+		span.first_character {
+			
+		}
+	}
+	.second_about_col2 {
+		
+		.col2_quote_wrapper {
+			
+			.quote_content_wrapper {
+				
+				.quote_mobile_content {
+					
+					span.col2_quote {
+						
+					}
+					span.col2_name {
+						max-width:170px;
+						text-align: center;
+					}
+				}
+			}
+		}
+	}
+}
+
+
+
+
 	
 	
 	
