@@ -1170,12 +1170,14 @@ $animDuration: 7s;
 
 
 .about {
+
 	.image_wrapper {
 		width:49%;
 		float:left;
 		position: relative;
 		margin-top:107px;
 		max-width:812px;
+		
 		.image_inner {
 			background:#fff;
 			width:100%;
@@ -3222,6 +3224,10 @@ body.page-template-page-caseresults, body.page-template-page-testimonials, body.
 	}
 }
 
+.about {
+	overflow: hidden;
+}
+
 	
 	
 	
@@ -4946,16 +4952,19 @@ a.view_all_testimonials {
 }
 
 .case_bg_one {
-	
+	background: url(images/results-image1-tab.jpg) top center no-repeat;
+	background-size: cover;
 }
 
 .case_bg_two {
-	
+	background: url(images/results-image2-tab.jpg) top center no-repeat;
+	background-size: cover;
 }
 
 
 .case_bg_three {
-	
+	background: url(images/results-image3-tab.jpg) top center no-repeat;
+	background-size: cover;
 }
 
 
@@ -5055,6 +5064,20 @@ span.view_case_details {
 		
 	}
 }
+
+
+
+
+
+
+ .testimonials {
+	 background:url(images/test-bgimage-tab.jpg) top left no-repeat;
+	 background-size: cover;
+ }
+
+
+
+
 
 
 /* Footer */
@@ -5271,6 +5294,9 @@ span.view_case_details {
 @media screen and (max-width: 1100px) {
 	
 	
+	
+	
+	
 	/* Second About */
 
 
@@ -5305,6 +5331,7 @@ span.second_about_greenline {
 	.second_about_col1 {
 		width:100%;
 		float:none;
+		margin-top:60px;
 		span.first_character {
 			
 		
@@ -5367,6 +5394,86 @@ span.second_about_greenline {
 		}
 	}
 }
+
+
+
+/* Testimonials */
+
+
+.testimonials {
+	
+	span.testi_greenline {
+		
+	}
+	.testi_wrapper {
+		 
+		 .testi_title {
+			
+			&:after {
+				
+			}
+			span {
+				
+			}
+			span.testi_title_top {
+				
+			}
+			span.testi_title_bottom {
+				
+			}
+		}
+	}
+}
+
+.testi_slider {
+	
+	
+	.single_testi {
+		
+		p {
+			margin-bottom:27px;
+		}
+		.testi_name_wrapper {
+			
+			span.divider {
+				 
+			}
+			span.testi_name, span.testi_client {
+				
+			}
+		}
+	}
+}
+
+
+.testi_buttons {
+	
+	
+	.testi_button {
+		
+		&:hover {
+			
+		}
+	}
+	.testi_back {
+		img {
+			
+		}
+	}
+	.testi_next {
+		img {
+			
+		}
+	}
+}
+
+
+
+a.view_all_testimonials {
+	
+}
+
+
 
 
 
@@ -5492,14 +5599,15 @@ span.second_about_greenline {
 				}
 			}
 			span.footer_attorney {
-				
+				margin-top:55px;
 			}
 		}
 	}
 
 
 .footer_contact {
-	
+	margin-top:150px;
+	padding-left:0px;
 	.footer_contact_wrapper {
 		
 		.footer_contact_title_wrapper {
@@ -5682,6 +5790,11 @@ body.page-template-page-contact {
 }
 
 
+
+.footer_quote {
+	background: url(images/footer-image-tab2.jpg) top right no-repeat;
+	background-size:cover;
+}
 
 
 
