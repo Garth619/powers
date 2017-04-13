@@ -739,7 +739,7 @@ nav {
 }
 
 .main_header_wrapper {
-	width:700px;
+	width:1050px;
 	margin:0 auto;
 	span.sub_header {
 		font-family: $prata;
@@ -759,13 +759,14 @@ nav {
 		letter-spacing: 0px;
 		font-family: $prata;
 		display: block;
+		
 	}
 	.white_line {
-		width:100%;
+		width:700px;
 		height:1px;
 		background:rgba(255, 255, 255, 0.3);
 		display: block;
-		margin-top:26px;
+		margin: 26px auto 0;
 	}
 }
 
@@ -777,6 +778,10 @@ nav {
 	letter-spacing: 5.4px;
 	display:block;
 	margin-top:22px;
+	.tagline_fadein {
+// 		margin:0 20px;
+		
+	}
 	.green_dot {
 		font-size:40px;
 		color:$green;
@@ -859,17 +864,50 @@ nav {
  
  
  
+ 
+ 
+ @keyframes letter_fade {
+  0% {
+    opacity: 0;
+ 		letter-spacing: 25px;
+ 		
+  }
+
+  100% {
+    opacity: 1;
+    letter-spacing: 0px;
+    
+  }
+}
+ 
+ 
+ 
+ .letter_fade {
+	 position: relative;
+	 animation-name: letter_fade;
+	 animation-duration: 1750ms;
+	 animation-fill-mode: both;
+	 animation-timing-function: cubic-bezier(.5,.8,.4,.97);
+	 animation-delay:  1250ms;
+ }
+ 
+ 
+ 
+ 
+ 
+ 
  @keyframes white_line_fadein {
   from {
-    opacity: 0;
- 		
+    
+	
+	opacity: 0;
  		
   }
 
   to {
+    
+		
     opacity: 1;
-    
-    
   }
 }
  
@@ -877,43 +915,78 @@ nav {
  
  
 .white_line_fadein {
-	 animation-delay: 1s;
+	 animation-delay: 3100ms;
 	 animation-fill-mode: both;
 	 animation-name: white_line_fadein;
-	  animation-duration: 3s;
-	 animation-timing-function: ease-in-out;
+	  animation-duration: 1500ms;
+	 animation-timing-function: cubic-bezier(0,.5,.2,.9);
 }
 
 
 
-@keyframes tagline_fadein {
-  from {
+
+
+
+
+
+
+ @keyframes tagline_fadein {
+  0% {
     opacity: 0;
- 		top:30px;
+ 		margin: 0 20px;
  		
   }
 
-  to {
+  100% {
     opacity: 1;
-    top:0px;
+    margin:0;
     
   }
 }
  
  
  
- 
- 
  .tagline_fadein {
 	 position: relative;
 	 animation-name: tagline_fadein;
-	 animation-duration: 1s;
+	 animation-duration: 1750ms;
 	 animation-fill-mode: both;
-	 animation-timing-function: cubic-bezier(0,.32,.1,.97);
-	 animation-delay: 1s;
+	 animation-timing-function: cubic-bezier(.5,.8,.4,.97);
+	 animation-delay:  1250ms;
  }
+ 
 
+ 
+ 
 
+  @keyframes green_dot {
+  from {
+    
+opacity: 0;
+
+ 		
+  }
+
+  to {
+    
+  opacity: 1;
+   
+    
+  }
+}
+ 
+ 
+ 
+ .green_dot {
+	 animation-delay:  3100ms;
+	 animation-fill-mode: both;
+	 animation-name: green_dot;
+	  animation-duration: 1500ms;
+	 animation-timing-function: ease-in-out;
+}
+
+ 
+ 
 
 
 

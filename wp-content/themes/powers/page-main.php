@@ -48,31 +48,31 @@ get_header(); ?>
 		<div class="main_header_wrapper">
 			
 			<span class="sub_header title_fadein">Justice Begins with Your&nbsp;Story.</span><!-- sub_header -->
-			<span class="large_header">I'm listening.</span><!-- large_header -->
+			<span class="large_header letter_fade">I'm listening.</span><!-- large_header -->
 		
 			<div class="white_line white_line_fadein"></div><!-- white_line -->
 			
 		</div><!-- main_header_wrapper -->
 		
-		<span class="tagline tagline_fadein">
+		<span class="tagline">
 			
-			passionate
+			 <span class="tagline_fadein">passionate</span><!-- tagline_fadein -->
 			
-			<span class="green_dot">&middot;</span>
+			<span class="green_dot green_dot_fade">&middot;</span>
 			
-			relatable
+			<span class="tagline_fadein">relatable</span><!-- tagline_fadein -->
 			
-			<span class="green_dot">&middot;</span>
+			<span class="green_dot green_dot_fade">&middot;</span>
 			
-			fierce
+			<span class="tagline_fadein">fierce</span><!-- tagline_fadein -->
 			
-			<span class="green_dot">&middot;</span>
+			<span class="green_dot green_dot_fade">&middot;</span>
 			
-			experienced
+			<span class="tagline_fadein">experienced</span><!-- tagline_fadein -->
 			
-			<span class="green_dot">&middot;</span>
+			<span class="green_dot green_dot_fade">&middot;</span>
 			
-			<span class="mobile_hack">empathetic</span><!-- mobile_hack -->
+			<span class="tagline_fadein"><span class="mobile_hack">empathetic</span><!-- mobile_hack --></span><!-- tagline_fadein -->
 		
 		</span><!-- tagline -->
 		
