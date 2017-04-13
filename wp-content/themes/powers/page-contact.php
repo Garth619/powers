@@ -9,7 +9,7 @@ get_header(); ?>
 
 <?php include('banner.php');?>
 
-<section class="inner_main">
+<section id="contact_greenline_trigger" class="inner_main">
 	
 	<h1 class="centered">contact us</h1>
 	<div class="green_header_wrapper">

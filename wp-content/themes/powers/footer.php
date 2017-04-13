@@ -199,6 +199,7 @@ var waypointthree = new Waypoint({
 
 
 
+/*
 
 var waypointfour = new Waypoint({
   element: document.getElementById('request_trigger'),
@@ -216,27 +217,12 @@ var waypointfour = new Waypoint({
    
   }
 }) // waypoint
+*/
 
 
 
 
 
-var waypointfour = new Waypoint({
-  element: document.getElementById('lower_footer_trigger'),
-  handler: function(direction) {
-   
-   
-   
-   
-  jQuery('span.footer_greenline').addClass('fadein');
-  
- 
-   
-   
-   
-   
-  }
-}) // waypoint
 
 
 
@@ -257,6 +243,183 @@ var waypointfour = new Waypoint({
 
 
 <?php endif;?>
+
+
+
+
+<?php if(is_page_template( 'page-about.php' ) ):?>
+
+
+<script type="text/javascript">
+
+jQuery(document).ready(function(){
+
+
+
+var waypointfive = new Waypoint({
+  element: document.getElementById('about_greenline_trigger'),
+  handler: function(direction) {
+   
+   
+   
+   
+  jQuery('.inner_main .green_header_wrapper .green_header').addClass('fadein');
+  
+  
+  jQuery('.bio_wrapper img').addClass('fadein');
+ 
+   
+   
+   
+   
+  }
+}) // waypoint
+
+
+
+
+}); // Document Ready
+
+</script>
+
+
+
+<?php endif;?>
+
+
+
+<?php if(is_page_template( 'page-bio.php' ) ):?>
+
+
+
+<script type="text/javascript">
+
+jQuery(document).ready(function(){
+
+
+
+var waypointsix = new Waypoint({
+  element: document.getElementById('bio_greenline_trigger'),
+  handler: function(direction) {
+   
+   
+   
+   
+  jQuery('.inner_main .green_header_wrapper .green_header').addClass('fadein');
+  
+  
+  jQuery('.our_attorney_image img').addClass('fadein');
+ 
+   
+   
+   
+  }
+}) // waypoint
+
+
+
+
+
+
+
+
+}); // Document Ready
+
+</script>
+
+<?php endif;?>
+
+
+<?php if(is_page_template( 'page-contact.php' ) ):?>
+
+
+
+<script type="text/javascript">
+
+jQuery(document).ready(function(){
+
+
+
+var waypointsix = new Waypoint({
+  element: document.getElementById('contact_greenline_trigger'),
+  handler: function(direction) {
+   
+   
+   
+   
+  jQuery('.inner_main .green_header_wrapper .green_header').addClass('fadein');
+  
+  
+
+ 
+   
+   
+   
+  }
+}) // waypoint
+
+
+
+
+}); // Document Ready
+
+</script>
+
+<?php endif;?>
+
+
+<script type="text/javascript">
+
+jQuery(document).ready(function(){
+
+var waypointfour = new Waypoint({
+  element: document.getElementById('lower_footer_trigger'),
+  handler: function(direction) {
+   
+   
+   
+   
+  jQuery('span.footer_greenline').addClass('fadein');
+  
+ 
+   
+   
+   
+   
+  },
+  offset: 50
+  
+}) // waypoint
+
+
+
+
+var waypointfour = new Waypoint({
+  element: document.getElementById('free_consultation'),
+  handler: function(direction) {
+   
+   
+   
+   
+  jQuery('span.request_green_line').addClass('fadein');
+  
+ 
+  
+  
+  },
+  offset: 250
+}) // waypoint
+
+
+
+
+
+
+}); // Document Ready
+
+</script>
+
+
 
 
 

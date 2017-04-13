@@ -559,7 +559,7 @@ nav {
 			}
 			> ul.sub-menu {
 				position: absolute;
-				top: 80px;
+				top: 78px;
 				left:18%;
 				background: #fff;
 				text-align: left;
@@ -2824,12 +2824,18 @@ body.page-template-page-contact {
 		height:92px;
 		margin:26px auto 0;
 		position: relative;
+		.green_header.fadein {
+			height:100%;
+		}
 		.green_header {
 			position: absolute;
 			top:0;
 			left:0;
 			width:100%;
-			height:100%;
+			height:0%;
+			transition: all 1s cubic-bezier(0,.32,.1,.97);
+			
+			
 			/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#79e799+28,3fb561+100 */
 			background: #79e799; /* Old browsers */
 			background: -moz-linear-gradient(top, #79e799 28%, #3fb561 100%); /* FF3.6-15 */
@@ -2858,13 +2864,19 @@ body.page-template-page-contact {
 	width:49%;
 	padding:0 50px 75px;
 	max-width:620px;
+	img.fadein {
+		top:-60px;
+		opacity: 1;
+	}
 	img {
 		max-width: 100%;
 		height:auto;
 		display: block;
 		margin:0 auto;
 		position: relative;
-		top:-60px;
+		top:-90px;
+		transition: all 1s ease-in-out;
+		opacity: 0;
 	}
 	span.bio_excerpt {
 		font-size:30px;
@@ -3116,9 +3128,18 @@ body.page-template-page-contact {
 			margin-left:-53px;
 			width:39%;
 			float:left;
+			img.fadein {
+				left:0;
+				opacity: 1;
+			}
 			img {
 				max-width:100%;
 				height:auto;
+				opacity: 0;
+				transition: all 1s ease-in-out;
+				position: relative;
+				left:-45px;
+				transition-delay: 750ms;
 			}
 		}
 		.our_attorney_content {
@@ -5593,6 +5614,41 @@ span.view_case_details {
 }
 
 
+
+
+
+
+.inner_main {
+	
+	
+	.green_header_wrapper {
+		
+		
+		.green_header {
+			height:100%;
+		}
+		}
+		}
+			
+
+
+
+bio_wrapper {
+	img {
+		top:-60px;
+		opacity: 1;
+	}
+}
+
+
+
+
+.our_attorney {
+	img {
+		opacity: 1;
+		left:0;
+	}
+}
 
 	
 	

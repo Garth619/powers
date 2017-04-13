@@ -83,7 +83,7 @@ get_header(); ?>
 		
 	</div><!-- inner_content -->
 	
-<!-- 	<video src="<?php bloginfo('template_directory');?>/images/videobg.mp4" loop autoplay></video> -->
+<video src="<?php bloginfo('template_directory');?>/images/videobg.mp4" loop autoplay></video>
 	
 	<div class="video_overlay"></div><!-- video_overlay -->
 	
