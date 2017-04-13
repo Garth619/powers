@@ -83,7 +83,7 @@ get_header(); ?>
 		
 	</div><!-- inner_content -->
 	
-	<video src="<?php bloginfo('template_directory');?>/images/videobg.mp4" loop autoplay></video>
+<!-- 	<video src="<?php bloginfo('template_directory');?>/images/videobg.mp4" loop autoplay></video> -->
 	
 	<div class="video_overlay"></div><!-- video_overlay -->
 	
@@ -96,7 +96,7 @@ get_header(); ?>
 		
 		<img class="six_image" src="<?php bloginfo('template_directory');?>/images/6.png"/>
 		
-		<span class="reasons_title">reasons<br/> to choose Powers Injury Law</span>
+		<span id="about_greenline_trigger" class="reasons_title">reasons<br/> to choose Powers Injury Law</span>
 		
 	</div><!-- reasons_title_wrapper -->
 	
@@ -430,7 +430,7 @@ get_header(); ?>
 	
 </section><!-- featured_cases -->
 
-<section class="second_about">
+<section id="second_about_trigger" class="second_about">
 		<span class="second_about_greenline"></span><!-- second_about_greenline -->
 	
 	<div class="seocnd_about_title_wrapper">
@@ -510,7 +510,7 @@ get_header(); ?>
 	
 </section><!-- second_about -->
 
-<section class="testimonials">
+<section id="testi_trigger" class="testimonials">
 	
 	<span class="testi_greenline"></span><!-- testi_greenline -->
 	
@@ -567,7 +567,7 @@ get_header(); ?>
 			</div><!-- testi_back -->
 			
 			
-			<div class="testi_button testi_next">
+			<div id="request_trigger" class="testi_button testi_next">
 				
 				next
 				

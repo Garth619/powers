@@ -1352,11 +1352,9 @@ $animDuration: 7s;
 .about {
 	background: $black;
 	padding:190px 0 255px;
-// 	overflow: hidden;
 	.inner_about {
 		max-width:1710px;
 		margin: 0 auto;
-// 		overflow: hidden;
 		padding:0 30px;
 		h1 {
 			color:#fff;
@@ -1372,11 +1370,21 @@ $animDuration: 7s;
 			font-style:normal;
 			span.header_greenline {
 				position: absolute;
-				bottom:20px;
+				top: -370px;
 				left:0;
 				width:1px;
+				height:0;
+				transition: all 1.4s cubic-bezier(0,.13,.1,.97);
+				/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#79e799+28,3fb561+100 */
+				background: #79e799; /* Old browsers */
+				background: -moz-linear-gradient(top,  #79e799 28%, #3fb561 100%); /* FF3.6-15 */
+				background: -webkit-linear-gradient(top,  #79e799 28%,#3fb561 100%); /* Chrome10-25,Safari5.1-6 */
+				background: linear-gradient(to bottom,  #79e799 28%,#3fb561 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#79e799', endColorstr='#3fb561',GradientType=0 ); /* IE6-9 */
+
+			}
+			span.header_greenline.fadein {
 				height:550px;
-				background: $green;
 			}
 			span.header_first {
 				text-transform: uppercase;
@@ -1684,13 +1692,15 @@ span.view_case_details {
 }
 
 span.second_about_greenline {
-		width:52%;
+		width:0%;
 		height:1px;
-	
 		position: absolute;
 		top:313px;
 		left:0;
 		z-index:1;
+		transition: all 2.4s cubic-bezier(0,.32,.1,.97);
+		
+		
 		/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#3fb561+0,79e799+72 */
 		background: #3fb561; /* Old browsers */
 		background: -moz-linear-gradient(top, #3fb561 0%, #79e799 72%); /* FF3.6-15 */
@@ -1698,6 +1708,12 @@ span.second_about_greenline {
 		background: linear-gradient(to bottom, #3fb561 0%,#79e799 72%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3fb561', endColorstr='#79e799',GradientType=0 ); /* IE6-9 */
 	}
+	
+	
+span.second_about_greenline.fadein {
+	width:47%;
+	
+}
 
 .seocnd_about_title_wrapper {
 	font-size:90px;
@@ -1795,16 +1811,35 @@ span.second_about_greenline {
 }
 
 
+
+.logo_slider_wrapper.fadein {
+	opacity: 1;
+	margin-top:-50px;
+	
+		.logo_button_left {
+			opacity: 1;
+			top:30px;
+		}
+		.logo_button_right {
+			opacity: 1;
+			top:-35px;
+		}
+	
+}
+
 .logo_slider_wrapper {
 	width:210px;
 	margin-left:-100px;
-	margin-top:-50px;
+	margin-top:-75px;
 	margin-right:8%;
 	float:left;
+	opacity: 0;
+	transition: all 1100ms cubic-bezier(.1,.32,.1,.97);
+	transition-delay: 1s;
 	.logo_buttons {
 		background: #2a3238;
 		display: block;
-		transition: all .2s ease-in-out;
+		transition: background .2s ease-in-out;
 		width:100px;
 		margin:0 auto;
 		padding:26px 0;
@@ -1820,10 +1855,15 @@ span.second_about_greenline {
 		}
 	}
 	.logo_button_left {
-		top:30px;
+		top:-20px;
+		opacity: 0;
+		
+
 	}
 	.logo_button_right {
-		top:-35px;
+		top:-25px;
+		opacity: 0;
+		
 	}
 	.logo_slider {
 		background: $black;
@@ -1856,17 +1896,21 @@ span.second_about_greenline {
 	background:url(images/test-bgimage.jpg) top center no-repeat;
 	background-size: cover;
 	width:100%;
-	
 	overflow: hidden;
 	position: relative;
 	span.testi_greenline {
-		width:33%;
+		width:0%;
 		height:1px;
 		background:#79e799;
 		display: block;
 		position: absolute;
 		top:390px;
+		left:0;
 		z-index:3;
+		transition: all 3000ms cubic-bezier(0,.1,.1,.97);
+	}
+	span.testi_greenline.fadein {
+		width:25%;
 	}
 	.testi_wrapper {
 		background: #fff;
@@ -1935,11 +1979,19 @@ a.view_all_testimonials {
 }
 
 
+.testi_buttons.fadein {
+	bottom:62px;
+	opacity: 1;
+}
+
+
 .testi_buttons {
 	position: absolute;
-	bottom:62px;
 	right:-56px;
-	
+	transition: all 1.5s cubic-bezier(0,.32,.1,.97);
+	transition-delay: 750ms;
+	opacity: 0;
+	bottom:110px;
 	.testi_button {
 		background: $black;
 		color:#fff;
@@ -1982,19 +2034,20 @@ a.view_all_testimonials {
 	text-align: center;
 	.request_greenline_wrapper {
 		width:1px;
-		
 		display: block;
 		margin:0 auto;
 		position: relative;
-		
+		span.request_green_line.fadein {
+			height:265px;
+		}
 		span.request_green_line {
 			z-index: 10;
 			position: absolute;
 			top:-80px;
 			left:0px;
 			width:100%;
-			height:265px;
-			
+			height:0;
+			transition: all 1000ms cubic-bezier(0,.32,.1,.97);
 			
 			/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#79e799+28,3fb561+100 */
 			background: #79e799; /* Old browsers */
@@ -2228,12 +2281,16 @@ a.view_all_testimonials {
 				line-height: 45px;
 				span.footer_greenline {
 					width:1px;
-					height:463px;
+					height:0;
 					background:#67d787;
 					display: block;
 					position: absolute;
 					top:-70px;
 					left:0;
+					transition: all 1.4s cubic-bezier(0,.32,.1,.97);
+				}
+				span.footer_greenline.fadein {
+					height:463px;
 				}
 			}
 			span.footer_attorney {
@@ -5185,6 +5242,9 @@ a.view_all_testimonials {
 			span.header_second {
 				
 			}
+			span.header_greenline {
+				height: 550px;
+			}
 		}
 		p.about_intro {
 			margin: 52px auto 0;
@@ -5330,7 +5390,16 @@ span.view_case_details {
 }
 
 
+span.second_about_greenline {
+    width: 47%;
+}
 
+
+
+.logo_slider_wrapper {
+    margin-top: -50px;
+    opacity: 1;
+}
 
 
 
@@ -5433,7 +5502,24 @@ span.view_case_details {
 	 background-size: cover;
  }
 
+.testimonials span.testi_greenline {
+    width: 25%;
+}
 
+
+.request_consultation .request_greenline_wrapper span.request_green_line {
+    height: 265px;
+}
+
+
+
+.footer_quote .footer_quote_content span.work_quote span.footer_greenline.fadein {
+    height: 458;
+}
+
+.footer_quote .footer_quote_content span.work_quote span.footer_greenline {
+    height: 458;
+}
 
 
 

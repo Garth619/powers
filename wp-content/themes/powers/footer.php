@@ -14,7 +14,7 @@
 	
 	<div class="form"><?php gravity_form(1, false, false, false, '', true, 12); ?></div><!-- form -->
 	
-	<div class="lower_footer">
+	<div id="lower_footer_trigger" class="lower_footer">
 		
 		<div class="footer_quote">
 			
@@ -130,6 +130,136 @@
 
 
 <?php wp_footer(); ?>
+
+
+<?php if(is_front_page()):?>
+
+
+<script type="text/javascript">
+
+jQuery(document).ready(function(){
+
+
+var waypoint = new Waypoint({
+  element: document.getElementById('about_greenline_trigger'),
+  handler: function(direction) {
+   
+   
+   
+   
+  jQuery('h1 span.header_greenline').addClass('fadein');
+   
+   
+   
+   
+   
+  }
+}) // waypoint
+
+
+
+
+
+
+var waypointtwo = new Waypoint({
+  element: document.getElementById('second_about_trigger'),
+  handler: function(direction) {
+   
+   
+   
+   
+  jQuery('span.second_about_greenline').addClass('fadein');
+  jQuery('.logo_slider_wrapper').addClass('fadein');
+   
+   
+   
+   
+  }
+}) // waypoint
+
+
+
+var waypointthree = new Waypoint({
+  element: document.getElementById('testi_trigger'),
+  handler: function(direction) {
+   
+   
+   
+   
+  jQuery('span.testi_greenline').addClass('fadein');
+  jQuery('.testi_buttons').addClass('fadein');
+ 
+   
+   
+   
+   
+  }
+}) // waypoint
+
+
+
+
+
+var waypointfour = new Waypoint({
+  element: document.getElementById('request_trigger'),
+  handler: function(direction) {
+   
+   
+   
+   
+  jQuery('span.request_green_line').addClass('fadein');
+  
+ 
+   
+   
+   
+   
+  }
+}) // waypoint
+
+
+
+
+
+var waypointfour = new Waypoint({
+  element: document.getElementById('lower_footer_trigger'),
+  handler: function(direction) {
+   
+   
+   
+   
+  jQuery('span.footer_greenline').addClass('fadein');
+  
+ 
+   
+   
+   
+   
+  }
+}) // waypoint
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}); // Document Ready
+
+</script>
+
+
+<?php endif;?>
+
+
+
 
 </body>
 </html>

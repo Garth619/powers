@@ -42,16 +42,6 @@ jQuery(document).ready(function(){
 // Main Banner Animation
 
 
-/*
-var waypoint = new Waypoint({
-  element: document.getElementById('waypoint'),
-  handler: function(direction) {
-    console.log('Scrolled to waypoint!')
-  }
-})
-*/
-
-
 jQuery('.video_wrapper').queue(function(){
 
 	jQuery(this).addClass('video_fade').clearQueue();
@@ -348,6 +338,9 @@ jQuery('.single_video_wrapper').mouseleave(function(){
 	
 	
 });
+
+
+
 
 
 
