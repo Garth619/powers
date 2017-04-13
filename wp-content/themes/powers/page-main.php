@@ -50,11 +50,11 @@ get_header(); ?>
 			<span class="sub_header title_fadein">Justice Begins with Your&nbsp;Story.</span><!-- sub_header -->
 			<span class="large_header">I'm listening.</span><!-- large_header -->
 		
-			<div class="white_line"></div><!-- white_line -->
+			<div class="white_line white_line_fadein"></div><!-- white_line -->
 			
 		</div><!-- main_header_wrapper -->
 		
-		<span class="tagline">
+		<span class="tagline tagline_fadein">
 			
 			passionate
 			
@@ -76,7 +76,7 @@ get_header(); ?>
 		
 		</span><!-- tagline -->
 		
-		<a class="request" href="#free_consultation">Request Free Consultation</a>
+		<a class="request request_fadein" href="#free_consultation">Request Free Consultation</a>
 		
 		<div class="mouse"></div>
 

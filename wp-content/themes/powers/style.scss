@@ -817,10 +817,12 @@ nav {
 .video_fade {
 	position: relative;
 	animation-name: video_fade;
-  animation-duration: 1.25s;
+  animation-duration: 1.5s;
   animation-fill-mode: both;
   animation-timing-function: cubic-bezier(0,.32,.1,.97);
   animation-delay: 1s;
+  
+  // have the delay be the class being after load in jquery
 
  }
  
@@ -829,7 +831,7 @@ nav {
  @keyframes title_fadein {
   from {
     opacity: 0;
- 		top:-50px;
+ 		top:-30px;
  		
   }
 
@@ -847,11 +849,107 @@ nav {
  .title_fadein {
 	 position: relative;
 	 animation-name: title_fadein;
-	 animation-duration: 4300ms;
+	 animation-duration: 2s;
 	 animation-fill-mode: both;
-  animation-timing-function: cubic-bezier(0,.32,.1,.97);
-  animation-delay: 1s;
+	 animation-timing-function: cubic-bezier(0,.32,.1,.97);
+	 animation-delay: 1s;
  }
+ 
+ 
+ 
+ 
+ 
+ @keyframes white_line_fadein {
+  from {
+    opacity: 0;
+ 		
+ 		
+  }
+
+  to {
+    opacity: 1;
+    
+    
+  }
+}
+ 
+ 
+ 
+ 
+.white_line_fadein {
+	 animation-delay: 1s;
+	 animation-fill-mode: both;
+	 animation-name: white_line_fadein;
+	  animation-duration: 3s;
+	 animation-timing-function: ease-in-out;
+}
+
+
+
+@keyframes tagline_fadein {
+  from {
+    opacity: 0;
+ 		top:30px;
+ 		
+  }
+
+  to {
+    opacity: 1;
+    top:0px;
+    
+  }
+}
+ 
+ 
+ 
+ 
+ 
+ .tagline_fadein {
+	 position: relative;
+	 animation-name: tagline_fadein;
+	 animation-duration: 1s;
+	 animation-fill-mode: both;
+	 animation-timing-function: cubic-bezier(0,.32,.1,.97);
+	 animation-delay: 1s;
+ }
+
+
+
+
+
+
+@keyframes request_fadein {
+  from {
+    opacity: 0;
+ 		top:50px;
+ 		
+  }
+
+  to {
+    opacity: 1;
+    top:0px;
+    
+  }
+}
+ 
+ 
+ 
+ 
+ 
+ .request_fadein {
+	 position: relative;
+	 animation-name: request_fadein;
+	 animation-duration: 1.5s;
+	 animation-fill-mode: both;
+	 animation-timing-function: cubic-bezier(0,.32,.1,.97);
+	 animation-delay: 1s;
+ }
+
+
+
+
+
+
 
 
 
