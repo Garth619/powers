@@ -13,11 +13,11 @@ get_header(); ?>
 	
 	<div class="inner_content">
 		
-		<div class="video_wrapper video_fade">
+		<div class="video_wrapper">
 			
 			
 			
-			<script src="https://fast.wistia.com/embed/medias/v2q97a6dh4.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><span class="wistia_embed wistia_async_v2q97a6dh4 popover=true popoverContent=link" style="display:inline"><a href="#">
+<script src="https://fast.wistia.com/embed/medias/v2q97a6dh4.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><span class="wistia_embed wistia_async_v2q97a6dh4 popover=true popoverContent=link" style="display:inline"><a href="#">
 				
 				
 				
@@ -47,36 +47,36 @@ get_header(); ?>
 		
 		<div class="main_header_wrapper">
 			
-			<span class="sub_header title_fadein">Justice Begins with Your&nbsp;Story.</span><!-- sub_header -->
-			<span class="large_header letter_fade">I'm listening.</span><!-- large_header -->
+			<span class="sub_header">Justice Begins with Your&nbsp;Story.</span><!-- sub_header -->
+			<span class="large_header">I'm listening.</span><!-- large_header -->
 		
-			<div class="white_line white_line_fadein"></div><!-- white_line -->
+			<div class="white_line"></div><!-- white_line -->
 			
 		</div><!-- main_header_wrapper -->
 		
 		<span class="tagline">
 			
-			 <span class="tagline_fadein">passionate</span><!-- tagline_fadein -->
+			 <span class="tagline_single_word">passionate</span><!-- tagline_fadein -->
 			
-			<span class="green_dot green_dot_fade">&middot;</span>
+			<span class="green_dot">&middot;</span>
 			
-			<span class="tagline_fadein">relatable</span><!-- tagline_fadein -->
+			<span class="tagline_single_word">relatable</span><!-- tagline_fadein -->
 			
-			<span class="green_dot green_dot_fade">&middot;</span>
+			<span class="green_dot">&middot;</span>
 			
-			<span class="tagline_fadein">fierce</span><!-- tagline_fadein -->
+			<span class="tagline_single_word">fierce</span><!-- tagline_fadein -->
 			
-			<span class="green_dot green_dot_fade">&middot;</span>
+			<span class="green_dot">&middot;</span>
 			
-			<span class="tagline_fadein">experienced</span><!-- tagline_fadein -->
+			<span class="tagline_single_word">experienced</span><!-- tagline_fadein -->
 			
-			<span class="green_dot green_dot_fade">&middot;</span>
+			<span class="green_dot">&middot;</span>
 			
-			<span class="tagline_fadein"><span class="mobile_hack">empathetic</span><!-- mobile_hack --></span><!-- tagline_fadein -->
+			<span class="tagline_single_word"><span class="mobile_hack">empathetic</span><!-- mobile_hack --></span><!-- tagline_fadein -->
 		
 		</span><!-- tagline -->
 		
-		<a class="request request_fadein" href="#free_consultation">Request Free Consultation</a>
+		<a class="request" href="#free_consultation">Request Free Consultation</a>
 		
 		<div class="mouse"></div>
 

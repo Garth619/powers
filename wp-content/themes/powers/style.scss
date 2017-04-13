@@ -663,7 +663,9 @@ nav {
 	padding-top: 233px;
 	position: relative;
 	z-index:10;
+	
 	.video_wrapper {
+		opacity: 0;
 		&:hover {
 			a {
 				span.video_caption {
@@ -730,6 +732,7 @@ nav {
 		transition: all .2s ease-in-out;
 		background: $green;
 		text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.6);
+		opacity: 0;
 		&:hover {
 			background: #fff;
 			color:$green;
@@ -748,6 +751,7 @@ nav {
 		color:#fff;
 		display: block;
 		margin-top:32px;
+		opacity: 0;
 	}
 	span.large_header {
 		font-size:110px;
@@ -759,7 +763,7 @@ nav {
 		letter-spacing: 0px;
 		font-family: $prata;
 		display: block;
-		
+		opacity: 0;
 	}
 	.white_line {
 		width:700px;
@@ -767,6 +771,7 @@ nav {
 		background:rgba(255, 255, 255, 0.3);
 		display: block;
 		margin: 26px auto 0;
+		opacity: 0;
 	}
 }
 
@@ -778,6 +783,9 @@ nav {
 	letter-spacing: 5.4px;
 	display:block;
 	margin-top:22px;
+	.tagline_single_word {
+		opacity: 0;
+	}
 	.tagline_fadein {
 // 		margin:0 20px;
 		
@@ -789,6 +797,7 @@ nav {
 		top:3px;
 		display: inline-block;
 		margin:0 16px;
+		opacity: 0;
 	}
 }
 
@@ -798,9 +807,6 @@ nav {
 
 
 
-
-
-/* try cubiz */
 
 
 @keyframes video_fade {
@@ -869,7 +875,7 @@ nav {
  @keyframes letter_fade {
   0% {
     opacity: 0;
- 		letter-spacing: 25px;
+ 		letter-spacing: 12px;
  		
   }
 
@@ -915,7 +921,7 @@ nav {
  
  
 .white_line_fadein {
-	 animation-delay: 3100ms;
+	 animation-delay: 2900ms;
 	 animation-fill-mode: both;
 	 animation-name: white_line_fadein;
 	  animation-duration: 1500ms;
@@ -959,7 +965,7 @@ nav {
  
  
 
-  @keyframes green_dot {
+  @keyframes green_dot_fade {
   from {
     
 opacity: 0;
@@ -977,10 +983,10 @@ opacity: 0;
  
  
  
- .green_dot {
-	 animation-delay:  3100ms;
+ .green_dot_fade {
+	 animation-delay:  2900ms;
 	 animation-fill-mode: both;
-	 animation-name: green_dot;
+	 animation-name: green_dot_fade;
 	  animation-duration: 1500ms;
 	 animation-timing-function: ease-in-out;
 }
@@ -4728,6 +4734,7 @@ a.view_all_testimonials {
 .inner_content {
 	
 	.video_wrapper {
+		opacity: 1;
 		&:hover {
 			a {
 				span.video_caption {
@@ -4760,6 +4767,7 @@ a.view_all_testimonials {
 	}
 	a.request {
 		margin-top:57px;
+		opacity: 1;
 		&:hover {
 			
 		}
@@ -4768,14 +4776,19 @@ a.view_all_testimonials {
 
 .main_header_wrapper {
 	margin: 35px auto 0;
+	width:auto;
 	span.sub_header {
 		margin-top: 0px;
+		opacity: 1;
 	}
 	span.large_header {
-		
+		opacity: 1;
 	}
 	.white_line {
 		margin-top:23px;
+		opacity: 1;
+		max-width: 495px;
+		width:100%;
 	}
 }
 
@@ -4783,13 +4796,92 @@ a.view_all_testimonials {
 	width: 540px;
 	margin:31px auto 0;
 	line-height: 24px;
+	opacity: 1;
+	.tagline_single_word {
+		opacity: 1;
+	}
 	.green_dot {
 		margin: 0 18px;
+		opacity: 1;
 		&:nth-of-type(3) {
 			display:none;
 		}
 	}
 }
+
+
+
+
+
+
+
+/* Main Banner Animations */
+
+
+
+
+
+.video_fade {
+	animation-name: none;
+ }
+ 
+ 
+
+ 
+ 
+ 
+ 
+ .title_fadein {
+	 animation-name: none;
+ }
+ 
+ 
+
+ 
+ 
+ 
+ .letter_fade {
+		animation-name: none;
+ }
+ 
+ 
+
+ 
+ 
+ 
+.white_line_fadein {
+	 animation-name: none;
+}
+
+
+
+ 
+ 
+ .tagline_fadein {
+	 animation-name: none;
+ }
+ 
+
+.green_dot_fade {
+	 animation-name: none;
+}
+
+ 
+ .request_fadein {
+	 animation-name: none;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -5558,6 +5650,8 @@ span.view_case_details {
 
 
 @media screen and (max-width: 1100px) {
+	
+	
 	
 	
 	
