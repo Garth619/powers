@@ -1228,8 +1228,8 @@ $animDuration: 7s;
 		span.reasons_title {
 			font-family: $prata;
 			color:$black;
-			font-size:55px;
-			letter-spacing: 5px;
+			font-size:62px;
+			letter-spacing: 4px;
 			display: block;
 			line-height: 60px;
 			margin-top:17px;
@@ -3036,7 +3036,34 @@ body.page-template-page-contact {
 }
 
 
-
+.alignleft,
+img.alignleft {
+	display: inline;
+	float: left;
+	margin-right: 24px;
+	margin-top: 4px;
+}
+.alignright,
+img.alignright {
+	display: inline;
+	float: right;
+	margin-left: 24px;
+	margin-top: 4px;
+}
+.aligncenter,
+img.aligncenter {
+	clear: both;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+img.alignleft,
+img.alignright,
+img.aligncenter {
+	margin-bottom: 12px;
+	max-width:100%;
+	height:auto;
+}
 
 
 
@@ -5530,42 +5557,6 @@ a.view_all_testimonials {
 
 
 
-/*
-.reasons_pagers_wrapper {
-	width:100%;
-	margin-top:16px;
-	display: block;
-	.reasons_pager_slider {
-		width:100%;
-		.reasons_pager_single.slick-current {
-			background: $green;
-		}
-		.reasons_pager_single {
-			background: #191919;
-			
-			text-align: center;
-			padding:18px 0 23px;
-			transition: all .2s ease-in-out;
-			cursor: pointer;
-			border-right:1px solid #464646;
-			&:last-of-type {
-				border-right:none;
-			}
-			&:hover {
-				background: $green;
-			}
-			span {
-				color:#fff;
-				font-family: $abril;
-				font-size:50px;
-				line-height: 1;
-			}
-		}
-	}
-}
-*/
-
-
 
 
 
@@ -5706,6 +5697,8 @@ a.view_all_testimonials {
 
 
 
+
+
 .reasons_grid_wrapper {
 	width:100%;
 	float:none;
@@ -5715,6 +5708,7 @@ a.view_all_testimonials {
 		.reasons_slider {
 			background: #fff;
 			height:335px;
+			
 			.single_reason {
 				
 				&:hover {
@@ -5739,16 +5733,23 @@ a.view_all_testimonials {
 					}
 				}
 			}
+			
 			.single_reason_hover {
 				opacity: 1;
 				visibility: visible;
 				background: #fff;
 				text-align: center;
-				padding: 82px 5%;
+				padding: 0px 5%;
+				height: 337px;
+				.single_reason_hover_inner {
+					position: relative;
+					top: 50%;
+					transform: translateY(-50%);
+					
+				}
 				span.hover_title {
 					font-size:27px;
-					margin:0 auto 51px;
-					max-width: 500px;
+					margin:0 auto 20px;
 					line-height: 30px;
 					br {
 						display: none;
@@ -5760,7 +5761,7 @@ a.view_all_testimonials {
 				span.hover_content {
 					color:$black;
 					margin:0 auto;
-					max-width: 450px;
+					max-width: 540px;
 					font-size: 18px;
 					line-height: 25px;
 				}
@@ -5768,6 +5769,37 @@ a.view_all_testimonials {
 		}
 	}
 }
+
+
+
+
+
+/* Tablet Hack */
+
+.hover_title_1 {
+	max-width:500px !important;
+}
+
+.hover_title_2 {
+	max-width:300px !important;
+}
+
+
+.hover_title_3 {
+	max-width: 335px !important;
+}
+
+
+.hover_title_4 {
+	max-width: 260px !important;
+}
+
+.hover_title_5 {
+	max-width: 240px !important;
+}
+
+
+
 
 /* About */
 
@@ -7360,7 +7392,7 @@ header {
 			 width: 174px;
 		}
 		span.reasons_title {
-			font-size:36px;
+			font-size:40px;
 			line-height: 40px;
 			max-width:200px;
 			max-width: 250px;
@@ -8544,10 +8576,12 @@ body.page-template-page-caseresults {
 				}
 			}
 			.single_reason_hover {
-			
+				.single_reason_hover_inner {
+					top:53%;
+				}
 				span.hover_title {
 					font-size:25px;
-					margin: 0 auto 43px;
+					/* margin: 0 auto 43px; */
 				}
 				span.green_line {
 					
@@ -8924,6 +8958,39 @@ body.page-template-page-contact .contact_page_wrapper {
 .contact_page_info_wrapper {
 	width:100%;
 }
+
+
+
+.alignleft,
+img.alignleft {
+	display: block;
+	float: none;
+	margin:4px auto 12px;
+	
+	
+	
+}
+.alignright,
+img.alignright {
+display: block;
+	float: none;
+	margin:4px auto 12px;
+}
+.aligncenter,
+img.aligncenter {
+	display: block;
+	float: none;
+	margin:4px auto 12px;
+}
+img.alignleft,
+img.alignright,
+img.aligncenter {
+	
+	max-width:100%;
+	height:auto;
+}
+
+
 
 
 	

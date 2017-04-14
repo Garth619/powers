@@ -126,11 +126,15 @@ get_header(); ?>
 					
 					<div class="single_reason_hover">
 						
-						<span class="hover_title">Focused<br/> on Client Communication and respect</span><!-- hover_title -->
+						<div class="single_reason_hover_inner">
+						
+						<span class="hover_title hover_title_1">Focused<br/> on Client Communication and&nbsp;respect</span><!-- hover_title -->
 						
 						<span class="green_line"></span><!-- green_line -->
 						
 						<span class="hover_content">Listening is key: Powers Injury Law clients have a direct line to their attorney. Clients deserve our time, so all calls are returned as soon as&nbsp;possible.</span><!-- hover_content -->
+						
+						</div><!-- single_reason_hover_inner -->
 						
 					</div><!-- single_reason_hover -->
 					
@@ -144,7 +148,7 @@ get_header(); ?>
 						
 						<span class="green_line"></span><!-- green_line -->
 						
-						<span class="reason_content">LARGE VERDICTS<br/>AND SETTLEMENTS</span><!-- reason_content -->
+						<span class="reason_content">LARGE VERDICTS<br/> AND SETTLEMENTS</span><!-- reason_content -->
 						
 						<img class="reason_arrow" src="<?php bloginfo('template_directory');?>/images/sp-arrow.png"/>
 						
@@ -152,11 +156,15 @@ get_header(); ?>
 					
 					<div class="single_reason_hover">
 						
-						<span class="hover_title">LARGE VERDICTS<br/>AND SETTLEMENTS</span><!-- hover_title -->
+						<div class="single_reason_hover_inner">
 						
-						<span class="green_line"></span><!-- green_line -->
+						<span class="hover_title hover_title_2">LARGE VERDICTS<br/> AND SETTLEMENTS</span><!-- hover_title -->
+						
+						<span class="green_line"></span><!-- green_line_ -->
 						
 						<span class="hover_content">Results speak volumes: Winning six-figure verdicts establishes us the credibility for negotiating six and seven-figure settlements.</span><!-- hover_content -->
+						
+						</div><!-- single_reason_hover_inner -->
 						
 					</div><!-- single_reason_hover -->
 					
@@ -178,12 +186,16 @@ get_header(); ?>
 					
 					<div class="single_reason_hover">
 						
-						<span class="hover_title">Takes a limited number of cases</span><!-- hover_title -->
+						<div class="single_reason_hover_inner">
+						
+						<span class="hover_title hover_title_3">Takes a limited number of cases</span><!-- hover_title -->
 						
 						<span class="green_line"></span><!-- green_line -->
 						
 						<span class="hover_content">To keep with the promise of a client-focused practice, Jessica limits the number of clients she represents at one time. All clients deserve equal time and attention, no matter the&nbsp;circumstances. 
 </span><!-- hover_content -->
+
+						</div><!-- single_reason_hover_inner -->
 						
 					</div><!-- single_reason_hover -->
 					
@@ -197,7 +209,7 @@ get_header(); ?>
 						
 						<span class="green_line"></span><!-- green_line -->
 						
-						<span class="reason_content">gives back to<br/>the community</span><!-- reason_content -->
+						<span class="reason_content">gives back to<br/> the community</span><!-- reason_content -->
 						
 						<img class="reason_arrow" src="<?php bloginfo('template_directory');?>/images/sp-arrow.png"/>
 						
@@ -205,13 +217,17 @@ get_header(); ?>
 					
 					<div class="single_reason_hover">
 						
-						<span class="hover_title">gives back to<br/>the community</span><!-- hover_title -->
+						<div class="single_reason_hover_inner">
+						
+						<span class="hover_title hover_title_4">gives back to<br/> the community</span><!-- hover_title -->
 						
 						<span class="green_line"></span><!-- green_line -->
 						
-						<span class="hover_content">Jessica began her career with Legal Services of Alabama representing those who could not afford an attorney. She now gives back by doing pro bono work and serving on community boards and volunteering. </span><!-- hover_content -->
+						<span class="hover_content">Jessica began her career with Legal Services of Alabama representing those who could not afford an attorney. She now gives back by doing pro bono work and serving on community boards and&nbsp;volunteering. </span><!-- hover_content -->
 						
 					</div><!-- single_reason_hover -->
+					
+					</div><!-- single_reason_hover_inner -->
 					
 				</div><!-- single_reason -->
 				
@@ -223,7 +239,7 @@ get_header(); ?>
 						
 						<span class="green_line"></span><!-- green_line -->
 						
-						<span class="reason_content">no recovery,<br/>no fee</span><!-- reason_content -->
+						<span class="reason_content">no recovery,<br/> no fee</span><!-- reason_content -->
 						
 						<img class="reason_arrow" src="<?php bloginfo('template_directory');?>/images/sp-arrow.png"/>
 						
@@ -231,11 +247,15 @@ get_header(); ?>
 					
 					<div class="single_reason_hover">
 						
-						<span class="hover_title">no recovery,<br/>no fee</span><!-- hover_title -->
+						<div class="single_reason_hover_inner">
+						
+						<span class="hover_title hover_title_5">no recovery,<br/> no fee</span><!-- hover_title -->
 						
 						<span class="green_line"></span><!-- green_line -->
 						
 						<span class="hover_content">Our financial success is tied to your recovery. In other words, we have an incentive to get the best monetary recovery for our&nbsp;clients.</span><!-- hover_content -->
+						
+						</div><!-- single_reason_hover_inner -->
 						
 					</div><!-- single_reason_hover -->
 					
@@ -249,7 +269,7 @@ get_header(); ?>
 						
 						<span class="green_line"></span><!-- green_line -->
 						
-						<span class="reason_content">YOUR STORY<br/>IS OUR CAUSE</span><!-- reason_content -->
+						<span class="reason_content">YOUR STORY<br/> IS OUR CAUSE</span><!-- reason_content -->
 						
 						<img class="reason_arrow" src="<?php bloginfo('template_directory');?>/images/sp-arrow.png"/>
 						
@@ -257,11 +277,15 @@ get_header(); ?>
 					
 					<div class="single_reason_hover">
 						
-						<span class="hover_title">YOUR STORY<br/>IS OUR CAUSE</span><!-- hover_title -->
+						<div class="single_reason_hover_inner">
+						
+						<span class="hover_title hover_title_6">YOUR STORY<br/> IS OUR CAUSE</span><!-- hover_title -->
 						
 						<span class="green_line"></span><!-- green_line -->
 						
 						<span class="hover_content">At Powers Injury Law, we listen to your story, give you a voice, and fight for the justice you&nbsp;deserve. </span><!-- hover_content -->
+						
+						</div><!-- single_reason_hover_inner -->
 						
 					</div><!-- single_reason_hover -->
 					
