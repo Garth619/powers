@@ -158,6 +158,29 @@ var waypoint = new Waypoint({
 
 
 
+var waypointimage = new Waypoint({
+  element: document.getElementById('image_trigger'),
+  handler: function(direction) {
+   
+   
+   
+   
+  jQuery('.image_inner').addClass('image_inner_fadein');
+  
+  jQuery('img.about_image.desktop').addClass('about_image_fadein');
+  
+  jQuery('a.meet_attorney').addClass('meet_attorney_fadein');
+   
+   
+   
+   
+  },
+  offset:150
+}) // waypoint
+
+
+
+
 
 
 
@@ -198,45 +221,6 @@ var waypointthree = new Waypoint({
 
 
 
-
-/*
-
-var waypointfour = new Waypoint({
-  element: document.getElementById('request_trigger'),
-  handler: function(direction) {
-   
-   
-   
-   
-  jQuery('span.request_green_line').addClass('fadein');
-  
- 
-   
-   
-   
-   
-  }
-}) // waypoint
-*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }); // Document Ready
 
 </script>
@@ -272,7 +256,8 @@ var waypointfive = new Waypoint({
    
    
    
-  }
+  },
+  offset:100
 }) // waypoint
 
 
@@ -313,7 +298,8 @@ var waypointsix = new Waypoint({
    
    
    
-  }
+  },
+  offset:100
 }) // waypoint
 
 
@@ -355,7 +341,8 @@ var waypointsix = new Waypoint({
    
    
    
-  }
+  },
+  offset:100
 }) // waypoint
 
 

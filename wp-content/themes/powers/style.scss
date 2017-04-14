@@ -1426,6 +1426,138 @@ $animDuration: 7s;
 }
 
 
+
+@keyframes image_inner_fadein {
+  from {
+    opacity: 0;
+ 		transform: translateX(150px) translateY(150px);
+/*
+ 		width:0;
+ 		height:0;
+*/
+ 		
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0px) translateY(0px);
+/*
+    width:100%;
+    height:100%;
+*/
+  }
+}
+
+
+
+.image_inner_fadein {
+	animation-name: image_inner_fadein;
+  animation-duration: 1.5s;
+  animation-fill-mode: both;
+  animation-timing-function: cubic-bezier(0,.32,.1,.97);
+//   animation-delay: 1s;
+ }
+
+
+
+
+
+
+@keyframes about_image_opacity {
+  from {
+    opacity: 0;
+ 		
+ 		
+  }
+
+  to {
+    opacity: 1;
+    
+    
+  }
+}
+
+
+
+
+
+@keyframes about_image_fadein {
+  from {
+    
+ 		transform: translateX(-150px) translateY(-150px);
+ 		
+  }
+
+  to {
+    
+    transform: translateX(0px) translateY(0px);
+    
+  }
+}
+
+
+
+
+
+img.about_image_fadein {
+	
+	animation-name: about_image_opacity, about_image_fadein;
+  animation-duration: 200ms, 1500ms;
+  animation-fill-mode: both;
+  animation-timing-function: ease-in-out, cubic-bezier(0,.32,.1,.97);
+//   animation-delay: 1s;
+  
+ 
+
+ }
+
+
+
+
+@keyframes meet_attorney_fadein {
+  from {
+    
+ 		opacity: 0;
+ 		
+  }
+
+  to {
+    
+    opacity: 1;
+    
+  }
+}
+
+
+
+@keyframes meet_attorney_move {
+  from {
+    
+ 		top:100px;
+ 		
+  }
+
+  to {
+    
+   top:0px;
+    
+  }
+}
+
+
+		
+		
+		
+		a.meet_attorney_fadein {
+			animation-name: meet_attorney_fadein, meet_attorney_move;
+			animation-duration: 700ms,2000ms;
+			animation-fill-mode: both;
+			animation-timing-function: ease-ion-out,cubic-bezier(0,.32,.1,.97);
+		}
+	
+
+
+
 .about {
 
 	.image_wrapper {
@@ -1440,11 +1572,15 @@ $animDuration: 7s;
 			width:100%;
 			height:94%;
 			position: absolute;
+			top:0;
+			left:0px;
+			opacity: 0;
 		}
 		img.about_image.tablet, img.about_image.tablet2, img.about_image.mobile {
 			display: none;
 		}
 		img.about_image {
+			opacity: 0;
 			max-width:100%;
 			height:auto;
 			position: relative;
@@ -1461,7 +1597,7 @@ $animDuration: 7s;
 			color:#fff;
 			float:right;
 			position: relative;
-			top:0;
+			opacity: 0;
 			right:0;
 			z-index:10;
 			font-family: $proximabold;
@@ -1812,20 +1948,155 @@ span.second_about_greenline.fadein {
 
 
 
-.logo_slider_wrapper.fadein {
-	opacity: 1;
-	margin-top:-50px;
-	
-		.logo_button_left {
-			opacity: 1;
-			top:30px;
-		}
-		.logo_button_right {
-			opacity: 1;
-			top:-35px;
-		}
-	
+
+
+
+
+
+
+
+
+
+
+
+@keyframes logos_wrapper_opacity {
+  from {
+    opacity: 0;
+ 		
+ 		
+  }
+
+  to {
+    opacity: 1;
+    
+    
+  }
 }
+
+
+
+@keyframes logos_wrapper_move {
+  from {
+    top:-50px;
+ 		
+ 		
+  }
+
+  to {
+    top:0;
+    
+    
+  }
+}
+
+
+
+.logo_slider_wrapper.fadein {
+	
+	animation-name: logos_wrapper_opacity, logos_wrapper_move;
+  animation-duration: 500ms, 1500ms;
+  animation-fill-mode: both;
+  animation-timing-function: ease-in-out, cubic-bezier(0,.32,.1,.97);
+  animation-delay: 1s;
+  
+
+
+ }
+
+
+
+@keyframes logos_left_opacity {
+  from {
+    opacity: 0;
+ 		
+ 		
+  }
+
+  to {
+    opacity: 1;
+    
+    
+  }
+}
+
+
+@keyframes logos_left_move {
+  from {
+    top:-10px
+ 		
+ 		
+  }
+
+  to {
+    top:30px;
+    
+    
+  }
+}
+
+
+.logo_slider_wrapper.fadein .logo_button_left {
+	animation-name: logos_left_opacity, logos_left_move;
+  animation-duration: 300ms, 2000ms;
+  animation-fill-mode: both;
+  animation-timing-function: ease-in-out, cubic-bezier(0,.32,.1,.97);
+  animation-delay: 1s;
+}
+
+
+
+
+
+
+
+
+
+@keyframes logos_right_opacity {
+  from {
+    opacity: 0;
+ 		
+ 		
+  }
+
+  to {
+    opacity: 1;
+    
+    
+  }
+}
+
+
+@keyframes logos_right_move {
+  from {
+    top:-75px
+ 		
+ 		
+  }
+
+  to {
+    top:-35px;
+    
+    
+  }
+}
+
+
+.logo_slider_wrapper.fadein .logo_button_right {
+	animation-name: logos_right_opacity, logos_right_move;
+  animation-duration: 300ms, 2000ms;
+  animation-fill-mode: both;
+  animation-timing-function: ease-in-out, cubic-bezier(0,.32,.1,.97);
+  animation-delay: 1s;
+}
+
+
+
+
+
+
+
+
+
 
 .logo_slider_wrapper {
 	width:210px;
@@ -1834,8 +2105,8 @@ span.second_about_greenline.fadein {
 	margin-right:8%;
 	float:left;
 	opacity: 0;
-	transition: all 1100ms cubic-bezier(.1,.32,.1,.97);
-	transition-delay: 1s;
+	position: relative;
+	
 	.logo_buttons {
 		background: #2a3238;
 		display: block;
@@ -1855,13 +2126,13 @@ span.second_about_greenline.fadein {
 		}
 	}
 	.logo_button_left {
-		top:-20px;
+		top:30px;
 		opacity: 0;
 		
 
 	}
 	.logo_button_right {
-		top:-25px;
+		top:-35px;
 		opacity: 0;
 		
 	}
@@ -1979,17 +2250,220 @@ a.view_all_testimonials {
 }
 
 
-.testi_buttons.fadein {
-	bottom:62px;
-	opacity: 1;
+
+
+
+
+
+
+
+@keyframes testi_buttons_opacity {
+  from {
+    opacity: 0;
+ 	
+ 		
+  }
+
+  to {
+    opacity: 1;
+    
+    
+  }
 }
+
+
+
+
+
+
+.testi_buttons.fadein {
+	
+	animation-name: testi_buttons_opacity;
+  animation-duration: 700ms;
+  animation-fill-mode: both;
+  animation-timing-function: ease-in-out;
+  animation-delay: 1s;
+ 
+
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ @keyframes testi_buttons_left_move {
+  from {
+    right:-500px;
+ 	
+ 		
+  }
+
+  to {
+    right:0
+    
+    
+  }
+}
+
+
+
+
+.testi_buttons.fadein {
+	
+	.testi_back {
+	
+	animation-name: testi_buttons_left_move;
+  animation-duration: 2000ms;
+  animation-fill-mode: both;
+  animation-timing-function: cubic-bezier(.1,.32,.1,.97);
+ 
+ 
+
+ }
+	
+} 
+
+
+
+
+
+
+
+
+ @keyframes testi_buttons_right_move {
+  from {
+    left:-500px;
+ 	
+ 		
+  }
+
+  to {
+    left:0
+    
+    
+  }
+}
+
+
+
+
+.testi_buttons.fadein {
+	
+	.testi_next {
+	
+	animation-name: testi_buttons_right_move;
+  animation-duration: 2000ms;
+  animation-fill-mode: both;
+  animation-timing-function: cubic-bezier(.1,.32,.1,.97);
+ 
+ 
+
+ }
+	
+} 
+
+
+
+
+
+
+
+
+
+
+
+@keyframes testi_buttons_left_arrow {
+  from {
+    right:-20px;
+		opacity: 0;
+ 		
+  }
+
+  to {
+    right:0;
+    opacity: 1;
+    
+  }
+}
+
+
+
+
+.testi_buttons.fadein {
+	
+	.testi_back {
+		
+		img {
+	
+	animation-name: testi_buttons_left_arrow;
+  animation-duration: 900ms;
+  animation-fill-mode: both;
+  animation-timing-function: cubic-bezier(.1,.32,.1,.97);
+  animation-delay: 2s;
+ }
+ 
+
+ }
+	
+} 
+
+
+
+
+
+
+
+@keyframes testi_buttons_right_arrow {
+  from {
+    left:-20px;
+		opacity: 0;
+ 		
+  }
+
+  to {
+    left:0;
+    opacity: 1;
+    
+  }
+}
+
+
+
+
+.testi_buttons.fadein {
+	
+	.testi_next {
+		
+		img {
+	
+	animation-name: testi_buttons_right_arrow;
+  animation-duration: 900ms;
+  animation-fill-mode: both;
+  animation-timing-function: cubic-bezier(.1,.32,.1,.97);
+  animation-delay: 2s;
+ }
+ 
+
+ }
+	
+} 
+
+
+
+
+
+
+
+
+
+
 
 
 .testi_buttons {
 	position: absolute;
 	right:-56px;
-	transition: all 1.5s cubic-bezier(0,.32,.1,.97);
-	transition-delay: 750ms;
 	opacity: 0;
 	bottom:110px;
 	.testi_button {
@@ -2009,17 +2483,22 @@ a.view_all_testimonials {
 		}
 	}
 	.testi_back {
+		position: relative;
+		right:0;
 		img {
 			margin-right:5px;
 			position: relative;
-			top:1px;
+			top:2px;
+			opacity: 0;
 		}
 	}
 	.testi_next {
+		position: relative;
+		left:0;
 		img {
 			margin-left:5px;
 			position: relative;
-			top:1px;
+			top:2px;
 		}
 	}
 }
@@ -2876,6 +3355,7 @@ body.page-template-page-contact {
 		position: relative;
 		top:-90px;
 		transition: all 1s ease-in-out;
+		transition-delay: 1s;
 		opacity: 0;
 	}
 	span.bio_excerpt {
