@@ -1263,7 +1263,7 @@ $animDuration: 7s;
 					}
 				}
 				.single_reason_reg {
-					padding:117px 5% 117px 22%;
+					padding: 94px 5% 117px 16%;
 					border-right:1px solid #dbe0e4;
 					border-bottom:1px solid #dbe0e4;
 					position: relative;
@@ -1291,7 +1291,7 @@ $animDuration: 7s;
 						letter-spacing: 1.8px;
 						margin-left:22px;
 						display: block;
-						max-width:240px;
+						max-width: 260px;
 					}
 					img.reason_arrow {
 						position: absolute;
@@ -1302,7 +1302,7 @@ $animDuration: 7s;
 			}
 			.single_reason_hover {
 				position: absolute;
-				padding:117px 5% 117px 22%;
+				padding: 94px 5% 117px 16%;
 				top:0;
 				left:0;
 				width:100%;
@@ -1321,7 +1321,7 @@ $animDuration: 7s;
 					letter-spacing: 1.8px;
 					margin-left:22px;
 					display: block;
-					max-width:240px;
+					max-width: 260px;
 				}
 				span.green_line {
 					width:40px;
@@ -1337,7 +1337,7 @@ $animDuration: 7s;
 					font-family: $prata;
 					line-height: 24px;
 					letter-spacing: 2px;
-					max-width:240px;
+					max-width:305px;
 					display: block;
 					margin-left:22px;
 				}
@@ -4009,7 +4009,7 @@ body.page-template-page-caseresults, body.page-template-page-testimonials, body.
 					}
 				}
 				.single_reason_reg {
-					padding-left:12%;
+					padding-left:5%;
 					span.number {
 						
 					}
@@ -4025,7 +4025,7 @@ body.page-template-page-caseresults, body.page-template-page-testimonials, body.
 				}
 			}
 			.single_reason_hover {
-				padding-left:12%;
+				padding-left:5%;
 				span.hover_title {
 					
 				}
@@ -4906,6 +4906,18 @@ padding: 22px 18px 0px 21px;
 
 .logo_slider_wrapper.fadein {
 	animation-name: none;
+	opacity: 1;
+	.logo_button_left, .logo_button_right {
+		animation-name: none;
+		opacity: 1;
+	}
+}
+
+
+
+.logo_slider_wrapper {
+	animation-name: none;
+	opacity: 1;
 	.logo_button_left, .logo_button_right {
 		animation-name: none;
 		opacity: 1;
@@ -6143,20 +6155,22 @@ span.view_case_details {
 
 
 
-bio_wrapper {
+.bio_wrapper {
 	img {
 		top:-60px;
 		opacity: 1;
 	}
 }
 
-
+.our_attorney_wrapper .our_attorney_inner_wrapper .our_attorney_image img {
+	opacity: 1;
+		left:0;
+}
 
 
 .our_attorney {
 	img {
-		opacity: 1;
-		left:0;
+		
 	}
 }
 
@@ -7316,7 +7330,7 @@ header {
 				
 			}
 			span.header_second {
-				
+				margin-left:10%;
 			}
 		}
 		p.about_intro {
@@ -7645,7 +7659,9 @@ a.view_all_testimonials {
 .request_consultation {
 	
 	.request_greenline_wrapper {
-		
+		span.request_green_line.fadein {
+			height: 162px;
+		}
 		span.request_green_line {
 			height: 162px;
 		}
@@ -8575,11 +8591,15 @@ body.page-template-page-caseresults {
 				margin-left:15px;
 			}
 			span.header_second {
-				margin-left: 42px;
+				
 			}
 			span.header_greenline {
 				top: -98px;
-				height:240px;
+				height:198px;
+			}
+			span.header_greenline.fadein {
+				
+				height:198px;
 			}
 		}
 		p.about_intro {
@@ -8665,7 +8685,7 @@ body.page-template-page-caseresults {
 					background: #fff;
 					box-shadow: 0 -1px 20px 0 rgba(0, 0, 0, 0.25);
 					margin-top:-98px;
-					padding:130px 10px 75px;
+					padding:130px 19px 75px;
 					text-align: center;
 					span.col2_quote {
 						
@@ -8934,6 +8954,7 @@ body.page-template-page-contact .contact_page_wrapper {
 	 max-width:350px;
 	 margin-left:auto;
 	 margin-right:auto;
+	 width:100%;
 	.green_dot {
 		&:nth-of-type(2), &:nth-of-type(4) {
     	display: none;
