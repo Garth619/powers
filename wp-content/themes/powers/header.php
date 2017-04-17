@@ -37,7 +37,18 @@
 <link rel="profile" href="http://gmpg.org/xfn/11" />
 
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
+
+<style type="text/css">
+
+
+<?php the_field( 'review_styles_code','options'); ?>
+
+
+</style>
+
+
 <?php wp_head();?>
+<?php the_field( 'header_tracking_code','options'); ?>
 </head>
 
 <body <?php body_class(); ?>>

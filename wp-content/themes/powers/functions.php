@@ -106,8 +106,8 @@ if (function_exists('register_sidebars')) {
 -------------------------------------------------------------- */
 if (function_exists('acf_add_options_page')) {
     acf_add_options_page(array(
-        'page_title' => 'Theme General Settings',
-        'menu_title' => 'Theme Settings',
+        'page_title' => 'Header Footer',
+        'menu_title' => 'Header Footer',
         'menu_slug' => 'theme-general-settings',
         'capability' => 'edit_posts',
         'redirect' => false

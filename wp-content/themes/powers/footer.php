@@ -407,7 +407,7 @@ var waypointfour = new Waypoint({
 </script>
 
 
-
+<?php the_field( 'footer_tracking_code','options'); ?>
 
 
 
