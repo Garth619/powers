@@ -11,7 +11,7 @@ get_header(); ?>
 
 <section class="inner_main">
 	
-	<h1 class="centered">Case Results</h1>
+	<h1 class="centered"><?php the_title();?></h1>
 	<div class="green_header_wrapper">
 		
 		<div class="green_header"></div><!-- green_header -->
