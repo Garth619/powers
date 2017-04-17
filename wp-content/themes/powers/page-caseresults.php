@@ -24,131 +24,99 @@ get_header(); ?>
 		
 		<div class="case_column">
 		
-			<div class="single_case">
 			
-			<span class="case_amount">$1.2M</span><!--case_amount -->
-			<span class="case_title">Wrongful Death</span><!-- case_title -->
 			
-			<div class="case_content">
+			
+			
+			<?php if(get_field('case_results')): ?>
+			 
+				<?php while(has_sub_field('case_results')): ?>
 				
-				<span class="case_greenline"></span><!-- case_greenline -->
 				
-				<div class="case_content_wrapper">
 				
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque luctus, dolor a convallis efficitur, odio ante sollicitudin ipsum, eu venenatis eros orci at tellus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque luctus odio.</p>
+					<div class="single_case">
+			
+					<span class="case_amount"><?php the_sub_field( 'case_amount' ); ?></span><!--case_amount -->
+					<span class="case_title"><?php the_sub_field( 'case_title' ); ?></span><!-- case_title -->
+			
+					<div class="case_content">
 				
-				</div><!-- case_content_wrapper -->
+					<span class="case_greenline"></span><!-- case_greenline -->
 				
-			</div><!-- case_content -->
-			
-			
-			<div class="case_cat_mobile_wrapper">
-			
-				<div class="case_cat">
-					Settlement
-				</div><!-- case_cat -->
-			
-			</div><!-- case_cat_mobile_wrapper -->
-			
-		</div><!-- single_case -->
-		
-		
-			<div class="single_case">
-			
-			<span class="case_amount">$5.25k</span><!--case_amount -->
-			<span class="case_title">Wrongful Death</span><!-- case_title -->
-			
-			<div class="case_content">
+					<div class="case_content_wrapper">
 				
-				<span class="case_greenline"></span><!-- case_greenline -->
+						<p><?php the_sub_field( 'case_content' ); ?></p>
 				
-				<div class="case_content_wrapper">
+					</div><!-- case_content_wrapper -->
 				
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque luctus, dolor a convallis efficitur, odio ante sollicitudin ipsum, eu venenatis eros orci at tellus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque luctus odio.</p>
-				
-				</div><!-- case_content_wrapper -->
-				
-			</div><!-- case_content -->
+				</div><!-- case_content -->
 			
 			
-			<div class="case_cat_mobile_wrapper">
+				<div class="case_cat_mobile_wrapper">
 			
-				<div class="case_cat">
-					Settlement
-				</div><!-- case_cat -->
+					<div class="case_cat">
+						<?php the_sub_field( 'case_category' ); ?>
+					</div><!-- case_cat -->
 			
-			</div><!-- case_cat_mobile_wrapper -->
+				</div><!-- case_cat_mobile_wrapper -->
 			
-		</div><!-- single_case -->
+			</div><!-- single_case -->
+			 
+					
+			    
+				<?php endwhile; ?>
+			 
+			<?php endif; ?>
+			
+			
+			
 		
 		
 		</div><!-- case_column -->
 		
 		<div class="case_column">
 		
+		<?php if(get_field('case_results_2')): ?>
+			 
+				<?php while(has_sub_field('case_results_2')): ?>
+				
+				
+				
+				<div class="single_case">
+			
+					<span class="case_amount"><?php the_sub_field( 'case_amount' ); ?></span><!--case_amount -->
+					<span class="case_title"><?php the_sub_field( 'case_title' ); ?></span><!-- case_title -->
+			
+					<div class="case_content">
+				
+					<span class="case_greenline"></span><!-- case_greenline -->
+				
+					<div class="case_content_wrapper">
+				
+						<p><?php the_sub_field( 'case_content' ); ?></p>
+				
+					</div><!-- case_content_wrapper -->
+				
+				</div><!-- case_content -->
+			
+			
+				<div class="case_cat_mobile_wrapper">
+			
+					<div class="case_cat">
+						<?php the_sub_field( 'case_category' ); ?>
+					</div><!-- case_cat -->
+			
+				</div><!-- case_cat_mobile_wrapper -->
+			
+			</div><!-- single_case -->
+			 
+					
+			    
+				<?php endwhile; ?>
+			 
+			<?php endif; ?>
+
 		
-		<div class="single_case">
-			
-			<div class="single_inner_wrapper">
-			
-			<span class="case_amount">$800k</span><!--case_amount -->
-			<span class="case_title">Wrongful Death</span><!-- case_title -->
-			
-			<div class="case_content">
-				
-				<span class="case_greenline"></span><!-- case_greenline -->
-				
-				<div class="case_content_wrapper">
-				
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque luctus, dolor a convallis efficitur, odio ante sollicitudin ipsum, eu venenatis eros orci at tellus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque luctus odio.</p>
-				
-				</div><!-- case_content_wrapper -->
-				
-			</div><!-- case_content -->
-			
-			
-			</div><!-- single_inner_wrapper -->
-			
-			
-			<div class="case_cat_mobile_wrapper">
-			
-				<div class="case_cat">
-					Settlement
-				</div><!-- case_cat -->
-			
-			</div><!-- case_cat_mobile_wrapper -->
-			
-		</div><!-- single_case -->
-		
-		
-		
-		<div class="single_case">
-			
-			<span class="case_amount">$1.2M</span><!--case_amount -->
-			<span class="case_title">Wrongful Death</span><!-- case_title -->
-			
-			<div class="case_content">
-				
-				<span class="case_greenline"></span><!-- case_greenline -->
-				
-				<div class="case_content_wrapper">
-				
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque luctus, dolor a convallis efficitur, odio ante sollicitudin ipsum, eu venenatis eros orci at tellus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque luctus odio.</p>
-				
-				</div><!-- case_content_wrapper -->
-				
-			</div><!-- case_content -->
-			
-			
-			<div class="case_cat_mobile_wrapper">
-			
-				<div class="case_cat">
-					Settlement
-				</div><!-- case_cat -->
-			
-			</div><!-- case_cat_mobile_wrapper -->
-			
-		</div><!-- single_case -->
 		
 		</div><!-- case_column -->
 		
