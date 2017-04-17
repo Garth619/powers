@@ -14781,6 +14781,46 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/wp-content\/uploads\/2017\/03\/award-1-150x147.png": {
+		"ft": 32768,
+		"iS": 3595,
+		"l": 1,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2017\/03\/award-1-150x147.png",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/2017\/03\/award-1.png": {
+		"ft": 32768,
+		"iS": 7156,
+		"l": 1,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2017\/03\/award-1.png",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/2017\/03\/award-2-150x147.png": {
+		"ft": 32768,
+		"iS": 5604,
+		"l": 1,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2017\/03\/award-2-150x147.png",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/2017\/03\/award-2.png": {
+		"ft": 32768,
+		"iS": 6174,
+		"l": 1,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2017\/03\/award-2.png",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/wp-content\/uploads\/2017\/03\/bodytext-image-150x150.jpg": {
 		"ft": 16384,
 		"iS": 7209,

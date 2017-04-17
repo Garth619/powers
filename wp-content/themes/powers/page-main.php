@@ -162,65 +162,21 @@ get_header(); ?>
 	
 	<div class="main_cases_wrapper">
 		
-		<div class="single_case">
-			
-			<a href="">
-			
-			<div class="single_case_content_wrapper">
-			
-				<span class="number_title">$1.2M</span><!-- number_title -->
-			
-				<div class="cases_greenline_wrapper">
-				
-					<span class="cases_greenline"></span><!-- cases_greenline -->
-			
-				</div><!-- cases_greenline_wrapper -->
-				
-				<span class="case_title">wrongful death settlement</span><!-- case_title -->
-				
-			</div><!-- single_case_content_wrapper -->
-			
-			<div class="case_background_image case_bg_one"></div><!-- case_background_image -->
-			
-			<span class="view_case_details">View Case Details</span><!-- view_case_details -->
-			
-			</a>
-			
-		</div><!-- single_case -->
 		
-		<div class="single_case">
-			
-			<a href="">
-			
-			<div class="single_case_content_wrapper">
-			
-				<span class="number_title">$525k</span><!-- number_title -->
-			
-				<div class="cases_greenline_wrapper">
-				
-					<span class="cases_greenline"></span><!-- cases_greenline -->
-			
-				</div><!-- cases_greenline_wrapper -->
-				
-				<span class="case_title">Distracted Driving Jury Verdict</span><!-- case_title -->
-				
-			</div><!-- single_case_content_wrapper -->
-			
-			<div class="case_background_image case_bg_two"></div><!-- case_background_image -->
-			
-			<span class="view_case_details">View Case Details</span><!-- view_case_details -->
-			
-			</a>
-			
-		</div><!-- single_case -->
 		
-		<div class="single_case">
+		
+		<?php if(get_field('featured_cases')): ?>
+		 
+			<?php while(has_sub_field('featured_cases')): ?>
+		 
+				
+			<div class="single_case">
 			
-			<a href="">
+			<a href="<?php the_sub_field( 'single_case_link' ); ?>">
 			
 			<div class="single_case_content_wrapper">
 			
-				<span class="number_title">$800k</span><!-- number_title -->
+				<span class="number_title"><?php the_sub_field( 'single_case_number' ); ?></span><!-- number_title -->
 			
 				<div class="cases_greenline_wrapper">
 				
@@ -228,17 +184,24 @@ get_header(); ?>
 			
 				</div><!-- cases_greenline_wrapper -->
 				
-				<span class="case_title">judgment against funeral home for <br/>mishandling the remains of a beloved family member </span><!-- case_title -->
+				<span class="case_title"><?php the_sub_field( 'single_case_title' ); ?></span><!-- case_title -->
 				
 			</div><!-- single_case_content_wrapper -->
 			
-			<div class="case_background_image case_bg_three"></div><!-- case_background_image -->
+			<div class="case_background_image case_bg_<?php the_sub_field( 'single_case_css_number' ); ?>"></div><!-- case_background_image -->
 			
 			<span class="view_case_details">View Case Details</span><!-- view_case_details -->
 			
 			</a>
 			
 		</div><!-- single_case -->
+				
+		    
+			<?php endwhile; ?>
+		 
+		<?php endif; ?>
+		
+		
 		
 		<div class="case_results_buttons">
 			
@@ -265,8 +228,7 @@ get_header(); ?>
 	
 	<div class="seocnd_about_title_wrapper">
 		
-		<span class="top_title">you’re a person,</span>
-		<span class="bottom_title">not a case</span>
+		<?php the_field( 'second_about_title' ); ?>
 		
 	</div><!-- seocnd_about_title_wrapper -->
 	
@@ -274,9 +236,7 @@ get_header(); ?>
 			
 			<div class="second_about_col1">
 				
-				<p><span class="first_character">N</span>mo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-
-				<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+				<?php the_field( 'second_about_content' ); ?>
 				
 			</div><!-- second_about_col1 -->
 			
@@ -294,17 +254,21 @@ get_header(); ?>
 						
 						<div class="logo_slider">
 							
-							<div class="single_logo">
-								
-								<img src="<?php bloginfo('template_directory');?>/images/award-1.png"/>
-								
-							</div><!-- single_logo -->
 							
-							<div class="single_logo">
+							<?php if(get_field('second_about_slider')): ?>
+							 
+								<?php while(has_sub_field('second_about_slider')): ?>
+							 
+									<div class="single_logo">
 								
-								<img src="<?php bloginfo('template_directory');?>/images/award-2.png"/>
+										<img src="<?php the_sub_field( 'image' ); ?>"/>
 								
-							</div><!-- single_logo --> 
+									</div><!-- single_logo -->
+							    
+								<?php endwhile; ?>
+							 
+							<?php endif; ?>
+							
 							
 						</div><!-- logo_slider -->
 						
@@ -322,8 +286,8 @@ get_header(); ?>
 						
 						<div class="quote_mobile_content">
 						
-							<span class="col2_quote"><u>“My clients have a direct line to me</u> and also my support staff. I personally call all my clients back and <u>give them the time each one&nbsp;deserves.”</u></span>
-							<span class="col2_name">Attorney Jessica Powers</span>
+							<span class="col2_quote"><?php the_field( 'second_about_quote' ); ?></span>
+							<span class="col2_name"><?php the_field( 'quote_title' ); ?></span>
 						
 						</div><!-- quote_mobile_content -->
 					
@@ -348,44 +312,43 @@ get_header(); ?>
 		
 		<div class="testi_title">
 			
-			<span class="testi_title_top">Client</span><!-- testi_title_top -->
-			<span class="testi_title_bottom">Testimonials</span><!-- testi_title_bottom -->
+			<?php the_field( 'client_testimonials_title' ); ?>
 			
 		</div><!-- test_title -->
 		
 		<div class="testi_slider">
 			
-			<div class="single_testi">
+			
+			<?php if(get_field('testimonials_slider')): ?>
+			 
+				<?php while(has_sub_field('testimonials_slider')): ?>
+			 
 				
-				<p>“With feelings of hopelessness and confusion, I made one phone call that would turn all of that around. Jessica has given me answers and hope from the first phone call, treating me like a family member not a client. Any questions or problems I had I was not waiting days on answers, Jessica was getting problems fixed and answers within hours of me calling or e-mailing. I have no worries and know that everything is being taken care of on time and for my best interest because I have Jessica on my side! Jessica Powers is the attorney that you can trust and is truly working for you to help you in these hard and confusing&nbsp;times.”</p>
+				<div class="single_testi">
+				
+				<p><?php the_sub_field( 'testimonial_content' ); ?></p>
 				
 				<div class="testi_name_wrapper">
 					
-					<span class="testi_name">Andi K.</span><!-- testi_name -->
+					<span class="testi_name"><?php the_sub_field( 'name' ); ?></span><!-- testi_name -->
 					<span class="divider"></span><!-- divider -->
-					<span class="testi_client">Current Client</span><!-- testi_name -->
+					<span class="testi_client"><?php the_sub_field( 'client_type' ); ?></span><!-- testi_name -->
 					
 				</div><!-- testi_name_wrapper -->
 				
 			</div><!-- single_testi -->
 			
-			<div class="single_testi">
+			
 				
-				<p>“Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.”</p>
-				
-				<div class="testi_name_wrapper">
-					
-					<span class="testi_name">Name</span><!-- testi_name -->
-					<span class="divider"></span><!-- divider -->
-					<span class="testi_client">Current Client</span><!-- testi_name -->
-					
-				</div><!-- testi_name_wrapper -->
-				
-			</div><!-- single_testi -->
+			    
+				<?php endwhile; ?>
+			 
+			<?php endif; ?>
+			
 			
 		</div><!-- testi_slider -->
 		
-		<a class="view_all_testimonials" href="">View All Testimonials</a><!-- view_all_testimonials -->
+		<a class="view_all_testimonials" href="<?php the_field( 'view_testimonials_link' ); ?>"><?php the_field( 'view_testimonials' ); ?></a><!-- view_all_testimonials -->
 		
 		<div class="testi_buttons">
 			
