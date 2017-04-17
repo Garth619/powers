@@ -19,10 +19,7 @@ get_header(); ?>
 			
 <script src="https://fast.wistia.com/embed/medias/v2q97a6dh4.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><span class="wistia_embed wistia_async_v2q97a6dh4 popover=true popoverContent=link" style="display:inline"><a href="#">
 				
-				
-				
-				
-				<div class="play_wrapper">
+			<div class="play_wrapper">
 					
 					<div class="inner_play_wrapper">
 					

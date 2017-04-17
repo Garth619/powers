@@ -205,7 +205,7 @@
 		
 				<span class="call_number">Call For a free consultation</span>
 		
-				<a class="tel" href="tel:123.456.7890">123.456.7890</a>
+				<a class="tel" href="tel:<?php the_field( 'phone', 23 ); ?>"><?php the_field( 'phone', 23 ); ?></a>
 			
 			</div><!-- free_consult_mobile_wrapper -->
 		
