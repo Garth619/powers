@@ -620,3 +620,17 @@ function twentyten_get_gallery_images() {
 }
 
 
+/* php in text editor */
+
+
+function php_text($text) {
+ if (strpos($text, '<' . '?') !== false) {
+ ob_start();
+ eval('?' . '>' . $text);
+ $text = ob_get_contents();
+ ob_end_clean();
+ }
+ return $text;
+}
+
+

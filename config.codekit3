@@ -14751,6 +14751,42 @@
 		"oAP": "\/wp-content\/themes\/powers\/tag.php",
 		"oF": 0
 		},
+	"\/wp-content\/uploads\/2017\/03\/6-150x150.png": {
+		"ft": 32768,
+		"iS": 16729,
+		"l": 1,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2017\/03\/6-150x150.png",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/2017\/03\/6-208x198.png": {
+		"ft": 32768,
+		"iS": 11151,
+		"l": 1,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2017\/03\/6-208x198.png",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/2017\/03\/6.png": {
+		"ft": 32768,
+		"iS": 20750,
+		"l": 1,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2017\/03\/6.png",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/2017\/03\/videobg.mp4": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/uploads\/2017\/03\/videobg.mp4",
+		"oF": 0
+		},
 	"\/wp-content\/uploads\/2017\/04\/about-150x150.jpeg": {
 		"ft": 16384,
 		"iS": 5983,
