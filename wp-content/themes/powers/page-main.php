@@ -123,38 +123,26 @@ get_header(); ?>
 	<div class="inner_about">
 	
 	
-		<h1>
-			<span class="header_greenline"></span><!-- header_greenline -->
-			<span class="header_first">birmingham</span>
-			<br/><span class="header_second">personal injury attorney</span>
-		</h1>
+		<?php the_field( 'about_title' ); ?>
 		
-		<p class="about_intro"><span class="firstcharacter">p</span> lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip  ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem </p><!-- about_intro -->
+		<p class="about_intro"><?php the_field( 'about_intro' ); ?></p><!-- about_intro -->
 		
 		<div id="image_trigger" class="image_wrapper">
 			
 			<div class="image_inner"></div><!-- image_inner -->
 			
-			<img class="about_image desktop" src="<?php bloginfo('template_directory');?>/images/bodytext-image.jpg"/>
-			<img class="about_image tablet" src="<?php bloginfo('template_directory');?>/images/bodytext-image-tab1.jpg"/>
-			<img class="about_image tablet2" src="<?php bloginfo('template_directory');?>/images/bodytext-image-tab2.jpg"/>
-			<img class="about_image mobile" src="<?php bloginfo('template_directory');?>/images/bodytext-image-mob2.jpg"/>
+			<img class="about_image desktop" src="<?php the_field( 'about_image_desktop' ); ?>"/>
+			<img class="about_image tablet" src="<?php the_field( 'about_image_tablet_1' ); ?>"/>
+			<img class="about_image tablet2" src="<?php the_field( 'about_image_tablet_2' ); ?>"/>
+			<img class="about_image mobile" src="<?php the_field( 'about_image_mobile' ); ?>"/>
 			
-			<a class="meet_attorney" href="">Meet Attorney<br/>Jessica Powers</a>
+			<a class="meet_attorney" href="<?php the_field( 'meet_attorney_link' ); ?>"><?php the_field( 'meet_attorney' ); ?></a>
 			
 		</div><!-- image_wrapper -->
 		
 		<div class="about_content">
 			
-			<h2>Nemo enim ipsam voluptatem</h2>
-			
-			<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
-			
-			<p>Ruia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-			<p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-
-			<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			<?php the_field( 'about_main_content' ); ?>
 			
 		</div><!-- about_content -->
 	
@@ -167,10 +155,10 @@ get_header(); ?>
 
 <section class="featured_cases">
 	
-	<span class="large_header">featured cases</span><!-- large_header -->
+	<span class="large_header"><?php the_field( 'featured_cases_title' ); ?></span><!-- large_header -->
 	
-	<span class="sub_header">The practice of law isn't just the fight in the courtroom. It's also the relationship between the attorney and the client. At Powers Injury Law,<br/>we value both.</span><!-- sub_header -->
-	<a class="view_all_results" href="">View All Results</a><!-- view_all_results -->
+	<span class="sub_header"><?php the_field( 'featured_cases_content' ); ?></span><!-- sub_header -->
+	<a class="view_all_results" href="<?php the_field( 'veiw_all_results_link' ); ?>"><?php the_field( 'veiw_all_results' ); ?></a><!-- view_all_results -->
 	
 	<div class="main_cases_wrapper">
 		
