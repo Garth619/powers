@@ -33,18 +33,6 @@
 		"oAP": "\/license.txt",
 		"oF": 0
 		},
-	"\/powers(2).sql.gz": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/powers(2).sql.gz",
-		"oF": 0
-		},
-	"\/powers-migrate-20170414233157.sql.gz": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/powers-migrate-20170414233157.sql.gz",
-		"oF": 0
-		},
 	"\/readme.html": {
 		"ft": 8192,
 		"oA": 2,

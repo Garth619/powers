@@ -7,10 +7,10 @@
 	
 	</div><!-- request_greenline_wrapper -->
 	
-	<span class="large_header">request <span class="green">a free</span> consultation</span>
-	<span class="required">*Required Field</span>
+	<span class="large_header"><?php the_field( 'footer_request_title','options' ); ?></span>
+	<span class="required"><?php the_field( 'required_fields','options' ); ?></span>
 	
-	<span class="form_disclaimer">We DO NOT BILL OUR CLIENTS. WE ARE PAID ONLY OUT OF WHAT WE ARE ABLE TO COLLECT. FILL OUT THE FORM BELOW TO RECEIVE YOUR FREE CASE CONSULTATION.</span><!-- form_disclaimer -->
+	<span class="form_disclaimer"><?php the_field( 'disclaimer','options'); ?></span><!-- form_disclaimer -->
 	
 	<div class="form"><?php gravity_form(1, false, false, false, '', true, 12); ?></div><!-- form -->
 	
@@ -22,19 +22,21 @@
 				
 				
 			
-				<span class="top_quote">“While I know that my aggressiveness and education have won me many days in the courtroom, I also know that my value as a lawyer is the respect that I show each one of my clients on a daily basis.</span><!-- top_quote -->
+				<span class="top_quote"><?php the_field( 'footer_top_quote','options' ); ?></span><!-- top_quote -->
 				
 				<span class="work_quote">
 					
 					<span class="footer_greenline"></span><!-- footer_greenline -->
 					
-					At Powers Injury Law, we are not just working for you, we are working with you.
+					<?php the_field( 'footer_middle_quote','options' ); ?>
+					
+					
 					
 				</span><!-- work_quote -->
 				
-				<span class="bottom_quote">This is a very personal process and as a result, it can be grueling. The relationship I have with my clients not only helps me better tell their story, but it makes the experience less stressful. ”</span><!-- bottom_quote -->
+				<span class="bottom_quote"><?php the_field( 'footer_lower_quote','options' ); ?></span><!-- bottom_quote -->
 				
-				<span class="footer_attorney">Attorney Jessica&nbsp;Powers</span><!-- footer_attorney -->
+				<span class="footer_attorney"><?php the_field( 'footer_attorney_title','options'); ?></span><!-- footer_attorney -->
 			
 			</div><!-- footer_quote_content -->
 			
