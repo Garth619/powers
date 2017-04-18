@@ -44,6 +44,29 @@
 <?php the_field( 'review_styles_code','options'); ?>
 
 
+
+.inner_banner {
+	background:url(<?php the_field( 'internal_banner','options' ); ?>) top center no-repeat;
+	background-size:cover;
+}
+
+
+@media screen and (max-width: 1200px) {
+	
+	
+.main_banner {
+	
+	background: url(<?php the_field( 'mobile_banner' ); ?>) top center no-repeat;
+	background-size:cover;
+	
+	
+}
+	
+	
+	
+} /* Media Query */
+
+
 </style>
 
 
