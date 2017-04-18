@@ -57,9 +57,12 @@
 				<div class="footer_contact_info">
 					
 					
-					1234 Address Street<br/>Suite A<br/>Birmingham, Alabama<br/>01234
+					<?php the_field( 'address',23 ); ?>
 					
-					<a class="get_directions" href="" target="_blank">Get Directions</a>
+					
+					
+					
+					<a class="get_directions" href="<?php the_field( 'address_link',23 ); ?>" target="_blank">Get Directions</a>
 					
 				</div><!-- footer_contact_info -->
 				
@@ -77,7 +80,7 @@
 				<div class="footer_contact_info">
 					
 					
-					<a class="tel" href="tel:1234567890">1234567890</a>
+					<a class="tel" href="tel:<?php the_field( 'phone',23 ); ?>"><?php the_field( 'phone',23 ); ?></a>
 					
 				
 					
@@ -98,8 +101,8 @@
 				<div class="footer_contact_info">
 					
 					
-					<a class="social" href="" target="_blank">google+</a>
-					<a class="social" href="" target="_blank">facebook+</a>
+					<a class="social" href="<?php the_field( 'google_+_link',23 ); ?>" target="_blank"><?php the_field( 'google_+',23 ); ?></a>
+					<a class="social" href="<?php the_field( 'facebook_link',23 ); ?>" target="_blank"><?php the_field( 'facebook',23 ); ?></a>
 					
 				</div><!-- footer_contact_info -->
 				
@@ -118,7 +121,25 @@
 	
 	<div class="bottom_footer">
 		
-		<span class="copy">COPYRIGHT &copy; <?php echo date("Y"); ?> powers law &nbsp;|&nbsp; <a class="" href="">DISCLAIMER</a> &nbsp;|&nbsp; <a class="" href="">blog</a></span>
+		<span class="copy">COPYRIGHT &copy; <?php echo date("Y"); ?> <?php the_field( 'copyright_firm_name','options' ); ?> &nbsp;|&nbsp; 
+		
+		
+		
+		<?php if(get_field('lower_footer_links','options')): ?>
+		 
+			<?php while(has_sub_field('lower_footer_links','options')): ?>
+		 
+			
+					<a class="" href="<?php the_sub_field( 'link' ); ?>"><?php the_sub_field( 'name' ); ?></a>
+					
+					<span class="footer_divider">&nbsp;|&nbsp;</span>
+				
+		    
+			<?php endwhile; ?>
+		 
+		<?php endif; ?>
+		
+		</span>
 		
 		<a class="ilawyer" href="//ilawyermarketing.com" target="_blank">
 			

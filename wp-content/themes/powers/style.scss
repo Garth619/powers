@@ -2846,6 +2846,7 @@ a.view_all_testimonials {
 			color:#fff;
 			text-decoration: none;
 			transition: all .2s ease-in-out;
+			text-transform: lowercase;
 			&:hover {
 				color:$green;
 			}
@@ -2882,6 +2883,12 @@ a.view_all_testimonials {
 	.ilawyer {
 		float:right;
 	}
+}
+
+
+
+.footer_divider:last-of-type {
+	display: none;
 }
 
 
