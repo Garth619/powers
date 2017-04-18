@@ -9,9 +9,9 @@ get_header(); ?>
 
 <?php include('banner.php');?>
 
-<section class="inner_main">
+<section id="pa_trigger" class="inner_main">
 	
-	<h1 class="centered">Practice Areas</h1>
+	<h1 class="centered"><?php the_title();?></h1>
 	<div class="green_header_wrapper">
 		
 		<div class="green_header"></div><!-- green_header -->

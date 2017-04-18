@@ -254,6 +254,54 @@ var waypointthree = new Waypoint({
 
 
 
+
+<?php if(is_page_template( 'page-practiceareas.php' ) ):?>
+
+
+<script type="text/javascript">
+
+jQuery(document).ready(function(){
+
+
+
+var waypointpa = new Waypoint({
+  element: document.getElementById('pa_trigger'),
+  handler: function(direction) {
+   
+   
+   
+   
+  jQuery('.inner_main .green_header_wrapper .green_header').addClass('fadein');
+  
+  
+  jQuery('.bio_wrapper img').addClass('fadein');
+ 
+   
+   
+   
+   
+  },
+  offset:150
+}) // waypoint
+
+
+
+
+}); // Document Ready
+
+</script>
+
+
+
+<?php endif;?>
+
+
+
+
+
+
+
+
 <?php if(is_page_template( 'page-about.php' ) ):?>
 
 
@@ -280,7 +328,7 @@ var waypointfive = new Waypoint({
    
    
   },
-  offset:100
+  offset:150
 }) // waypoint
 
 
@@ -322,7 +370,7 @@ var waypointsix = new Waypoint({
    
    
   },
-  offset:100
+  offset:150
 }) // waypoint
 
 
@@ -349,7 +397,7 @@ jQuery(document).ready(function(){
 
 
 
-var waypointsix = new Waypoint({
+var waypointseven = new Waypoint({
   element: document.getElementById('contact_greenline_trigger'),
   handler: function(direction) {
    
@@ -365,7 +413,7 @@ var waypointsix = new Waypoint({
    
    
   },
-  offset:100
+  offset:150
 }) // waypoint
 
 
