@@ -23,8 +23,10 @@ get_header(); ?>
 		<div class="our_attorney_inner_wrapper">
 		
 			<div class="our_attorney_image">
+				
+				<?php $meet_our_attorney_image = get_field( 'meet_our_attorney_image' ); ?>
 			
-				<img src="<?php the_field( 'meet_our_attorney_image' ); ?>"/>
+				<img src="<?php echo $meet_our_attorney_image['url']; ?>" alt="<?php echo $meet_our_attorney_image['alt']; ?>" />
 			
 			</div><!-- our_attorney_image -->
 		

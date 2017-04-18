@@ -29,7 +29,9 @@ get_header(); ?>
 		
 		<div class="bio_wrapper">
 			
-			<img src="<?php the_field( 'about_us_image' ); ?>"/>
+			<?php $about_us_image = get_field( 'about_us_image' ); ?>
+			
+			<img src="<?php echo $about_us_image['url']; ?>" alt="<?php echo $about_us_image['alt']; ?>"/>
 			
 			<span class="bio_excerpt"><?php the_field( 'about_quote' ); ?></span><!-- bio_excerpt -->
 			

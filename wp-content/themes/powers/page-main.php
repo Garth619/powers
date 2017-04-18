@@ -55,7 +55,9 @@ get_header(); ?>
 	
 	<div class="reasons_title_wrapper">
 		
-		<img class="six_image" src="<?php the_field( 'six_reasons_image' ); ?>"/>
+		<?php $six_reasons_image = get_field( 'six_reasons_image' ); ?>
+		
+		<img class="six_image" src="<?php echo $six_reasons_image['url']; ?>" alt="<?php echo $six_reasons_image['alt']; ?>" title="<?php echo $six_reasons_image['title']; ?>" />
 		
 		<span id="about_greenline_trigger" class="reasons_title"><?php the_field( 'reasons_title' ); ?></span>
 		
