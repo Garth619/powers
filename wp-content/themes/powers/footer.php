@@ -198,7 +198,7 @@ var waypointimage = new Waypoint({
    
    
   },
-  offset:150
+  offset:350
 }) // waypoint
 
 
@@ -397,7 +397,7 @@ var waypointfour = new Waypoint({
    
    
   },
-  offset: 50
+  offset: 250
   
 }) // waypoint
 
