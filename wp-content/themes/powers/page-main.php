@@ -319,28 +319,51 @@ get_header(); ?>
 		<div class="testi_slider">
 			
 			
-			<?php if(get_field('testimonials_slider')): ?>
+			<?php if(get_field('testimonials',10)): ?>
 			 
-				<?php while(has_sub_field('testimonials_slider')): ?>
+				<?php while(has_sub_field('testimonials',10)): ?>
 			 
 				
 				<div class="single_testi">
 				
-				<p><?php the_sub_field( 'testimonial_content' ); ?></p>
+				<p><?php the_sub_field( 'testimonials_content' ); ?></p>
 				
 				<div class="testi_name_wrapper">
 					
-					<span class="testi_name"><?php the_sub_field( 'name' ); ?></span><!-- testi_name -->
+					<span class="testi_name"><?php the_sub_field( 'testimonial_name'); ?></span><!-- testi_name -->
 					<span class="divider"></span><!-- divider -->
-					<span class="testi_client"><?php the_sub_field( 'client_type' ); ?></span><!-- testi_name -->
+					<span class="testi_client"><?php the_sub_field( 'testimonials_client_type' ); ?></span><!-- testi_name -->
 					
 				</div><!-- testi_name_wrapper -->
 				
 			</div><!-- single_testi -->
 			
 			
+				<?php endwhile; ?>
+			 
+			<?php endif; ?>
+			
+			
+			<?php if(get_field('testimonials_2',10)): ?>
+			 
+				<?php while(has_sub_field('testimonials_2',10)): ?>
+			 
 				
-			    
+				<div class="single_testi">
+				
+				<p><?php the_sub_field( 'testimonials_content' ); ?></p>
+				
+				<div class="testi_name_wrapper">
+					
+					<span class="testi_name"><?php the_sub_field( 'testimonial_name'); ?></span><!-- testi_name -->
+					<span class="divider"></span><!-- divider -->
+					<span class="testi_client"><?php the_sub_field( 'testimonials_client_type' ); ?></span><!-- testi_name -->
+					
+				</div><!-- testi_name_wrapper -->
+				
+			</div><!-- single_testi -->
+			
+			
 				<?php endwhile; ?>
 			 
 			<?php endif; ?>
