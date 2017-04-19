@@ -611,12 +611,12 @@ nav {
 	}
 	a.tel {
 		color:$green;
-		font-size: 34px;
+		font-size: 27px;
 		font-family: $prata;
 		letter-spacing: 1.8px;
 		text-decoration: none;
 		display: block;
-		margin-left:58px;
+		margin-left: 16%;
 		position: relative;
 		top:-7px;
 		clear: left;
@@ -1613,6 +1613,11 @@ img.about_image_fadein {
 		width:42%;
 		float:right;
 		margin-top:105px;
+		color:#fff;
+		font-size:17px;
+		font-family: $proximareg;
+		line-height:30px;
+		letter-spacing: 0.75px;
 		h2 {
 			font-size:20px;
 			line-height: 30px;
@@ -1624,13 +1629,20 @@ img.about_image_fadein {
 			letter-spacing: 1.4px;
 			margin-bottom:15px;
 		}
+		a {
+			color:$green;
+			text-decoration: none;
+		}
 		p {
-			color:#fff;
-			font-size:17px;
-			font-family: $proximareg;
-			line-height:30px;
-			letter-spacing: 0.75px;
+			
 			margin-bottom:30px;
+		}
+		ul {
+			list-style: none;
+			margin-bottom:30px;
+			li {
+				
+			}
 		}
 	}
 }
@@ -3840,7 +3852,7 @@ body.page-template-page-caseresults, body.page-template-page-testimonials, body.
 			letter-spacing: 5px;
 			position: absolute;
 			bottom:-25px;
-			right:-50px;
+			right: -36px;
 			padding:25px 53px;
 			
 		}
@@ -3922,7 +3934,7 @@ body.page-template-page-caseresults, body.page-template-page-testimonials, body.
 			.testi_header {
 				font-family: $prata;
 				font-size:40px;
-				background: -webkit-linear-gradient(#c9ffd9, $green);
+				background: -webkit-linear-gradient(#94f1af, $green);
 				-webkit-background-clip: text;
 				-webkit-text-fill-color: transparent;
 				text-shadow: none;
@@ -4382,8 +4394,9 @@ span.view_case_details {
 	}
 	span.call_number {}
 	a.tel {
-		font-size: 30px;
-		top:-4px;
+		font-size: 26px;
+		top:-2px;
+		margin-left: 13%;
 	}
 	}
 }
@@ -4587,7 +4600,7 @@ span.second_about_greenline {
 		}
 			a.tel {
 				font-size: 22px;
-				margin-left: 72px;
+				/* margin-left: 72px; */
 			}
 			}
 		}
