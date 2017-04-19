@@ -10407,6 +10407,621 @@
 		"oAP": "\/wp-content\/plugins\/simple-history\/uninstall.php",
 		"oF": 0
 		},
+	"\/wp-content\/plugins\/user-role-editor\/css\/images\/animated-overlay.gif": {
+		"ft": 4194304,
+		"iS": 1738,
+		"oA": 0,
+		"oAP": "\/wp-content\/plugins\/user-role-editor\/css\/images\/animated-overlay.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/plugins\/user-role-editor\/css\/images\/ui-bg_flat_0_aaaaaa_40x100.png": {
+		"ft": 32768,
+		"iS": 212,
+		"l": 1,
+		"oA": 0,
+		"oAP": "\/wp-content\/plugins\/user-role-editor\/css\/images\/ui-bg_flat_0_aaaaaa_40x100.png",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/plugins\/user-role-editor\/css\/images\/ui-bg_flat_75_ffffff_40x100.png": {
+		"ft": 32768,
+		"iS": 208,
+		"l": 1,
+		"oA": 0,
+		"oAP": "\/wp-content\/plugins\/user-role-editor\/css\/images\/ui-bg_flat_75_ffffff_40x100.png",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/plugins\/user-role-editor\/css\/images\/ui-bg_glass_55_fbf9ee_1x400.png": {
+		"ft": 32768,
+		"iS": 335,
+		"l": 1,
+		"oA": 0,
+		"oAP": "\/wp-content\/plugins\/user-role-editor\/css\/images\/ui-bg_glass_55_fbf9ee_1x400.png",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/plugins\/user-role-editor\/css\/images\/ui-bg_glass_65_ffffff_1x400.png": {
+		"ft": 32768,
+		"iS": 207,
+		"l": 1,
+		"oA": 0,
+		"oAP": "\/wp-content\/plugins\/user-role-editor\/css\/images\/ui-bg_glass_65_ffffff_1x400.png",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/plugins\/user-role-editor\/css\/images\/ui-bg_glass_75_dadada_1x400.png": {
+		"ft": 32768,
+		"iS": 262,
+		"l": 1,
+		"oA": 0,
+		"oAP": "\/wp-content\/plugins\/user-role-editor\/css\/images\/ui-bg_glass_75_dadada_1x400.png",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/plugins\/user-role-editor\/css\/images\/ui-bg_glass_75_e6e6e6_1x400.png": {
+		"ft": 32768,
+		"iS": 262,
+		"l": 1,
+		"oA": 0,
+		"oAP": "\/wp-content\/plugins\/user-role-editor\/css\/images\/ui-bg_glass_75_e6e6e6_1x400.png",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/plugins\/user-role-editor\/css\/images\/ui-bg_glass_95_fef1ec_1x400.png": {
+		"ft": 32768,
+		"iS": 332,
+		"l": 1,
+		"oA": 0,
+		"oAP": "\/wp-content\/plugins\/user-role-editor\/css\/images\/ui-bg_glass_95_fef1ec_1x400.png",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/plugins\/user-role-editor\/css\/images\/ui-bg_highlight-soft_75_cccccc_1x100.png": {
+		"ft": 32768,
+		"iS": 280,
+		"l": 1,
+		"oA": 0,
+		"oAP": "\/wp-content\/plugins\/user-role-editor\/css\/images\/ui-bg_highlight-soft_75_cccccc_1x100.png",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/plugins\/user-role-editor\/css\/images\/ui-icons_222222_256x240.png": {
+		"ft": 32768,
+		"iS": 6922,
+		"l": 1,
+		"oA": 0,
+		"oAP": "\/wp-content\/plugins\/user-role-editor\/css\/images\/ui-icons_222222_256x240.png",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/plugins\/user-role-editor\/css\/images\/ui-icons_2e83ff_256x240.png": {
+		"ft": 32768,
+		"iS": 4549,
+		"l": 1,
+		"oA": 0,
+		"oAP": "\/wp-content\/plugins\/user-role-editor\/css\/images\/ui-icons_2e83ff_256x240.png",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/plugins\/user-role-editor\/css\/images\/ui-icons_454545_256x240.png": {
+		"ft": 32768,
+		"iS": 6992,
+		"l": 1,
+		"oA": 0,
+		"oAP": "\/wp-content\/plugins\/user-role-editor\/css\/images\/ui-icons_454545_256x240.png",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/plugins\/user-role-editor\/css\/images\/ui-icons_888888_256x240.png": {
+		"ft": 32768,
+		"iS": 6999,
+		"l": 1,
+		"oA": 0,
+		"oAP": "\/wp-content\/plugins\/user-role-editor\/css\/images\/ui-icons_888888_256x240.png",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/plugins\/user-role-editor\/css\/images\/ui-icons_cd0a0a_256x240.png": {
+		"ft": 32768,
+		"iS": 4549,
+		"l": 1,
+		"oA": 0,
+		"oAP": "\/wp-content\/plugins\/user-role-editor\/css\/images\/ui-icons_cd0a0a_256x240.png",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/plugins\/user-role-editor\/css\/index.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/user-role-editor\/css\/index.php",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/user-role-editor\/css\/jquery-ui-1.10.4.custom.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/wp-content\/plugins\/user-role-editor\/css\/jquery-ui-1.10.4.custom-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/wp-content\/plugins\/user-role-editor\/css\/jquery-ui-1.10.4.custom.min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/wp-content\/plugins\/user-role-editor\/css\/jquery-ui-1.10.4.custom.min-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/wp-content\/plugins\/user-role-editor\/css\/multiple-select.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/wp-content\/plugins\/user-role-editor\/css\/multiple-select-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/wp-content\/plugins\/user-role-editor\/css\/multiple-select.png": {
+		"ft": 32768,
+		"iS": 3342,
+		"l": 1,
+		"oA": 0,
+		"oAP": "\/wp-content\/plugins\/user-role-editor\/css\/multiple-select.png",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/plugins\/user-role-editor\/css\/ure-admin.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/wp-content\/plugins\/user-role-editor\/css\/ure-admin-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/wp-content\/plugins\/user-role-editor\/images\/admin-menu-editor-pro.jpg": {
+		"ft": 16384,
+		"iS": 89948,
+		"oA": 0,
+		"oAP": "\/wp-content\/plugins\/user-role-editor\/images\/admin-menu-editor-pro.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/plugins\/user-role-editor\/images\/ajax-loader.gif": {
+		"ft": 4194304,
+		"iS": 673,
+		"oA": 0,
+		"oAP": "\/wp-content\/plugins\/user-role-editor\/images\/ajax-loader.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/plugins\/user-role-editor\/images\/changelog-icon.png": {
+		"ft": 32768,
+		"iS": 494,
+		"l": 1,
+		"oA": 0,
+		"oAP": "\/wp-content\/plugins\/user-role-editor\/images\/changelog-icon.png",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/plugins\/user-role-editor\/images\/donate-icon.png": {
+		"ft": 32768,
+		"iS": 3190,
+		"l": 1,
+		"oA": 0,
+		"oAP": "\/wp-content\/plugins\/user-role-editor\/images\/donate-icon.png",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/plugins\/user-role-editor\/images\/faq-icon.png": {
+		"ft": 32768,
+		"iS": 847,
+		"l": 1,
+		"oA": 0,
+		"oAP": "\/wp-content\/plugins\/user-role-editor\/images\/faq-icon.png",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/plugins\/user-role-editor\/images\/help.png": {
+		"ft": 32768,
+		"iS": 786,
+		"l": 1,
+		"oA": 0,
+		"oAP": "\/wp-content\/plugins\/user-role-editor\/images\/help.png",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/plugins\/user-role-editor\/images\/index.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/user-role-editor\/images\/index.php",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/user-role-editor\/images\/remove-16.png": {
+		"ft": 32768,
+		"iS": 483,
+		"l": 1,
+		"oA": 0,
+		"oAP": "\/wp-content\/plugins\/user-role-editor\/images\/remove-16.png",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/plugins\/user-role-editor\/images\/user-role-editor-icon.png": {
+		"ft": 32768,
+		"iS": 867,
+		"l": 1,
+		"oA": 0,
+		"oAP": "\/wp-content\/plugins\/user-role-editor\/images\/user-role-editor-icon.png",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/plugins\/user-role-editor\/images\/user-role-editor-page-icon.png": {
+		"ft": 32768,
+		"iS": 2503,
+		"l": 1,
+		"oA": 0,
+		"oAP": "\/wp-content\/plugins\/user-role-editor\/images\/user-role-editor-page-icon.png",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/plugins\/user-role-editor\/images\/user-role-editor-pro-728x90.jpg": {
+		"ft": 16384,
+		"iS": 59700,
+		"oA": 0,
+		"oAP": "\/wp-content\/plugins\/user-role-editor\/images\/user-role-editor-pro-728x90.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/plugins\/user-role-editor\/images\/vladimir.png": {
+		"ft": 32768,
+		"iS": 767,
+		"l": 1,
+		"oA": 0,
+		"oAP": "\/wp-content\/plugins\/user-role-editor\/images\/vladimir.png",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/plugins\/user-role-editor\/includes\/classes\/advertisement.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/user-role-editor\/includes\/classes\/advertisement.php",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/user-role-editor\/includes\/classes\/ajax-processor.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/user-role-editor\/includes\/classes\/ajax-processor.php",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/user-role-editor\/includes\/classes\/assign-role.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/user-role-editor\/includes\/classes\/assign-role.php",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/user-role-editor\/includes\/classes\/base-lib.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/user-role-editor\/includes\/classes\/base-lib.php",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/user-role-editor\/includes\/classes\/bbpress.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/user-role-editor\/includes\/classes\/bbpress.php",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/user-role-editor\/includes\/classes\/capabilities-groups-manager.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/user-role-editor\/includes\/classes\/capabilities-groups-manager.php",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/user-role-editor\/includes\/classes\/capability.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/user-role-editor\/includes\/classes\/capability.php",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/user-role-editor\/includes\/classes\/grant-roles.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/user-role-editor\/includes\/classes\/grant-roles.php",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/user-role-editor\/includes\/classes\/known-js-css-compatibility-issues.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/user-role-editor\/includes\/classes\/known-js-css-compatibility-issues.php",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/user-role-editor\/includes\/classes\/own-capabilities.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/user-role-editor\/includes\/classes\/own-capabilities.php",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/user-role-editor\/includes\/classes\/protect-admin.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/user-role-editor\/includes\/classes\/protect-admin.php",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/user-role-editor\/includes\/classes\/role-additional-options.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/user-role-editor\/includes\/classes\/role-additional-options.php",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/user-role-editor\/includes\/classes\/role-view.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/user-role-editor\/includes\/classes\/role-view.php",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/user-role-editor\/includes\/classes\/screen-help.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/user-role-editor\/includes\/classes\/screen-help.php",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/user-role-editor\/includes\/classes\/task-queue.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/user-role-editor\/includes\/classes\/task-queue.php",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/user-role-editor\/includes\/classes\/ure-lib.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/user-role-editor\/includes\/classes\/ure-lib.php",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/user-role-editor\/includes\/classes\/user-other-roles.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/user-role-editor\/includes\/classes\/user-other-roles.php",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/user-role-editor\/includes\/classes\/user-role-editor.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/user-role-editor\/includes\/classes\/user-role-editor.php",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/user-role-editor\/includes\/classes\/user-view.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/user-role-editor\/includes\/classes\/user-view.php",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/user-role-editor\/includes\/classes\/view.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/user-role-editor\/includes\/classes\/view.php",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/user-role-editor\/includes\/classes\/woocommerce-capabilities.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/user-role-editor\/includes\/classes\/woocommerce-capabilities.php",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/user-role-editor\/includes\/define-constants.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/user-role-editor\/includes\/define-constants.php",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/user-role-editor\/includes\/index.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/user-role-editor\/includes\/index.php",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/user-role-editor\/includes\/loader.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/user-role-editor\/includes\/loader.php",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/user-role-editor\/includes\/misc-support-stuff.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/user-role-editor\/includes\/misc-support-stuff.php",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/user-role-editor\/includes\/settings-template.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/user-role-editor\/includes\/settings-template.php",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/user-role-editor\/index.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/user-role-editor\/index.php",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/user-role-editor\/js\/index.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/user-role-editor\/js\/index.php",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/user-role-editor\/js\/jquery.multiple.select.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/wp-content\/plugins\/user-role-editor\/js\/min\/jquery.multiple.select-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/wp-content\/plugins\/user-role-editor\/js\/ure-js.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/wp-content\/plugins\/user-role-editor\/js\/min\/ure-js-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/wp-content\/plugins\/user-role-editor\/js\/ure-user-profile-other-roles.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/wp-content\/plugins\/user-role-editor\/js\/min\/ure-user-profile-other-roles-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/wp-content\/plugins\/user-role-editor\/js\/ure-users.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/wp-content\/plugins\/user-role-editor\/js\/min\/ure-users-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/wp-content\/plugins\/user-role-editor\/js\/users-grant-roles.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/wp-content\/plugins\/user-role-editor\/js\/min\/users-grant-roles-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/wp-content\/plugins\/user-role-editor\/lang\/index.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/user-role-editor\/lang\/index.php",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/user-role-editor\/lang\/user-role-editor.pot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/user-role-editor\/lang\/user-role-editor.pot",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/user-role-editor\/license.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/user-role-editor\/license.txt",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/user-role-editor\/readme.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/user-role-editor\/readme.txt",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/user-role-editor\/screenshot-1.png": {
+		"ft": 32768,
+		"iS": 49845,
+		"l": 1,
+		"oA": 0,
+		"oAP": "\/wp-content\/plugins\/user-role-editor\/screenshot-1.png",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/plugins\/user-role-editor\/screenshot-2.png": {
+		"ft": 32768,
+		"iS": 31691,
+		"l": 1,
+		"oA": 0,
+		"oAP": "\/wp-content\/plugins\/user-role-editor\/screenshot-2.png",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/plugins\/user-role-editor\/screenshot-3.png": {
+		"ft": 32768,
+		"iS": 35982,
+		"l": 1,
+		"oA": 0,
+		"oAP": "\/wp-content\/plugins\/user-role-editor\/screenshot-3.png",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/plugins\/user-role-editor\/screenshot-4.png": {
+		"ft": 32768,
+		"iS": 36915,
+		"l": 1,
+		"oA": 0,
+		"oAP": "\/wp-content\/plugins\/user-role-editor\/screenshot-4.png",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/plugins\/user-role-editor\/screenshot-5.png": {
+		"ft": 32768,
+		"iS": 16994,
+		"l": 1,
+		"oA": 0,
+		"oAP": "\/wp-content\/plugins\/user-role-editor\/screenshot-5.png",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/plugins\/user-role-editor\/screenshot-6.png": {
+		"ft": 32768,
+		"iS": 24970,
+		"l": 1,
+		"oA": 0,
+		"oAP": "\/wp-content\/plugins\/user-role-editor\/screenshot-6.png",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/plugins\/user-role-editor\/uninstall.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/user-role-editor\/uninstall.php",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/user-role-editor\/user-role-editor.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/user-role-editor\/user-role-editor.php",
+		"oF": 0
+		},
 	"\/wp-content\/plugins\/wordpress-seo\/admin\/ajax.php": {
 		"ft": 8192,
 		"oA": 2,
@@ -14400,6 +15015,100 @@
 		"oAP": "\/wp-content\/plugins\/wordpress-seo\/wpml-config.xml",
 		"oF": 0
 		},
+	"\/wp-content\/plugins\/wp-migrate-db-pro-media-files\/asset\/dist\/css\/styles.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/wp-content\/plugins\/wp-migrate-db-pro-media-files\/asset\/dist\/css\/styles-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/wp-content\/plugins\/wp-migrate-db-pro-media-files\/asset\/dist\/js\/script-147.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/wp-content\/plugins\/wp-migrate-db-pro-media-files\/asset\/dist\/js\/min\/script-147-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/wp-content\/plugins\/wp-migrate-db-pro-media-files\/asset\/dist\/js\/script-147.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/wp-content\/plugins\/wp-migrate-db-pro-media-files\/asset\/dist\/js\/min\/script-147.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/wp-content\/plugins\/wp-migrate-db-pro-media-files\/class\/cli\/wpmdbpro-media-files-cli-bar.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/wp-migrate-db-pro-media-files\/class\/cli\/wpmdbpro-media-files-cli-bar.php",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/wp-migrate-db-pro-media-files\/class\/cli\/wpmdbpro-media-files-cli.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/wp-migrate-db-pro-media-files\/class\/cli\/wpmdbpro-media-files-cli.php",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/wp-migrate-db-pro-media-files\/class\/wpmdbpro-media-files-base.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/wp-migrate-db-pro-media-files\/class\/wpmdbpro-media-files-base.php",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/wp-migrate-db-pro-media-files\/class\/wpmdbpro-media-files-local.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/wp-migrate-db-pro-media-files\/class\/wpmdbpro-media-files-local.php",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/wp-migrate-db-pro-media-files\/class\/wpmdbpro-media-files-remote.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/wp-migrate-db-pro-media-files\/class\/wpmdbpro-media-files-remote.php",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/wp-migrate-db-pro-media-files\/class\/wpmdbpro-media-files.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/wp-migrate-db-pro-media-files\/class\/wpmdbpro-media-files.php",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/wp-migrate-db-pro-media-files\/languages\/wp-migrate-db-pro-media-files-en.pot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/wp-migrate-db-pro-media-files\/languages\/wp-migrate-db-pro-media-files-en.pot",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/wp-migrate-db-pro-media-files\/template\/migrate.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/wp-migrate-db-pro-media-files\/template\/migrate.php",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/wp-migrate-db-pro-media-files\/template\/select-subsites.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/wp-migrate-db-pro-media-files\/template\/select-subsites.php",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/wp-migrate-db-pro-media-files\/version.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/wp-migrate-db-pro-media-files\/version.php",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/wp-migrate-db-pro-media-files\/wp-migrate-db-pro-media-files.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/wp-migrate-db-pro-media-files\/wp-migrate-db-pro-media-files.php",
+		"oF": 0
+		},
 	"\/wp-content\/plugins\/wp-migrate-db-pro\/asset\/dist\/css\/plugin-update-styles.css": {
 		"aP": 1,
 		"bl": 0,
@@ -16538,6 +17247,26 @@
 		"l": 1,
 		"oA": 0,
 		"oAP": "\/wp-content\/uploads\/2017\/03\/award-1.png",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/2017\/03\/award-2-1-150x147.png": {
+		"ft": 32768,
+		"iS": 5202,
+		"l": 1,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2017\/03\/award-2-1-150x147.png",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/2017\/03\/award-2-1.png": {
+		"ft": 32768,
+		"iS": 5880,
+		"l": 1,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2017\/03\/award-2-1.png",
 		"oF": 0,
 		"opt": 0,
 		"q": 100

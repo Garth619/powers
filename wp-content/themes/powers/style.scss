@@ -1882,6 +1882,35 @@ span.second_about_greenline.fadein {
 	}
 }
 
+.second_about_intro {
+	display: none;
+	color: $black;
+  display: block;
+  font-family: $prata;
+  font-size: 21px;
+  letter-spacing: 0.5px;
+  line-height: 37px;
+  margin: 85px auto 40px;
+  max-width: 1200px;
+  span.firstcharacter {
+	  color: $green;
+		float: left;
+		font-family: $prata;
+		font-size: 110px;
+		line-height: 105px;
+		padding-top: 4px;
+		padding-right: 11px;
+		padding-left: 3px;
+		text-transform: uppercase;
+		top: 4px;
+		left: -4px;
+		position: relative;
+		background: -webkit-linear-gradient(#79e799, #5bcd7c);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+  }
+}
+
 .second_about_content {
 	max-width:1645px;
 	margin:0 auto;
@@ -1891,12 +1920,31 @@ span.second_about_greenline.fadein {
 	line-height: 30px;
 	letter-spacing: 1px;
 	padding:0 50px;
+	a {
+		color: $black;
+    font-family: $proximabold;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out 0s;
+		&:hover {
+			color:$green;
+		}
+	}
+	h2, div.subheader {
+		font-size:20px;
+			line-height: 30px;
+			color:$green;
+			font-family: $proximareg;
+			text-transform: uppercase;
+			font-style: normal;
+			font-weight: 300;
+			letter-spacing: 1.4px;
+			margin-bottom:15px;
+	}
 	p {
 		margin-bottom: 30px;
 	}
 	.second_about_col1 {
 		width:38%;
-		
 		float:left;
 		margin-top:45px;
 		span.first_character {
@@ -1917,7 +1965,6 @@ span.second_about_greenline.fadein {
 	}
 	.second_about_col2 {
 		width:60%;
-		
 		float:right;
 		padding:45px;
 		padding-left:105px;
@@ -2800,7 +2847,7 @@ a.view_all_testimonials {
 .footer_contact {
 	float:right;
 	width:43%;
-	padding-left:8%;
+	padding-left:6%;
 	margin-top: 101px;
 	.footer_contact_wrapper {
 		color:#fff;
@@ -2810,7 +2857,7 @@ a.view_all_testimonials {
 		margin-bottom:90px;
 		.footer_contact_title_wrapper {
 				float:left;
-				width:34%;
+				width:28%;
 			span.footer_contact_title {
 				font-family: $proximabold;
 				font-size:15px;
@@ -2831,6 +2878,8 @@ a.view_all_testimonials {
 			margin-top:-4px;
 			display: block;
 			letter-spacing: 2.5px;
+			width:72%;
+			padding-left:2%;
 			
 		}
 		a.get_directions {
@@ -5173,7 +5222,7 @@ a.view_all_testimonials {
 			margin-bottom:80px;
 		}
 		.footer_contact_title_wrapper {
-			width: 50%;
+			/* width: 50%; */
 			span.footer_contact_title {
 				
 			}
@@ -6215,7 +6264,7 @@ span.view_case_details {
 	.footer_contact_wrapper {
 		max-width: 565px;
 		.footer_contact_title_wrapper {
-			width: 43%;
+			width: 40%;
 			span.footer_contact_title {
 				
 			}
@@ -6223,7 +6272,7 @@ span.view_case_details {
 		
 		.footer_contact_info {
 			
-			
+			width:60%;
 		}
 		a.get_directions {
 			
@@ -8894,7 +8943,9 @@ body.page-template-page-caseresults {
 			float:none;
 			font-size:22px;
 			line-height: 30px;
-			
+			/* width:100%; */
+			margin-left:auto;
+			margin-right:auto;
 		}
 		a.get_directions {
 			text-align: center;

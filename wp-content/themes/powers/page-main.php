@@ -234,7 +234,17 @@ get_header(); ?>
 		
 	</div><!-- seocnd_about_title_wrapper -->
 	
+<!--
+	<div class="second_about_intro">
+		
+		<p>Lead attorney Jessica Powers began her career clerking for a judge and then in public interest law representing people who were undergoing evictions and foreclosures. Powers then engaged in pro-bono work that earned her public recognition, while serving on a number of community boards and doing volunteer work. When she left public interest law to represent plaintiffs in personal injury cases, Powers made a promise: to genuinely LISTEN to clients, hear their stories and through a genuine relationship, secure justice for each one.</p>
+		
+	</div>
+--><!-- second_about_intro -->
+	
 	<div class="second_about_content">
+		
+		
 			
 			<div class="second_about_col1">
 				
