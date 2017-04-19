@@ -21,30 +21,10 @@ get_header(); ?>
 	
 	<div class="practice_areas_wrapper">
 		
-		<ul>
-			
-			<li><a class="" href="">Practice Area</a></li>
-			<li><a class="" href="">Practice Area</a></li>
-			<li><a class="" href="">Practice Area</a></li>
-			<li><a class="" href="">Practice Area</a></li>
-			<li><a class="" href="">Practice Area</a></li>
-			<li><a class="" href="">Practice Area</a></li>
-			
-			<li><a class="" href="">Practice Area</a></li>
-			<li><a class="" href="">Practice Area</a></li>
-			<li><a class="" href="">Practice Area</a></li>
-			<li><a class="" href="">Practice Area</a></li>
-			<li><a class="" href="">Practice Area</a></li>
-			<li><a class="" href="">Practice Area</a></li>
-			
-			<li><a class="" href="">Practice Area</a></li>
-			<li><a class="" href="">Practice Area</a></li>
-			<li><a class="" href="">Practice Area</a></li>
-			<li><a class="" href="">Practice Area</a></li>
-			<li><a class="" href="">Practice Area</a></li>
-			<li><a class="" href="">Practice Area</a></li>
-			
-		</ul>
+		
+		
+		<?php wp_nav_menu( array( 'container_class' => 'menu-header', 'theme_location' => 'pa_menu' ) ); ?>
+		
 		
 	</div><!-- practice_areas_wrapper -->
 	

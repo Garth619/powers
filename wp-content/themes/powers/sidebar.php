@@ -9,19 +9,9 @@
 		
 		<div class="lower_sidebar">
 			
-			<ul>
-				<li><a href="">Practice Area</a></li>
-				<li><a href="">Practice Area</a></li>
-				<li><a href="">Practice Area</a></li>
-				<li><a href="">Practice Area</a></li>
-				<li><a href="">Practice Area</a></li>
-				<li><a href="">Practice Area</a></li>
-				<li><a href="">Practice Area</a></li>
-				<li><a href="">Practice Area</a></li>
-				<li><a href="">Practice Area</a></li>
-				<li><a href="">Practice Area</a></li>
-				<li><a href="">Practice Area</a></li>
-			</ul>
+			
+			<?php wp_nav_menu( array( 'container_class' => 'menu-header', 'theme_location' => 'pa_menu' ) ); ?>
+			
 			
 		</div><!-- lower_sidebar -->
 				

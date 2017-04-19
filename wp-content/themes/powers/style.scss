@@ -3043,14 +3043,23 @@ body.page-template-page-contact {
 		margin-bottom:10px;
 		letter-spacing: 2.2px;
 	}
+	ol {
+		margin:0px 0 50px;
+		li {
+			
+			
+			margin-bottom:25px;
+			margin-left:30px;
+		}
+	}
 	ul {
-		margin:9px 0;
+		margin:0px 0 50px;
 		li {
 			background:url(images/dot.jpg) no-repeat scroll 0 10px;
 			list-style: none;
 			padding: 0 0 0 15px;
-			margin-bottom:10px;
-			margin-left:-4px;
+			margin-bottom:25px;
+			margin-left:10px;
 		}
 	}
 	a {
@@ -3756,7 +3765,7 @@ body.page-template-page-caseresults, body.page-template-page-testimonials, body.
 	margin:68px auto 119px;
 	padding:0 30px;
 	.case_column {
-		width:45%;
+		width:47%;
 		&:nth-of-type(n + 1) {
 			float:left;
 		}
@@ -3767,10 +3776,10 @@ body.page-template-page-caseresults, body.page-template-page-testimonials, body.
 	.single_case {
 		box-shadow: 0px -1px 20px 0px rgba(0, 0, 0, 0.25);
 		width:100%;
-		padding:75px 5% 0px 60px;
+		padding:75px 12% 0px 60px;
 		position: relative;
 		margin-bottom:100px;
-		height:540px;
+		height:760px;
 		.single_inner_wrapper {
 			overflow: hidden;
 		}
@@ -3800,7 +3809,7 @@ body.page-template-page-caseresults, body.page-template-page-testimonials, body.
 			margin-top:50px;
 			padding-left:30px;
 			margin-left:10%;
-			height:300px;
+			 height: 521px;
 			overflow: hidden;
 			span.case_greenline {
 				position: absolute;
@@ -4607,6 +4616,7 @@ body.page-template-page-caseresults {
 	.single_case {
 		margin-bottom: 74px;
 		padding: 52px 45px 0;
+		height:880px;
 		span.case_amount {
 			
 		}
@@ -4615,7 +4625,7 @@ body.page-template-page-caseresults {
 		}
 		.case_content {
 			margin-left:4%;
-			height:323px;
+			height:663px;
 			span.case_greenline {
 				
 			}
@@ -7082,7 +7092,7 @@ body.page-template-page-caseresults {
 		}
 	}
 	.single_case {
-		
+		height:660px;
 		span.case_amount {
 			
 		}
@@ -7090,7 +7100,7 @@ body.page-template-page-caseresults {
 			
 		}
 		.case_content {
-			
+			height: 443px;
 			span.case_greenline {
 				
 			}
@@ -7874,7 +7884,7 @@ a.view_all_testimonials {
 
 body.page-template-page-contact {
 	.form {
-		margin-bottom:10px;
+		margin-bottom:100px;
 	}
 	
 }
@@ -8220,8 +8230,11 @@ body:not(.page-template-page-main) {
 	h3 {
 		
 	}
+	ol {
+		margin-bottom: 30px;
+	}
 	ul {
-		
+		margin-bottom: 30px;
 		li {
 			
 		}
@@ -8952,50 +8965,6 @@ body.page-template-page-caseresults {
 
 
 
-/* Case Results Page */
-
-body.page-template-page-caseresults {
-	.green_header_wrapper {
-		
-	}
-}
-
-.case_results_page_wrapper {
-	
-	.case_column {
-		
-		&:nth-of-type(n + 1) {
-			
-		}
-		&:nth-of-type(2n + 2) {
-			
-		}
-	}
-	.single_case {
-		
-		height:570px;
-		span.case_amount {
-			
-		}
-		span.case_title {
-			
-		}
-		.case_content {
-			height: 389px;
-			span.case_greenline {
-				
-			}
-			.case_content_wrapper {
-				
-			}
-		}
-		.case_cat_mobile_wrapper {
-		.case_cat {
-			 
-		}
-		}
-	}
-}
 
 
 
@@ -9047,6 +9016,141 @@ img.aligncenter {
 
 
 
+
+
+
+
+body.page-template-page-caseresults {
+	.green_header_wrapper {
+		
+	}
+}
+
+.case_results_page_wrapper {
+	padding:0 15px;
+	margin: 50px auto 145px;
+	.case_column {
+		
+		&:nth-of-type(n + 1) {
+			
+		}
+		&:nth-of-type(2n + 2) {
+			
+		}
+	}
+	.single_case {
+		height:660px;
+		span.case_amount {
+		
+		}
+		span.case_title {
+			
+		}
+		.case_content {
+			margin-left:0;
+			height: 479px;
+			span.case_greenline {
+				
+			}
+			.case_content_wrapper {
+				
+			}
+		}
+		.case_cat_mobile_wrapper {
+			position: absolute;
+			bottom:-25px;
+			left:0;
+			width:100%;
+			.case_cat {
+				position: relative;
+				bottom:0;
+				right:0;
+				display: block;
+				max-width:225px;
+				margin:0 auto;
+			}
+		}
+	}
+}
+
+	
+	
+
+
+
+
+
+
+	
+	
+} /* Media Query */
+
+
+
+@media screen and (max-width: 550px) {
+	
+	
+	/* Case Results Page */
+
+
+body.page-template-page-caseresults {
+	.green_header_wrapper {
+		
+	}
+}
+
+.case_results_page_wrapper {
+	padding:0 15px;
+	margin: 50px auto 145px;
+	.case_column {
+		
+		&:nth-of-type(n + 1) {
+			
+		}
+		&:nth-of-type(2n + 2) {
+			
+		}
+	}
+	.single_case {
+		height:890px;
+		span.case_amount {
+		
+		}
+		span.case_title {
+			
+		}
+		.case_content {
+			margin-left:0;
+			height: 709px;
+			span.case_greenline {
+				
+			}
+			.case_content_wrapper {
+				
+			}
+		}
+		.case_cat_mobile_wrapper {
+			position: absolute;
+			bottom:-25px;
+			left:0;
+			width:100%;
+			.case_cat {
+				position: relative;
+				bottom:0;
+				right:0;
+				display: block;
+				max-width:225px;
+				margin:0 auto;
+			}
+		}
+	}
+}
+
+	
+	
+
+	
+	
 	
 	
 } /* Media Query */
@@ -9184,59 +9288,6 @@ img.aligncenter {
 
 
 
-/* Case Results Page */
-
-body.page-template-page-caseresults {
-	.green_header_wrapper {
-		
-	}
-}
-
-.case_results_page_wrapper {
-	padding:0 15px;
-	margin: 50px auto 145px;
-	.case_column {
-		
-		&:nth-of-type(n + 1) {
-			
-		}
-		&:nth-of-type(2n + 2) {
-			
-		}
-	}
-	.single_case {
-		
-		span.case_amount {
-		
-		}
-		span.case_title {
-			
-		}
-		.case_content {
-			margin-left:0;
-			span.case_greenline {
-				
-			}
-			.case_content_wrapper {
-				
-			}
-		}
-		.case_cat_mobile_wrapper {
-			position: absolute;
-			bottom:-25px;
-			left:0;
-			width:100%;
-			.case_cat {
-				position: relative;
-				bottom:0;
-				right:0;
-				display: block;
-				max-width:225px;
-				margin:0 auto;
-			}
-		}
-	}
-}
 
 
 /* Featured Cases */

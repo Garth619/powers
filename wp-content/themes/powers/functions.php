@@ -69,6 +69,7 @@ remove_action('admin_print_styles', 'print_emoji_styles');
 
 register_nav_menus(array(
     'main_menu' => 'Main Menu',
+    'pa_menu' => 'PA Sidebar/Directories Menu',
     
 ));
 
@@ -96,7 +97,8 @@ if (function_exists('register_sidebars')) {
         'before_title' => '<h3 class="widgettitle">',
         'after_title' => '</h3>'
     ));
-
+    
+    
  }
 
 

@@ -15140,6 +15140,16 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/wp-content\/themes\/powers\/images\/award-2.png": {
+		"ft": 32768,
+		"iS": 5880,
+		"l": 1,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/powers\/images\/award-2.png",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/wp-content\/themes\/powers\/images\/bodytext-image-mob1.jpg": {
 		"ft": 16384,
 		"iS": 70993,
@@ -16919,6 +16929,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/wp-content\/uploads\/wp-migrate-db\/index.php",
+		"oF": 0
+		},
+	"\/wp-content\/uploads\/wp-migrate-db\/powers-backup-20170419155040-mdi2y.sql": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/uploads\/wp-migrate-db\/powers-backup-20170419155040-mdi2y.sql",
 		"oF": 0
 		},
 	"\/wp-cron.php": {
