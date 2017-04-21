@@ -37,8 +37,32 @@ get_header(); ?>
 			
 			
 				<div class="content">
-				
-				
+					
+					
+					<?php if(get_field('pa_video')):?>
+					
+					
+						<div class="pa_video_wrapper">
+						
+							<?php the_field( 'pa_video' ); ?>
+
+							<div class="pa_play_button_wrapper">
+							
+								<div class="pa_play_button_inner_wrapper">
+								
+									<img class="pa_play_reg" src="<?php bloginfo('template_directory');?>/images/playbutton.png"/>
+									<img class="pa_play_hover" src="<?php bloginfo('template_directory');?>/images/playbutton-h.png"/>
+								
+								</div>
+							
+							</div><!-- pa_play_button_wrapper -->
+						
+						</div><!-- pa_video_wrapper -->
+					
+						
+					<?php endif;?>
+					
+					
 					<?php get_template_part( 'loop', 'page' );?>					
 			
 				</div><!-- content -->

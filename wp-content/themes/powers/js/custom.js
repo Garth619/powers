@@ -341,6 +341,31 @@ jQuery('.single_video_wrapper').mouseleave(function(){
 
 
 
+// Pa Videos
+
+
+jQuery('.pa_video_wrapper').mouseenter(function(){
+	
+	
+	jQuery(this).find('.pa_play_reg').fadeOut();
+	jQuery(this).find('.pa_play_hover').fadeIn(200);
+	
+});
+
+
+jQuery('.pa_video_wrapper').mouseleave(function(){
+	
+	
+	jQuery(this).find('.pa_play_reg').fadeIn(200);
+	jQuery(this).find('.pa_play_hover').fadeOut();
+	
+});
+
+
+
+
+
+
 
 
 
