@@ -22397,15 +22397,6 @@
 		"opt": 0,
 		"q": 100
 		},
-	"\/wp-content\/themes\/powers\/images\/footer-image-mob1.jpg": {
-		"ft": 16384,
-		"iS": 33560,
-		"oA": 0,
-		"oAP": "\/wp-content\/themes\/powers\/images\/footer-image-mob1.jpg",
-		"oF": 0,
-		"opt": 0,
-		"q": 100
-		},
 	"\/wp-content\/themes\/powers\/images\/footer-image-mob2.jpg": {
 		"ft": 16384,
 		"iS": 15787,
@@ -22487,16 +22478,6 @@
 		"opt": 0,
 		"q": 100
 		},
-	"\/wp-content\/themes\/powers\/images\/ilawyerlogo.png": {
-		"ft": 32768,
-		"iS": 3066,
-		"l": 1,
-		"oA": 0,
-		"oAP": "\/wp-content\/themes\/powers\/images\/ilawyerlogo.png",
-		"oF": 0,
-		"opt": 0,
-		"q": 100
-		},
 	"\/wp-content\/themes\/powers\/images\/mobile-logo.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -22555,47 +22536,11 @@
 		"opt": 0,
 		"q": 100
 		},
-	"\/wp-content\/themes\/powers\/images\/results-image1-mob.jpg": {
-		"ft": 16384,
-		"iS": 11325,
-		"oA": 0,
-		"oAP": "\/wp-content\/themes\/powers\/images\/results-image1-mob.jpg",
-		"oF": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/wp-content\/themes\/powers\/images\/results-image1-tab.jpg": {
-		"ft": 16384,
-		"iS": 15199,
-		"oA": 0,
-		"oAP": "\/wp-content\/themes\/powers\/images\/results-image1-tab.jpg",
-		"oF": 0,
-		"opt": 0,
-		"q": 100
-		},
 	"\/wp-content\/themes\/powers\/images\/results-image1.jpg": {
 		"ft": 16384,
 		"iS": 9612,
 		"oA": 0,
 		"oAP": "\/wp-content\/themes\/powers\/images\/results-image1.jpg",
-		"oF": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/wp-content\/themes\/powers\/images\/results-image2-mob.jpg": {
-		"ft": 16384,
-		"iS": 15989,
-		"oA": 0,
-		"oAP": "\/wp-content\/themes\/powers\/images\/results-image2-mob.jpg",
-		"oF": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/wp-content\/themes\/powers\/images\/results-image2-tab.jpg": {
-		"ft": 16384,
-		"iS": 20287,
-		"oA": 0,
-		"oAP": "\/wp-content\/themes\/powers\/images\/results-image2-tab.jpg",
 		"oF": 0,
 		"opt": 0,
 		"q": 100
@@ -22609,39 +22554,11 @@
 		"opt": 0,
 		"q": 100
 		},
-	"\/wp-content\/themes\/powers\/images\/results-image3-mob.jpg": {
-		"ft": 16384,
-		"iS": 18398,
-		"oA": 0,
-		"oAP": "\/wp-content\/themes\/powers\/images\/results-image3-mob.jpg",
-		"oF": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/wp-content\/themes\/powers\/images\/results-image3-tab.jpg": {
-		"ft": 16384,
-		"iS": 21791,
-		"oA": 0,
-		"oAP": "\/wp-content\/themes\/powers\/images\/results-image3-tab.jpg",
-		"oF": 0,
-		"opt": 0,
-		"q": 100
-		},
 	"\/wp-content\/themes\/powers\/images\/results-image3.jpg": {
 		"ft": 16384,
 		"iS": 14800,
 		"oA": 0,
 		"oAP": "\/wp-content\/themes\/powers\/images\/results-image3.jpg",
-		"oF": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/wp-content\/themes\/powers\/images\/sp-arrow.png": {
-		"ft": 32768,
-		"iS": 317,
-		"l": 1,
-		"oA": 0,
-		"oAP": "\/wp-content\/themes\/powers\/images\/sp-arrow.png",
 		"oF": 0,
 		"opt": 0,
 		"q": 100
@@ -22660,15 +22577,6 @@
 		"iS": 152150,
 		"oA": 0,
 		"oAP": "\/wp-content\/themes\/powers\/images\/test-bgimage-mob.jpg",
-		"oF": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/wp-content\/themes\/powers\/images\/test-bgimage-tab.jpg": {
-		"ft": 16384,
-		"iS": 245866,
-		"oA": 0,
-		"oAP": "\/wp-content\/themes\/powers\/images\/test-bgimage-tab.jpg",
 		"oF": 0,
 		"opt": 0,
 		"q": 100
@@ -23956,6 +23864,33 @@
 		"oAP": "\/wp-content\/uploads\/2017\/03\/videobg.mp4",
 		"oF": 0
 		},
+	"\/wp-content\/uploads\/2017\/04\/1.21-5-150x150.jpg": {
+		"ft": 16384,
+		"iS": 16164,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2017\/04\/1.21-5-150x150.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/2017\/04\/1.21-5-300x200.jpg": {
+		"ft": 16384,
+		"iS": 18748,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2017\/04\/1.21-5-300x200.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/2017\/04\/1.21-5.jpg": {
+		"ft": 16384,
+		"iS": 443065,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2017\/04\/1.21-5.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/wp-content\/uploads\/2017\/04\/about-150x150.jpeg": {
 		"ft": 16384,
 		"iS": 5983,
@@ -23991,6 +23926,12 @@
 		"oF": 0,
 		"opt": 0,
 		"q": 100
+		},
+	"\/wp-content\/uploads\/2017\/04\/Fingers-crossed.pdf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/uploads\/2017\/04\/Fingers-crossed.pdf",
+		"oF": 0
 		},
 	"\/wp-content\/uploads\/2017\/04\/hero-intl-1024x317.jpg": {
 		"ft": 16384,
