@@ -530,6 +530,12 @@ nav {
 	ul.menu {
 		color:#fff;
 		display: flex;
+		> li.current-menu-item, > li.current-menu-ancestor {
+			> a {
+				color:$green;
+			}
+			
+		}
 		> li.menu-item-has-children {
 			> a {
 				
@@ -577,6 +583,11 @@ nav {
 				opacity: 0;
 				visibility: hidden;
 				transition: all .2s ease-in-out;
+				> li.current-menu-item {
+					> a {
+						background: $green;
+					}
+				}
 				> li {
 					 &:last-of-type {
 						 a {
@@ -651,11 +662,14 @@ nav {
 	overflow: hidden;
 	text-align: center;
 	video {
-		position: absolute;
+		position: fixed;
 		top:0;
 		left:0;
 		min-width: 100%;
 		min-height: 100%;
+		width: auto; height: auto; z-index: -100;
+    background: url() no-repeat;
+    background-size: cover;
 	}
 	.video_overlay {
 		width:100%;
@@ -1231,7 +1245,7 @@ $animDuration: 7s;
 	
 	
 		text-align: center;
-		padding:125px 4%;
+		padding:125px 2%;
 		float:left;
 		img.six {
 			display: block;
@@ -1239,11 +1253,14 @@ $animDuration: 7s;
 		span.reasons_title {
 			font-family: $prata;
 			color:$black;
-			font-size:62px;
 			letter-spacing: 4px;
 			display: block;
-			line-height: 60px;
 			margin-top:17px;
+			font-size: 50px;
+			line-height: 54px;
+			max-width: 300px;
+			margin-left: auto;
+			margin-right:auto;
 		}
 	}
 	.reasons_grid_wrapper {
@@ -1569,7 +1586,7 @@ img.about_image_fadein {
 		width:49%;
 		float:left;
 		position: relative;
-		margin-top:107px;
+		margin-top:205px;
 		max-width:812px;
 		
 		.image_inner {
@@ -3964,7 +3981,18 @@ body.page-template-page-caseresults, body.page-template-page-testimonials, body.
 			}
 			.case_content_wrapper {
 				position: relative;
-				top:-10px;
+				top:0px;
+				a.case_link {
+					font-family: $proximasemibold;
+					color:$green;
+					text-decoration: none;
+					transition: all .2s ease-in-out;
+					display: block;
+					margin-top:20px;
+					&:hover{
+						color:$black;
+					}
+				}
 			}
 		}
 		.case_cat_mobile_wrapper {
@@ -4932,6 +4960,12 @@ nav {
 				background: #efefef;
 				border-bottom:1px solid #dbdbdb;
 				width: auto;
+				>li.current-menu-item {
+					a {
+						background: transparent;
+						color:$green;
+					}
+				}
 				> li {
 					> a {
 						padding:28px 5px;
@@ -6048,6 +6082,7 @@ background: url(images/herohome-tab.jpg) top center no-repeat;
 		margin-left:auto;
 		margin-right:auto;
 		left: -2%;
+		margin-top:100px;
 		position: relative;
 		.image_inner {
 			top: -6%;
@@ -9091,7 +9126,7 @@ body.page-template-page-caseresults {
 
 .about {
 	.image_wrapper {
-		
+		margin-top:60px;
 		.image_inner {
 			
 		}
@@ -9227,6 +9262,8 @@ body.page-template-page-caseresults {
 		}
 		.footer_contact_info {
 			font-size:25px;
+			padding:0;
+			width:71%;
 		}
 	}
 	.footer_contact_wrapper {
@@ -9571,6 +9608,17 @@ body.page-template-page-caseresults {
 		display: block;
 		margin-top:5px;
 	}
+	
+	
+	
+	
+	
+	.about {
+	.image_wrapper {
+		margin-top:40px;}
+		}
+	
+	
 	
 	
 	

@@ -46,6 +46,19 @@ get_header(); ?>
 					<div class="case_content_wrapper">
 				
 						<p><?php the_sub_field( 'case_content' ); ?></p>
+						
+						
+						<?php if ( get_sub_field( 'pdf' )): ?>
+						
+							<a class="case_link" href="<?php the_sub_field( 'pdf' ); ?>" target="_blank">View Case</a>
+							
+						<?php endif;?>
+						
+						<?php if ( get_sub_field( 'url' ) ) : ?>
+						
+							<a class="case_link" href="<?php the_sub_field( 'url' ); ?>" target="_blank">View Case</a>
+							
+						<?php endif;?>
 				
 					</div><!-- case_content_wrapper -->
 				
@@ -94,6 +107,19 @@ get_header(); ?>
 					<div class="case_content_wrapper">
 				
 						<p><?php the_sub_field( 'case_content' ); ?></p>
+						
+						<?php if ( get_sub_field( 'pdf' )): ?>
+						
+							<a class="case_link" href="<?php the_sub_field( 'pdf' ); ?>" target="_blank">View Case</a>
+							
+						<?php endif;?>
+						
+						<?php if ( get_sub_field( 'url' ) ) : ?>
+						
+							<a class="case_link" href="<?php the_sub_field( 'url' ); ?>" target="_blank">View Case</a>
+							
+						<?php endif;?>
+
 				
 					</div><!-- case_content_wrapper -->
 				
