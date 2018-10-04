@@ -155,7 +155,7 @@
 				<div class="blog_content"><?php echo wp_trim_words( get_the_content(), 85, '...' );?></div>
 				
 				
-				<a class="read_more" href="">Read More</a>
+				<a class="read_more" href="<?php the_permalink();?>">Read More</a>
 				
 				<?php wp_link_pages( array( 'before' => '<div class="page-link">' . __( 'Pages:', 'twentyten' ), 'after' => '</div>' ) ); ?>
 			</div><!-- .entry-content -->

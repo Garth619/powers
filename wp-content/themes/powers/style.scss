@@ -530,12 +530,6 @@ nav {
 	ul.menu {
 		color:#fff;
 		display: flex;
-		> li.current-menu-item, > li.current-menu-ancestor {
-			> a {
-				color:$green;
-			}
-			
-		}
 		> li.menu-item-has-children {
 			> a {
 				
@@ -583,11 +577,6 @@ nav {
 				opacity: 0;
 				visibility: hidden;
 				transition: all .2s ease-in-out;
-				> li.current-menu-item {
-					> a {
-						background: $green;
-					}
-				}
 				> li {
 					 &:last-of-type {
 						 a {
@@ -1237,8 +1226,7 @@ $animDuration: 7s;
 
 
 .six_reasons_wrapper {
-	overflow: hidden;
-	border-top:6px solid #fff;
+	
 	background: $greylight;
 	.reasons_title_wrapper {
 		width:30%;
@@ -1586,7 +1574,7 @@ img.about_image_fadein {
 		width:49%;
 		float:left;
 		position: relative;
-		margin-top:205px;
+		margin-top:107px;
 		max-width:812px;
 		
 		.image_inner {
@@ -3031,14 +3019,14 @@ body.page-template-page-contact {
 
 .inner_banner {
 	width:100%;
-	height:511px;
+	height:620px;
 /*
 	background:url(images/hero-intl.jpg) top center no-repeat;
 	background-size:cover;  
 */
 	overflow: hidden;
 	.inner_banner_content {
-		margin:214px auto 0;
+		margin:265px auto 0;
 		max-width:600px;
 		text-align: center;
 		position: relative;
@@ -3981,7 +3969,7 @@ body.page-template-page-caseresults, body.page-template-page-testimonials, body.
 			}
 			.case_content_wrapper {
 				position: relative;
-				top:0px;
+				top:-10px;
 				a.case_link {
 					font-family: $proximasemibold;
 					color:$green;
@@ -4960,12 +4948,6 @@ nav {
 				background: #efefef;
 				border-bottom:1px solid #dbdbdb;
 				width: auto;
-				>li.current-menu-item {
-					a {
-						background: transparent;
-						color:$green;
-					}
-				}
 				> li {
 					> a {
 						padding:28px 5px;
@@ -5545,8 +5527,12 @@ a.view_all_testimonials {
 	img {
 		
 	}
+	
 	span.bio_excerpt {
-		
+		strong {
+			color:#3fb561;
+			font-weight:300;
+		}
 	}
 	span.bio_title {
 		
@@ -6082,7 +6068,6 @@ background: url(images/herohome-tab.jpg) top center no-repeat;
 		margin-left:auto;
 		margin-right:auto;
 		left: -2%;
-		margin-top:100px;
 		position: relative;
 		.image_inner {
 			top: -6%;
@@ -9126,7 +9111,7 @@ body.page-template-page-caseresults {
 
 .about {
 	.image_wrapper {
-		margin-top:60px;
+		
 		.image_inner {
 			
 		}
@@ -9611,17 +9596,6 @@ body.page-template-page-caseresults {
 	
 	
 	
-	
-	
-	.about {
-	.image_wrapper {
-		margin-top:40px;}
-		}
-	
-	
-	
-	
-	
 
 .footer_quote {
 		padding-bottom: 78px;
@@ -9908,5 +9882,9 @@ body.page-template-page-caseresults {
 } /* Media Query */
 
 
+body .gform_wrapper .gform_validation_container {
+    display: none;
+}
 
+.form ul li#field_1_7, .form ul li#field_1_8, .form ul li#field_1_9, .form ul li#field_1_10 {display:none !important;}
 
